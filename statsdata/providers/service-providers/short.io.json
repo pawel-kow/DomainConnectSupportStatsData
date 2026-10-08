@@ -1,0 +1,28 @@
+{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+"service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
+{"service_provider_id": "short.io", "name": "Short.io", "first_added_at": "2021-09-24 15:32:10", "last_updated_at": "2021-09-24 15:50:22"}
+], "footer": null},
+"support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
+{"templates": 2, "supported_templates": 2, "supporting_dns_providers": 239, "reach_domains": 67883085, "reach_pct": 35.61191417043678}
+], "footer": null},
+"templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "versions", "header": "VERSIONS"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
+{"name": "White label link shortener", "service_id": "arecord", "version": 2, "versions": [2], "added_at": "2021-09-24 15:32:10", "updated_at": "2021-09-24 15:32:10", "supporting_providers": 239, "reach_domains": 67883085, "reach_pct": 35.61191417043678},
+{"name": "White label link shortener", "service_id": "cname", "version": 2, "versions": [2], "added_at": "2021-09-24 15:32:10", "updated_at": "2021-09-24 15:50:22", "supporting_providers": 238, "reach_domains": 67874553, "reach_pct": 35.607438226956866}
+], "footer": null},
+"support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "service_id": "arecord", "supporting_providers": 265},
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "service_id": "cname", "supporting_providers": 264},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "service_id": "arecord", "supporting_providers": 265},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "service_id": "cname", "supporting_providers": 264},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "service_id": "arecord", "supporting_providers": 265},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "service_id": "cname", "supporting_providers": 264},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "service_id": "arecord", "supporting_providers": 265},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "service_id": "cname", "supporting_providers": 264},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "service_id": "arecord", "supporting_providers": 265},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "service_id": "cname", "supporting_providers": 264},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "service_id": "arecord", "supporting_providers": 265},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "service_id": "cname", "supporting_providers": 264},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "service_id": "arecord", "supporting_providers": 265},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "service_id": "cname", "supporting_providers": 264}
+], "footer": null}
+}}

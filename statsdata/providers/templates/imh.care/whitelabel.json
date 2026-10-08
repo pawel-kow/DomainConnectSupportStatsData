@@ -1,0 +1,36 @@
+{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+"imh.care/whitelabel/metadata": {"title": "imh.care/whitelabel - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
+{"service_provider_name": "IMH Care", "service_provider_id": "imh.care", "service_id": "whitelabel", "name": "White Label", "version": 1, "versions": [1], "description": "Configures your domain to work with IMH Care's white label service.", "variable_description": "whitelabel service requires a CNAME record to be set up for your domain.", "logo_url": "https://imh.care/assets/imh.svg", "template_sha": "f5ebdbca2574eaa89ffee62f1fd37aa04372e513", "created_at": "2025-06-12 07:22:58", "updated_at": "2025-06-12 07:22:58"}
+], "footer": null},
+"imh.care/whitelabel/records": {"title": "imh.care/whitelabel - Records", "columns": [{"key": "type", "header": "type"}, {"key": "host", "header": "host"}, {"key": "pointsTo", "header": "pointsTo"}, {"key": "ttl", "header": "ttl"}], "rows": [
+{"type": "CNAME", "host": "%host1%", "pointsTo": "%record1%", "ttl": 300},
+{"type": "CNAME", "host": "%host2%", "pointsTo": "%record2%", "ttl": 300},
+{"type": "CNAME", "host": "%sendgridhost1%", "pointsTo": "%sendgridrecord1%", "ttl": 300},
+{"type": "CNAME", "host": "%sendgridhost2%", "pointsTo": "%sendgridrecord2%", "ttl": 300},
+{"type": "CNAME", "host": "%sendgridhost3%", "pointsTo": "%sendgridrecord3%", "ttl": 300},
+{"type": "A", "host": "%host3%", "pointsTo": "%record3%", "ttl": 300},
+{"type": "A", "host": "%host4%", "pointsTo": "%record4%", "ttl": 300}
+], "footer": null},
+"imh.care/whitelabel/supporters": {"title": "imh.care/whitelabel - Supporting DNS providers (current state)", "columns": [{"key": "name", "header": "NAME"}, {"key": "dns_provider_id", "header": "ID"}, {"key": "provider_id", "header": "STACK"}, {"key": "api_host", "header": "API HOST"}, {"key": "versions", "header": "VERSIONS"}, {"key": "domains", "header": "DOMAINS"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
+{"name": "cloudflare", "dns_provider_id": 4, "provider_id": "cloudflare.com", "api_host": "api.cloudflare.com", "versions": [1], "domains": 23457240, "reach_pct": 12.305822835767357},
+{"name": "NameSilo.com LLC", "dns_provider_id": 2773, "provider_id": "namesilo.com", "api_host": "www.namesilo.com", "versions": [1], "domains": 291029, "reach_pct": 0.15267573312420973},
+{"name": "Locaweb", "dns_provider_id": 9, "provider_id": "locaweb.com.br", "api_host": "domain-connect.locaweb.com.br", "versions": [1], "domains": 8532, "reach_pct": 0.00447594347991354},
+{"name": "Danego DNS", "dns_provider_id": 2, "provider_id": "DanegoDNS", "api_host": "dns.danego.nl", "versions": [1], "domains": 392, "reach_pct": 0.00020564578576255364},
+{"name": "Domain Chief", "dns_provider_id": 16, "provider_id": "domainchief", "api_host": "domain.chief.app", "versions": [1], "domains": 151, "reach_pct": 7.921559604628979e-05},
+{"name": "Plesk", "dns_provider_id": 666, "provider_id": "plesk.com", "api_host": "blues.grimor.com", "versions": [1], "domains": 65, "reach_pct": 3.4099428761647924e-05},
+{"name": "Plesk", "dns_provider_id": 3026, "provider_id": "plesk.com", "api_host": "www.web-specialists.com", "versions": [1], "domains": 61, "reach_pct": 3.2001002376315745e-05},
+{"name": "AS207960 Cyfyngedig", "dns_provider_id": 11, "provider_id": "glauca.digital", "api_host": "dns.glauca.digital", "versions": [1], "domains": 58, "reach_pct": 3.042718258731661e-05},
+{"name": "Plesk", "dns_provider_id": 986, "provider_id": "plesk.com", "api_host": "gwdhosting.com", "versions": [1], "domains": 43, "reach_pct": 2.2558083642320934e-05},
+{"name": "Plesk", "dns_provider_id": 866, "provider_id": "plesk.com", "api_host": "emoserver8.net", "versions": [1], "domains": 37, "reach_pct": 1.9410444064322666e-05},
+{"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [1], "domains": 26, "reach_pct": 1.363977150465917e-05}
+], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "domains": 23757634, "reach_pct": 12.463411509666225}},
+"imh.care/whitelabel/history": {"title": "imh.care/whitelabel - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "supporting_providers": 13, "change": 13},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "supporting_providers": 13, "change": 0},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "supporting_providers": 13, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "supporting_providers": 13, "change": 0},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "supporting_providers": 13, "change": 0},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "supporting_providers": 13, "change": 0},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "supporting_providers": 13, "change": 0}
+], "footer": null}
+}}
