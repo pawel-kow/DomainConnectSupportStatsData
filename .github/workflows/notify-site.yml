@@ -1,4 +1,4 @@
-# Trigger the statistics site deploy whenever a new export release lands on main.
+# Trigger the statistics site deploy whenever new data lands on main (any dataset under statsdata/).
 # Secret SITE_DEPLOY_TOKEN: fine-grained PAT, only pawel-kow/DomainConnectSupportStats,
 # "Actions: read and write", nothing else. The site's deploy.yml workflow_dispatch path
 # deploys the latest site release with the current data (DomainConnectScanner#236).
@@ -7,9 +7,8 @@ name: Notify site
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - README.md
-      - .github/**
+    paths:
+      - statsdata/**
 
 permissions: {}
 
