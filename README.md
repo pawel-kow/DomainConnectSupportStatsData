@@ -2,16 +2,24 @@
 
 **Generated data — do not edit by hand.**
 
-This repository holds the static JSON export of the
-[DomainConnectScanner](https://github.com/pawel-kow/DomainConnectScanner) statistics
-(`export.py`). It is published automatically by a dedicated publisher account on the
-scanner host: one commit per new export release (`Export release <generated_at>`), history
-kept, no force pushes.
+Data behind the Domain Connect statistics site
+[DomainConnectSupportStats](https://github.com/pawel-kow/DomainConnectSupportStats).
+Every dataset lives in its own directory under `statsdata/` and has exactly one writer;
+no writer touches another dataset's directory.
 
-- Data format: see `docs/EXPORT_FORMAT.md` in DomainConnectScanner.
-- Every push to `main` triggers a deploy of the statistics site
-  [DomainConnectSupportStats](https://github.com/pawel-kow/DomainConnectSupportStats)
-  (`.github/workflows/notify-site.yml`).
+```
+statsdata/
+├── providers/   # DNS provider / template support statistics
+│                # (static export of pawel-kow/DomainConnectScanner, export.py;
+│                #  format: docs/EXPORT_FORMAT.md there)
+└── templates/   # Template repository statistics (planned; from Domain-Connect/Stats)
+```
 
-Manual changes to the data files are overwritten by the next publish. Change the scanner
-or its export instead.
+- `statsdata/providers/` is published automatically by a dedicated publisher account on
+  the scanner host: one commit per new export release (`Export release <generated_at>`),
+  history kept, no force pushes.
+- Every push to `main` that changes `statsdata/**` triggers a deploy of the statistics
+  site (`.github/workflows/notify-site.yml`).
+
+Manual changes to the data files are overwritten by the next publish. Change the
+producing project instead.
