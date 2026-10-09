@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "provider": {"title": "DNS provider", "columns": [{"key": "id", "header": "ID"}, {"key": "name", "header": "Name"}, {"key": "provider_id", "header": "Stack (providerId)"}, {"key": "domain_connect_url", "header": "First DC URL"}, {"key": "api_url", "header": "API URL"}, {"key": "sync_url", "header": "Sync UX URL"}, {"key": "async_url", "header": "Async UX URL"}, {"key": "control_panel_url", "header": "Control panel URL"}, {"key": "nameservers", "header": "Nameservers"}, {"key": "first_seen_at", "header": "First seen"}, {"key": "settings_last_status", "header": "Settings status"}, {"key": "settings_last_error", "header": "Settings error"}, {"key": "settings_last_seen_ok_at", "header": "Settings last OK"}, {"key": "support_last_status", "header": "Support status"}, {"key": "support_last_error", "header": "Support error"}, {"key": "support_last_seen_ok_at", "header": "Support last OK"}], "rows": [
 {"id": 1098, "name": "Plesk", "provider_id": "plesk.com", "domain_connect_url": "https://domainconnect.plesk.com/host/hosting.euronodes.com/port/8443", "api_url": "https://hosting.euronodes.com/modules/domain-connect/public/index.php/", "sync_url": "https://hosting.euronodes.com/modules/domain-connect/index.php/", "async_url": "", "control_panel_url": null, "nameservers": "[\"ns1.terradecambra.org\", \"ns2.terradecambra.org\"]", "first_seen_at": "2026-09-20 03:07:01", "settings_last_status": "ok", "settings_last_error": null, "settings_last_seen_ok_at": "2026-09-20 03:07:01", "support_last_status": null, "support_last_error": null, "support_last_seen_ok_at": null}
 ], "footer": null},
@@ -6,24 +6,24 @@
 {"total": 1, "supported_count": 0, "supported_pct": 0.0, "unsupported_count": 0, "unsupported_pct": 0.0}
 ], "footer": null},
 "share": {"title": "Domain share in the selected import", "columns": [{"key": "import_id", "header": "IMPORT"}, {"key": "status", "header": "STATUS"}, {"key": "source", "header": "SOURCE"}, {"key": "domains", "header": "DOMAINS"}, {"key": "scanned_domains", "header": "SCANNED"}, {"key": "share_pct", "header": "SHARE"}, {"key": "rank", "header": "RANK"}, {"key": "providers", "header": "PROVIDERS"}], "rows": [
-{"import_id": 1788571839, "status": "completed", "source": "live", "domains": 17, "scanned_domains": 190619029, "share_pct": 8.918312137661765e-06, "rank": 673, "providers": 2902}
+{"import_id": 1788571839, "status": "completed", "source": "live", "domains": 17, "scanned_domains": 190619029, "share_pct": 8.918312137661765e-06, "rank": 674, "providers": 2903}
 ], "footer": null},
 "urls": {"title": "Domain Connect URLs owned", "columns": [{"key": "domain_connect_url", "header": "DOMAIN CONNECT URL"}, {"key": "first_seen_at", "header": "FIRST SEEN"}], "rows": [
 {"domain_connect_url": "https://domainconnect.plesk.com/host/hosting.euronodes.com/port/8443", "first_seen_at": "2026-09-20 03:07:01"}
 ], "footer": null},
 "supported_templates": {"title": "Supported templates (current state)", "columns": [{"key": "service_provider_name", "header": "SERVICE PROVIDER"}, {"key": "service_provider_id", "header": "PROVIDER ID"}, {"key": "service_name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "versions", "header": "VERSIONS"}, {"key": "since", "header": "SUPPORTED SINCE"}], "rows": [
 ], "footer": null},
-"support_history": {"title": "Supported templates per support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "supported_templates", "header": "SUPPORTED"}, {"key": "change", "header": "CHANGE"}], "rows": [
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "supported_templates": 0, "change": 0},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "supported_templates": 0, "change": 0},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "supported_templates": 0, "change": 0},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "supported_templates": 0, "change": 0},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "supported_templates": 0, "change": 0},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "supported_templates": 0, "change": 0},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "supported_templates": 0, "change": 0}
+"support_history": {"title": "Supported templates per support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supported_templates", "header": "SUPPORTED"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supported_templates": 0, "change": 0},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supported_templates": 0, "change": 0},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "supported_templates": 0, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supported_templates": 0, "change": 0},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supported_templates": 0, "change": 0},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supported_templates": 0, "change": 0},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supported_templates": 0, "change": 0}
 ], "footer": null},
 "share_history": {"title": "Domain share per import", "columns": [{"key": "import_id", "header": "IMPORT"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "status", "header": "STATUS"}, {"key": "source", "header": "SOURCE"}, {"key": "domains", "header": "DOMAINS"}, {"key": "scanned_domains", "header": "SCANNED"}, {"key": "share_pct", "header": "SHARE"}, {"key": "change_pct", "header": "CHANGE (PP)"}, {"key": "rank", "header": "RANK"}, {"key": "providers", "header": "PROVIDERS"}], "rows": [
-{"import_id": 1774568183, "completed_at": "2026-04-06 03:32:32", "status": "completed", "source": "live", "domains": 5, "scanned_domains": 184906718, "share_pct": 2.704066165946442e-06, "change_pct": null, "rank": 1698, "providers": 2848},
-{"import_id": 1788571839, "completed_at": "2026-09-11 17:17:16", "status": "completed", "source": "live", "domains": 17, "scanned_domains": 190619029, "share_pct": 8.918312137661765e-06, "change_pct": 6.214245971715323e-06, "rank": 673, "providers": 2902}
+{"import_id": 1774568183, "completed_at": "2026-04-06 03:32:32", "status": "completed", "source": "live", "domains": 5, "scanned_domains": 184906718, "share_pct": 2.704066165946442e-06, "change_pct": null, "rank": 1699, "providers": 2849},
+{"import_id": 1788571839, "completed_at": "2026-09-11 17:17:16", "status": "completed", "source": "live", "domains": 17, "scanned_domains": 190619029, "share_pct": 8.918312137661765e-06, "change_pct": 6.214245971715323e-06, "rank": 674, "providers": 2903}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "relaydns.dev/relay-email/metadata": {"title": "relaydns.dev/relay-email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "RelayDNS", "service_provider_id": "relaydns.dev", "service_id": "relay-email", "name": "Set up email on this domain", "version": 2, "versions": [2], "description": "Adds the records a domain needs to send authenticated email, to be reached by click tracking, and to receive mail. Each part is a separate group, applied only when asked for.", "variable_description": "region: the AWS region the mail infrastructure runs in, for example eu-north-1. dmarcpolicy: none, quarantine or reject. dmarcto: the mailbox DMARC aggregate reports are sent to. selector and dkimkey: for a sender supplying its own DKIM key. dkim1, dkim2, dkim3: the three CNAME tokens issued when the key is generated for you instead. trackinglabel: the per-setup label in connect.relaydns.dev that click tracking resolves through.", "logo_url": "https://relaydns.dev/relaydns-logo-on-light.svg", "template_sha": "8a8f5482a234f11e4fecb8e4ea58d6b8954fb440", "created_at": "2026-09-18 10:46:41", "updated_at": "2026-09-19 10:31:01"}
 ], "footer": null},
@@ -25,13 +25,13 @@
 {"name": "Plesk", "dns_provider_id": 866, "provider_id": "plesk.com", "api_host": "emoserver8.net", "versions": [2], "domains": 37, "reach_pct": 1.9410444064322666e-05},
 {"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [2], "domains": 26, "reach_pct": 1.363977150465917e-05}
 ], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "domains": 23767936, "reach_pct": 12.468816006821648}},
-"relaydns.dev/relay-email/history": {"title": "relaydns.dev/relay-email - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "supporting_providers": 10, "change": 10},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "supporting_providers": 11, "change": 1},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "supporting_providers": 11, "change": 0},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "supporting_providers": 12, "change": 1},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "supporting_providers": 11, "change": -1},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "supporting_providers": 11, "change": 0},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "supporting_providers": 10, "change": -1}
+"relaydns.dev/relay-email/history": {"title": "relaydns.dev/relay-email - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 10, "change": 10},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 11, "change": 1},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supporting_providers": 12, "change": 1},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 11, "change": -1},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 10, "change": -1}
 ], "footer": null}
 }}

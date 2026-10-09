@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "myshopline.com/website/metadata": {"title": "myshopline.com/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "SHOPLINE", "service_provider_id": "myshopline.com", "service_id": "website", "name": "SHOPLINE Site", "version": 1, "versions": [1], "description": "Enables a domain to work with SHOPLINE", "variable_description": "v1 is the shopline hosted domain name", "logo_url": "https://img.myshopline.com/image/store/2001028614/1653529992529/d64da099ff214118b8f1be25495a93db.png?w=1181&h=525", "template_sha": "76afe3578002a03d0decb9aa20acd462ad600e87", "created_at": "2022-11-05 04:44:25", "updated_at": "2022-11-05 04:44:25"}
 ], "footer": null},
@@ -18,13 +18,13 @@
 {"name": "Plesk", "dns_provider_id": 866, "provider_id": "plesk.com", "api_host": "emoserver8.net", "versions": [1], "domains": 37, "reach_pct": 1.9410444064322666e-05},
 {"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [1], "domains": 26, "reach_pct": 1.363977150465917e-05}
 ], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "domains": 300394, "reach_pct": 0.15758867389886871}},
-"myshopline.com/website/history": {"title": "myshopline.com/website - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "supporting_providers": 11, "change": 11},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "supporting_providers": 11, "change": 0},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "supporting_providers": 11, "change": 0},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "supporting_providers": 11, "change": 0},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "supporting_providers": 11, "change": 0},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "supporting_providers": 11, "change": 0},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "supporting_providers": 11, "change": 0}
+"myshopline.com/website/history": {"title": "myshopline.com/website - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 11, "change": 11},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

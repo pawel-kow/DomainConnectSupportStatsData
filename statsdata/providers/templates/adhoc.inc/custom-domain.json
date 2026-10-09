@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "adhoc.inc/custom-domain/metadata": {"title": "adhoc.inc/custom-domain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Adhoc", "service_provider_id": "adhoc.inc", "service_id": "custom-domain", "name": "Odoo by Adhoc", "version": 1, "versions": [1], "description": "Points a host of the customer domain to their Odoo instance hosted by Adhoc. The host is supplied by the caller, so both www.customer.com and odoo.customer.com are covered. Odoo does not support more than one subdomain level, so the host is never fixed in the template.", "variable_description": "database: name of the customer instance on the Adhoc platform. The CNAME target is always <database>.adhoc.inc, so the variable is limited to the instance label.", "logo_url": "https://raw.githubusercontent.com/ingadhoc/ansible_notebooks/7aa78c7ca9f9b0ff86be1d8be58b91a5de6a83c7/docs/assets/adhoc-isotipo-violeta.png", "template_sha": "643fa22d4e552c56777fd4899596239087885316", "created_at": "2026-08-06 07:33:47", "updated_at": "2026-08-06 07:33:47"}
 ], "footer": null},
@@ -17,13 +17,13 @@
 {"name": "Plesk", "dns_provider_id": 866, "provider_id": "plesk.com", "api_host": "emoserver8.net", "versions": [1], "domains": 37, "reach_pct": 1.9410444064322666e-05},
 {"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [1], "domains": 26, "reach_pct": 1.363977150465917e-05}
 ], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "domains": 23749102, "reach_pct": 12.458935566186312}},
-"adhoc.inc/custom-domain/history": {"title": "adhoc.inc/custom-domain - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "supporting_providers": 11, "change": 11},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "supporting_providers": 11, "change": 0},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "supporting_providers": 11, "change": 0},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "supporting_providers": 11, "change": 0},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "supporting_providers": 11, "change": 0},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "supporting_providers": 11, "change": 0},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "supporting_providers": 11, "change": 0}
+"adhoc.inc/custom-domain/history": {"title": "adhoc.inc/custom-domain - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 11, "change": 11},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

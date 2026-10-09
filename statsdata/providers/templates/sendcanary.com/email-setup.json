@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "sendcanary.com/email-setup/metadata": {"title": "sendcanary.com/email-setup - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "SendCanary", "service_provider_id": "sendcanary.com", "service_id": "email-setup", "name": "Email Security Setup (DMARC + SPF + BIMI)", "version": 4, "versions": [4], "description": "SendCanary complete email security bundle: publishes CNAMEs for DMARC and BIMI (pointing at SendCanary-managed per-tenant record targets) plus an SPF TXT record. The CNAME indirection lets SendCanary evolve the underlying policy, selectors, and BIMI logo on your behalf - no more editing DNS every time you want to move DMARC to reject or rotate BIMI. Use this for a managed 'set and forget' setup; use the individual DMARC / SPF / BIMI templates if you prefer owning the raw record values yourself. SendCanary (https://sendcanary.com) is an email authentication platform that monitors DMARC reports, detects spoofing, and automates DNS remediation for domain owners.", "variable_description": "dmarcTarget: CNAME target SendCanary assigns for DMARC (e.g. <token>._dmarc.sendcanary.com). spfRecord: complete SPF TXT record value (e.g. 'v=spf1 include:spf.google.com include:amazonses.com ~all'). bimiTarget: CNAME target for BIMI (e.g. <token>._bimi.sendcanary.com).", "logo_url": "https://sendcanary.com/logo.svg", "template_sha": "27a9ac2a00ff05401c63710dbd732455b710e7dd", "created_at": "2026-03-26 09:16:21", "updated_at": "2026-04-25 07:02:45"}
 ], "footer": null},
@@ -22,13 +22,13 @@
 {"name": "Plesk", "dns_provider_id": 866, "provider_id": "plesk.com", "api_host": "emoserver8.net", "versions": [4], "domains": 37, "reach_pct": 1.9410444064322666e-05},
 {"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [4], "domains": 26, "reach_pct": 1.363977150465917e-05}
 ], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "domains": 64503900, "reach_pct": 33.839171429207106}},
-"sendcanary.com/email-setup/history": {"title": "sendcanary.com/email-setup - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "supporting_providers": 15, "change": 15},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "supporting_providers": 15, "change": 0},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "supporting_providers": 15, "change": 0},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "supporting_providers": 15, "change": 0},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "supporting_providers": 15, "change": 0},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "supporting_providers": 15, "change": 0},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "supporting_providers": 15, "change": 0}
+"sendcanary.com/email-setup/history": {"title": "sendcanary.com/email-setup - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 15, "change": 15},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 15, "change": 0},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "supporting_providers": 15, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supporting_providers": 15, "change": 0},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 15, "change": 0},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 15, "change": 0},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 15, "change": 0}
 ], "footer": null}
 }}

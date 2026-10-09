@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "wpengine.com/txtrecord/metadata": {"title": "wpengine.com/txtrecord - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "WPEngine.com", "service_provider_id": "wpengine.com", "service_id": "txtrecord", "name": "WP Engine Digital Experience Platform", "version": 1, "versions": [1], "description": "Configure data for the domain TXT record.", "variable_description": "Variable data is the data for TXT record", "logo_url": "https://www.domainconnect.org/wp-content/uploads/2018/03/LGO-WPEngine-Horiz-reg-RGB-768x146.png", "template_sha": "6542cadf92f3dd41acbc5af35346c7dace70abc8", "created_at": "2022-03-10 12:50:16", "updated_at": "2023-07-07 10:44:46"}
 ], "footer": null},
@@ -18,13 +18,13 @@
 {"name": "Plesk", "dns_provider_id": 866, "provider_id": "plesk.com", "api_host": "emoserver8.net", "versions": [1], "domains": 37, "reach_pct": 1.9410444064322666e-05},
 {"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [1], "domains": 26, "reach_pct": 1.363977150465917e-05}
 ], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "domains": 23757634, "reach_pct": 12.463411509666225}},
-"wpengine.com/txtrecord/history": {"title": "wpengine.com/txtrecord - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "supporting_providers": 12, "change": 12},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "supporting_providers": 12, "change": 0},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "supporting_providers": 12, "change": 0},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "supporting_providers": 12, "change": 0},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "supporting_providers": 12, "change": 0},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "supporting_providers": 12, "change": 0},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "supporting_providers": 12, "change": 0}
+"wpengine.com/txtrecord/history": {"title": "wpengine.com/txtrecord - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 12, "change": 12},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

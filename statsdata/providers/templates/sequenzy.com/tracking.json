@@ -1,0 +1,19 @@
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+"sequenzy.com/tracking/metadata": {"title": "sequenzy.com/tracking - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
+{"service_provider_name": "Sequenzy", "service_provider_id": "sequenzy.com", "service_id": "tracking", "name": "Tracking", "version": 1, "versions": [1], "description": "Configure a custom domain for click, open and unsubscribe tracking.", "variable_description": null, "logo_url": "https://www.sequenzy.com/logo.png", "template_sha": "a8eb16924f28a0627b136601348cb53ea7be3d17", "created_at": "2026-08-28 05:10:34", "updated_at": "2026-10-07 12:53:22"}
+], "footer": null},
+"sequenzy.com/tracking/records": {"title": "sequenzy.com/tracking - Records", "columns": [{"key": "type", "header": "type"}, {"key": "host", "header": "host"}, {"key": "pointsTo", "header": "pointsTo"}, {"key": "ttl", "header": "ttl"}], "rows": [
+{"type": "CNAME", "host": "@", "pointsTo": "%trackingCnameTarget%.sequenzydns.com", "ttl": 3600}
+], "footer": null},
+"sequenzy.com/tracking/supporters": {"title": "sequenzy.com/tracking - Supporting DNS providers (current state)", "columns": [{"key": "name", "header": "NAME"}, {"key": "dns_provider_id", "header": "ID"}, {"key": "provider_id", "header": "STACK"}, {"key": "api_host", "header": "API HOST"}, {"key": "versions", "header": "VERSIONS"}, {"key": "domains", "header": "DOMAINS"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
+], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "domains": 0, "reach_pct": 0.0}},
+"sequenzy.com/tracking/history": {"title": "sequenzy.com/tracking - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 0, "change": 0}
+], "footer": null}
+}}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "inkysites.com/cert-and-site/metadata": {"title": "inkysites.com/cert-and-site - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "InkySites", "service_provider_id": "inkysites.com", "service_id": "cert-and-site", "name": "InkySites website and certificate", "version": 1, "versions": [1], "description": "For a newly registered domain: lets Google Certificate Manager issue its HTTPS certificate (one CNAME at _acme-challenge) and points it at the website InkySites hosts (A and AAAA to the InkySites load balancer, and a www CNAME). Email records are never touched.", "variable_description": "acme: the per-domain label Google Certificate Manager issues for the DNS authorization. ip4: the InkySites load balancer IPv4 address. ip6: its IPv6 address. Group 'cert' is the certificate record, 'site' the A and AAAA pair, 'www' the www CNAME, applied only at the root of a domain.", "logo_url": "https://inkysites.com/images/brand/inky-mark.svg", "template_sha": "6a6787be251e730e2dfc8aa6bc4b835174a5d580", "created_at": "2026-09-30 12:08:15", "updated_at": "2026-09-30 12:08:15"}
 ], "footer": null},
@@ -21,18 +21,20 @@
 {"name": "Plesk", "dns_provider_id": 866, "provider_id": "plesk.com", "api_host": "emoserver8.net", "versions": [1], "domains": 37, "reach_pct": 1.9410444064322666e-05},
 {"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [1], "domains": 26, "reach_pct": 1.363977150465917e-05}
 ], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "domains": 23767994, "reach_pct": 12.468846434004236}},
-"inkysites.com/cert-and-site/history": {"title": "inkysites.com/cert-and-site - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "supporting_providers": 0, "change": 0},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "supporting_providers": 0, "change": 0},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "supporting_providers": 0, "change": 0},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "supporting_providers": 0, "change": 0},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "supporting_providers": 0, "change": 0},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "supporting_providers": 8, "change": 8},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "supporting_providers": 10, "change": 2},
-{"sweep_id": 9, "started_at": "2026-10-03 01:00:06", "supporting_providers": 10, "change": 0},
-{"sweep_id": 10, "started_at": "2026-10-04 01:00:06", "supporting_providers": 10, "change": 0},
-{"sweep_id": 11, "started_at": "2026-10-05 01:00:07", "supporting_providers": 11, "change": 1},
-{"sweep_id": 12, "started_at": "2026-10-06 01:00:07", "supporting_providers": 11, "change": 0},
-{"sweep_id": 13, "started_at": "2026-10-07 01:00:07", "supporting_providers": 11, "change": 0}
+"inkysites.com/cert-and-site/history": {"title": "inkysites.com/cert-and-site - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 8, "change": 8},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 2},
+{"sweep_id": 9, "started_at": "2026-10-03 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 10, "started_at": "2026-10-04 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 11, "started_at": "2026-10-05 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 1},
+{"sweep_id": 12, "started_at": "2026-10-06 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 13, "started_at": "2026-10-07 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 14, "started_at": "2026-10-08 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

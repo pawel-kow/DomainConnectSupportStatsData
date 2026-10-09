@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "metrunio.com/messdomaene/metadata": {"title": "metrunio.com/messdomaene - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Metrunio", "service_provider_id": "metrunio.com", "service_id": "messdomaene", "name": "Metrunio measurement domain", "version": 2, "versions": [2], "description": "Sets up a measurement subdomain for Metrunio analytics: a CNAME that routes measurement traffic, a TXT record proving you control the domain, and a CNAME that lets Google issue the TLS certificate for the subdomain.", "variable_description": "dnstarget: the Metrunio host label your subdomain points to; the template appends .metrunio.com. token: a one-time random value that proves you control the domain. acme: the Google Certificate Manager authorization label; the template appends .authorize.certificatemanager.goog.", "logo_url": "https://metrunio.com/logo.svg", "template_sha": "e13b4eb517f049077c2f235263260141019116a8", "created_at": "2026-09-15 16:34:52", "updated_at": "2026-09-17 11:13:52"}
 ], "footer": null},
@@ -21,13 +21,13 @@
 {"name": "Realtox Media ", "dns_provider_id": 12, "provider_id": "customer.realtoxmedia.de", "api_host": "customer.realtoxmedia.de", "versions": [2], "domains": 27, "reach_pct": 1.4164378100992217e-05},
 {"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [2], "domains": 26, "reach_pct": 1.363977150465917e-05}
 ], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "domains": 23768021, "reach_pct": 12.468860598382337}},
-"metrunio.com/messdomaene/history": {"title": "metrunio.com/messdomaene - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "supporting_providers": 11, "change": 11},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "supporting_providers": 12, "change": 1},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "supporting_providers": 12, "change": 0},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "supporting_providers": 13, "change": 1},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "supporting_providers": 13, "change": 0},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "supporting_providers": 13, "change": 0},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "supporting_providers": 13, "change": 0}
+"metrunio.com/messdomaene/history": {"title": "metrunio.com/messdomaene - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 11, "change": 11},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 12, "change": 1},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supporting_providers": 13, "change": 1},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 13, "change": 0},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 13, "change": 0},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "sendcanary.com/dkim-2/metadata": {"title": "sendcanary.com/dkim-2 - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "SendCanary", "service_provider_id": "sendcanary.com", "service_id": "dkim-2", "name": "DKIM Email Signing (2 records)", "version": 2, "versions": [2], "description": "SendCanary DKIM setup (2 CNAMEs): publishes two DKIM CNAMEs for providers that rotate a selector1 / selector2 pair - most commonly Microsoft 365, which requires both CNAMEs up front even though only one is active at a time. DKIM is required for DMARC alignment and improves deliverability. SendCanary (https://sendcanary.com) is an email authentication platform that monitors DMARC reports, detects spoofing, and automates DNS remediation for domain owners.", "variable_description": "selector1 / target1: first DKIM CNAME (e.g. selector1 -> selector1-<tenant>._domainkey.<tenant>.onmicrosoft.com). selector2 / target2: second DKIM CNAME. Hosts become %selector1%._domainkey.<your-domain> and %selector2%._domainkey.<your-domain>.", "logo_url": "https://sendcanary.com/logo.png", "template_sha": "403ca1a8bb26a0713bdaf62095266011636e62d9", "created_at": "2026-04-07 05:45:28", "updated_at": "2026-04-25 07:02:45"}
 ], "footer": null},
@@ -20,13 +20,13 @@
 {"name": "Plesk", "dns_provider_id": 866, "provider_id": "plesk.com", "api_host": "emoserver8.net", "versions": [2], "domains": 37, "reach_pct": 1.9410444064322666e-05},
 {"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [2], "domains": 26, "reach_pct": 1.363977150465917e-05}
 ], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "domains": 64002997, "reach_pct": 33.57639441128409}},
-"sendcanary.com/dkim-2/history": {"title": "sendcanary.com/dkim-2 - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "supporting_providers": 14, "change": 14},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "supporting_providers": 14, "change": 0},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "supporting_providers": 14, "change": 0},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "supporting_providers": 14, "change": 0},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "supporting_providers": 14, "change": 0},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "supporting_providers": 14, "change": 0},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "supporting_providers": 14, "change": 0}
+"sendcanary.com/dkim-2/history": {"title": "sendcanary.com/dkim-2 - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 14, "change": 14},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 14, "change": 0},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "supporting_providers": 14, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supporting_providers": 14, "change": 0},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 14, "change": 0},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 14, "change": 0},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 14, "change": 0}
 ], "footer": null}
 }}

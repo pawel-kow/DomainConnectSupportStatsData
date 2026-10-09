@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "nettingale.com", "name": "Nettingale", "first_added_at": "2026-03-05 07:43:38", "last_updated_at": "2026-04-23 20:29:24"}
 ], "footer": null},
@@ -10,27 +10,27 @@
 {"name": "Nettingale Email Sending", "service_id": "nettingale-connect-email", "version": 1, "versions": [1], "added_at": "2026-04-23 20:29:24", "updated_at": "2026-04-23 20:29:24", "supporting_providers": 10, "reach_domains": 23749102, "reach_pct": 12.458935566186312},
 {"name": "Nettingale SSL Setup", "service_id": "nettingale-connect-ssl", "version": 2, "versions": [2], "added_at": "2026-03-06 06:12:26", "updated_at": "2026-03-16 12:55:29", "supporting_providers": 10, "reach_domains": 23749102, "reach_pct": 12.458935566186312}
 ], "footer": null},
-"support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "service_id": "nettingale-connect", "supporting_providers": 12},
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "service_id": "nettingale-connect-email", "supporting_providers": 12},
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "service_id": "nettingale-connect-ssl", "supporting_providers": 12},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "service_id": "nettingale-connect", "supporting_providers": 12},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "service_id": "nettingale-connect-email", "supporting_providers": 12},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "service_id": "nettingale-connect-ssl", "supporting_providers": 12},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "service_id": "nettingale-connect", "supporting_providers": 12},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "service_id": "nettingale-connect-email", "supporting_providers": 12},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "service_id": "nettingale-connect-ssl", "supporting_providers": 12},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "service_id": "nettingale-connect", "supporting_providers": 12},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "service_id": "nettingale-connect-email", "supporting_providers": 12},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "service_id": "nettingale-connect-ssl", "supporting_providers": 12},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "service_id": "nettingale-connect", "supporting_providers": 12},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "service_id": "nettingale-connect-email", "supporting_providers": 12},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "service_id": "nettingale-connect-ssl", "supporting_providers": 12},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "service_id": "nettingale-connect", "supporting_providers": 12},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "service_id": "nettingale-connect-email", "supporting_providers": 12},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "service_id": "nettingale-connect-ssl", "supporting_providers": 12},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "service_id": "nettingale-connect", "supporting_providers": 12},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "service_id": "nettingale-connect-email", "supporting_providers": 12},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "service_id": "nettingale-connect-ssl", "supporting_providers": 12}
+"support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "nettingale-connect", "supporting_providers": 12},
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "nettingale-connect-email", "supporting_providers": 12},
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "nettingale-connect-ssl", "supporting_providers": 12},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "service_id": "nettingale-connect", "supporting_providers": 12},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "service_id": "nettingale-connect-email", "supporting_providers": 12},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "service_id": "nettingale-connect-ssl", "supporting_providers": 12},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "service_id": "nettingale-connect", "supporting_providers": 12},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "service_id": "nettingale-connect-email", "supporting_providers": 12},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "service_id": "nettingale-connect-ssl", "supporting_providers": 12},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "service_id": "nettingale-connect", "supporting_providers": 12},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "service_id": "nettingale-connect-email", "supporting_providers": 12},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "service_id": "nettingale-connect-ssl", "supporting_providers": 12},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "service_id": "nettingale-connect", "supporting_providers": 12},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "service_id": "nettingale-connect-email", "supporting_providers": 12},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "service_id": "nettingale-connect-ssl", "supporting_providers": 12},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "service_id": "nettingale-connect", "supporting_providers": 12},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "service_id": "nettingale-connect-email", "supporting_providers": 12},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "service_id": "nettingale-connect-ssl", "supporting_providers": 12},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "nettingale-connect", "supporting_providers": 12},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "nettingale-connect-email", "supporting_providers": 12},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "nettingale-connect-ssl", "supporting_providers": 12}
 ], "footer": null}
 }}

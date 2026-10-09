@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "goboost.io/site/metadata": {"title": "goboost.io/site - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "GoBoost Sites", "service_provider_id": "goboost.io", "service_id": "site", "name": "GoBoost Sites", "version": 1, "versions": [1], "description": "Enables a domain to work with GoBoost sites", "variable_description": null, "logo_url": "https://goboost.io/static/goboost-logo-42b49c5bc8bf013be2276dfc95ead3b9.png", "template_sha": "e3992ae48edcb7a37be22b6b10c3e8c19e630452", "created_at": "2020-05-19 13:27:46", "updated_at": "2020-05-19 13:27:46"}
 ], "footer": null},
@@ -241,13 +241,13 @@
 {"name": "Plesk", "dns_provider_id": 2892, "provider_id": "plesk.com", "api_host": "nst03.e-sistemas.net", "versions": [1], "domains": 12, "reach_pct": 6.29527915599654e-06},
 {"name": "Plesk", "dns_provider_id": 2308, "provider_id": "plesk.com", "api_host": "svw111.serverneubox.com.mx", "versions": [1], "domains": 2, "reach_pct": 1.04921319266609e-06}
 ], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "domains": 304163, "reach_pct": 0.15956591616044796}},
-"goboost.io/site/history": {"title": "goboost.io/site - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "supporting_providers": 259, "change": 259},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "supporting_providers": 259, "change": 0},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "supporting_providers": 259, "change": 0},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "supporting_providers": 259, "change": 0},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "supporting_providers": 259, "change": 0},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "supporting_providers": 259, "change": 0},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "supporting_providers": 259, "change": 0}
+"goboost.io/site/history": {"title": "goboost.io/site - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 259, "change": 259},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 259, "change": 0},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "supporting_providers": 259, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supporting_providers": 259, "change": 0},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 259, "change": 0},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 259, "change": 0},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 259, "change": 0}
 ], "footer": null}
 }}

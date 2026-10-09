@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-07T15:10:05Z", "notes": ["Domain share: import 1788571839 (completed, live), 190619029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-09T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "ifova.com/storefront/metadata": {"title": "ifova.com/storefront - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "ifova", "service_provider_id": "ifova.com", "service_id": "storefront", "name": "ifova Storefront", "version": 1, "versions": [1], "description": "Connects a custom domain to an ifova online store: apex A record(s) to the ifova edge, www CNAME to the ifova edge host, and an ownership-verification TXT record at a fixed host.", "variable_description": "ip1: first IPv4 address of the ifova edge (group apex-a1). ip2: second IPv4 address of the ifova edge (group apex-a2; the group is omitted when only one address is in use). connectLabel: label under ifova.com that the www CNAME points to, e.g. connect (group www). token: opaque ownership-verification token issued by ifova for this store and domain (group ownership; omitted once the domain is verified).", "logo_url": "https://ifova.com/domain-connect/logo.png", "template_sha": "a095fc610ada92c1680a18ebceab5e051d69de97", "created_at": "2026-09-29 12:22:32", "updated_at": "2026-09-29 12:22:32"}
 ], "footer": null},
@@ -21,18 +21,20 @@
 {"name": "Plesk", "dns_provider_id": 866, "provider_id": "plesk.com", "api_host": "emoserver8.net", "versions": [1], "domains": 37, "reach_pct": 1.9410444064322666e-05},
 {"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [1], "domains": 26, "reach_pct": 1.363977150465917e-05}
 ], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "domains": 23767994, "reach_pct": 12.468846434004236}},
-"ifova.com/storefront/history": {"title": "ifova.com/storefront - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
-{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "supporting_providers": 0, "change": 0},
-{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "supporting_providers": 0, "change": 0},
-{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "supporting_providers": 0, "change": 0},
-{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "supporting_providers": 0, "change": 0},
-{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "supporting_providers": 7, "change": 7},
-{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "supporting_providers": 10, "change": 3},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "supporting_providers": 9, "change": -1},
-{"sweep_id": 9, "started_at": "2026-10-03 01:00:06", "supporting_providers": 10, "change": 1},
-{"sweep_id": 10, "started_at": "2026-10-04 01:00:06", "supporting_providers": 10, "change": 0},
-{"sweep_id": 11, "started_at": "2026-10-05 01:00:07", "supporting_providers": 11, "change": 1},
-{"sweep_id": 12, "started_at": "2026-10-06 01:00:07", "supporting_providers": 11, "change": 0},
-{"sweep_id": 13, "started_at": "2026-10-07 01:00:07", "supporting_providers": 11, "change": 0}
+"ifova.com/storefront/history": {"title": "ifova.com/storefront - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 7, "change": 7},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 3},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 9, "change": -1},
+{"sweep_id": 9, "started_at": "2026-10-03 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 1},
+{"sweep_id": 10, "started_at": "2026-10-04 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 11, "started_at": "2026-10-05 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 1},
+{"sweep_id": 12, "started_at": "2026-10-06 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 13, "started_at": "2026-10-07 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 14, "started_at": "2026-10-08 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}
