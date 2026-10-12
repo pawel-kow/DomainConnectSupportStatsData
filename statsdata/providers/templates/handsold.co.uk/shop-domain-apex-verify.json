@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-11T05:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-12T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "handsold.co.uk/shop-domain-apex-verify/metadata": {"title": "handsold.co.uk/shop-domain-apex-verify - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Handsold", "service_provider_id": "handsold.co.uk", "service_id": "shop-domain-apex-verify", "name": "Your shop on your own domain", "version": 1, "versions": [1], "description": "Proves the domain is yours to Handsold's host, and points your domain (like yourname.co.uk) and its www at your Handsold shop.", "variable_description": "verify: the proof Handsold's host (Vercel) asked for, after vc-domain-verify=.", "logo_url": "https://handsold.co.uk/brand/handsold-mark.svg", "template_sha": "2baad45f57c6838c3ba989ffeb200b0a61ed5d21", "created_at": "2026-10-05 13:58:20", "updated_at": "2026-10-05 13:58:20"}
 ], "footer": null},
@@ -9,6 +9,7 @@
 ], "footer": null},
 "handsold.co.uk/shop-domain-apex-verify/supporters": {"title": "handsold.co.uk/shop-domain-apex-verify - Supporting DNS providers (current state)", "columns": [{"key": "name", "header": "NAME"}, {"key": "dns_provider_id", "header": "ID"}, {"key": "provider_id", "header": "STACK"}, {"key": "api_host", "header": "API HOST"}, {"key": "versions", "header": "VERSIONS"}, {"key": "since", "header": "SUPPORTED SINCE"}, {"key": "domains", "header": "DOMAINS"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
 {"name": "cloudflare", "dns_provider_id": 4, "provider_id": "cloudflare.com", "api_host": "api.cloudflare.com", "versions": [1], "since": "2026-10-06 01:31:40", "domains": 23457240, "reach_pct": 12.305822835767357},
+{"name": "NameSilo.com LLC", "dns_provider_id": 2773, "provider_id": "namesilo.com", "api_host": "www.namesilo.com", "versions": [1], "since": "2026-10-12 02:02:02", "domains": 291029, "reach_pct": 0.15267573312420973},
 {"name": "Webnames.ca Inc", "dns_provider_id": 2774, "provider_id": "webnames.ca", "api_host": "www.webnames.ca", "versions": [1], "since": "2026-10-06 02:03:05", "domains": 18892, "reach_pct": 0.009910867817923887},
 {"name": "Danego DNS", "dns_provider_id": 2, "provider_id": "DanegoDNS", "api_host": "dns.danego.nl", "versions": [1], "since": "2026-10-07 01:02:21", "domains": 392, "reach_pct": 0.00020564578576255364},
 {"name": "Domain Chief", "dns_provider_id": 16, "provider_id": "domainchief", "api_host": "domain.chief.app", "versions": [1], "since": "2026-10-07 01:02:30", "domains": 151, "reach_pct": 7.921559604628979e-05},
@@ -18,7 +19,7 @@
 {"name": "Plesk", "dns_provider_id": 986, "provider_id": "plesk.com", "api_host": "gwdhosting.com", "versions": [1], "since": "2026-10-06 01:38:18", "domains": 43, "reach_pct": 2.2558083642320934e-05},
 {"name": "Plesk", "dns_provider_id": 866, "provider_id": "plesk.com", "api_host": "emoserver8.net", "versions": [1], "since": "2026-10-06 01:32:23", "domains": 37, "reach_pct": 1.9410444064322666e-05},
 {"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [1], "since": "2026-10-06 01:11:40", "domains": 26, "reach_pct": 1.363977150465917e-05}
-], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "since": null, "domains": 23476965, "reach_pct": 12.316170700880026}},
+], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "since": null, "domains": 23767994, "reach_pct": 12.468846434004236}},
 "handsold.co.uk/shop-domain-apex-verify/history": {"title": "handsold.co.uk/shop-domain-apex-verify - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 0, "change": 0},
@@ -35,6 +36,7 @@
 {"sweep_id": 14, "started_at": "2026-10-08 01:00:06", "completed_at": "2026-10-09 13:32:27", "supporting_providers": 10, "change": 0},
 {"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": "2026-10-09 22:39:00", "supporting_providers": 10, "change": 0},
 {"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
-{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "supporting_providers": 11, "change": 1}
 ], "footer": null}
 }}
