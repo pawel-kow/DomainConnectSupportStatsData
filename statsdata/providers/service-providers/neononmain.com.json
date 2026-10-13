@@ -1,12 +1,12 @@
-{"generated_at": "2026-10-12T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-13T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "neononmain.com", "name": "Neon on Main", "first_added_at": "2026-10-11 12:20:25", "last_updated_at": "2026-10-11 12:20:25"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 1, "supported_templates": 1, "supporting_dns_providers": 8, "reach_domains": 19325, "reach_pct": 0.010138022474136095}
+{"templates": 1, "supported_templates": 1, "supporting_dns_providers": 10, "reach_domains": 19868, "reach_pct": 0.010422883855944939}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "versions", "header": "VERSIONS"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Neon on Main website", "service_id": "website", "version": 3, "versions": [3], "added_at": "2026-10-11 12:20:25", "updated_at": "2026-10-11 12:20:25", "supporting_providers": 8, "reach_domains": 19325, "reach_pct": 0.010138022474136095}
+{"name": "Neon on Main website", "service_id": "website", "version": 3, "versions": [3], "added_at": "2026-10-11 12:20:25", "updated_at": "2026-10-11 12:20:25", "supporting_providers": 10, "reach_domains": 19868, "reach_pct": 0.010422883855944939}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "website", "supporting_providers": 0},
@@ -25,6 +25,7 @@
 {"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": "2026-10-09 22:39:00", "service_id": "website", "supporting_providers": 0},
 {"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": null, "service_id": "website", "supporting_providers": 0},
 {"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "service_id": "website", "supporting_providers": 0},
-{"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "service_id": "website", "supporting_providers": 8}
+{"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "service_id": "website", "supporting_providers": 8},
+{"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "service_id": "website", "supporting_providers": 10}
 ], "footer": null}
 }}
