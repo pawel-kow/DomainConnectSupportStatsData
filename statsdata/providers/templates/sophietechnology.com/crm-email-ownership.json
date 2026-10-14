@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-13T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-14T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "sophietechnology.com/crm-email-ownership/metadata": {"title": "sophietechnology.com/crm-email-ownership - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Sophie Technology", "service_provider_id": "sophietechnology.com", "service_id": "crm-email-ownership", "name": "CRM email domain ownership", "version": 1, "versions": [1], "description": "Verify a customer's sending domain before provisioning it in Sophie Technology's email service.", "variable_description": "proof is the tenant-bound claim stored by Sophie, excluding its fixed sophie-mail= prefix. No service is provisioned by this template.", "logo_url": "https://sophietechnology.com/assets/sophietechnology-logo.png", "template_sha": "ca48e778be50b13fb5022349ebc6e6671de17da1", "created_at": "2026-10-01 12:41:41", "updated_at": "2026-10-01 12:41:41"}
 ], "footer": null},
@@ -35,6 +35,7 @@
 {"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
 {"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "supporting_providers": 10, "change": 0},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "supporting_providers": 10, "change": 0},
-{"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

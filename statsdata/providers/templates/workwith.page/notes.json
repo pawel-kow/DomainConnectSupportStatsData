@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-13T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-14T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "workwith.page/notes/metadata": {"title": "workwith.page/notes - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "WorkWith", "service_provider_id": "workwith.page", "service_id": "notes", "name": "Notes from your own domain", "version": 2, "versions": [2], "description": "Lets WorkWith send a professional's notes to the people who asked for them, from a subdomain of their own domain, through Resend. Adds the records Resend needs under that subdomain only.", "variable_description": "sesRegion: the sending region Resend gave this subdomain, such as us-east-1; dkimKey: the DKIM public key Resend issued for it", "logo_url": null, "template_sha": "29caed1fd57d4e31bc25205d0e3a5d63085a04d8", "created_at": "2026-10-09 12:48:32", "updated_at": "2026-10-09 12:48:32"}
 ], "footer": null},
@@ -39,6 +39,7 @@
 {"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": null, "supporting_providers": 7, "change": 7},
 {"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "supporting_providers": 9, "change": 2},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "supporting_providers": 10, "change": 1},
-{"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}
