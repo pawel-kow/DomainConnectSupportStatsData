@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-14T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-15T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "getklyk.io/customdomain/metadata": {"title": "getklyk.io/customdomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Klyk", "service_provider_id": "getklyk.io", "service_id": "customdomain", "name": "Custom link domain", "version": 1, "versions": [1], "description": "Serves your Klyk short links from your own domain: points it at Klyk, and adds the record that proves you control it.", "variable_description": "target: the Klyk hostname the domain points to. token: the domain's verification token in Klyk.", "logo_url": "https://getklyk.io/klyk-logo.svg", "template_sha": "38b5a49a40556ac3758aa38f959a4f11fbc00b47", "created_at": "2026-10-01 12:41:55", "updated_at": "2026-10-01 12:41:55"}
 ], "footer": null},
@@ -37,6 +37,7 @@
 {"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "supporting_providers": 10, "change": 0},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "supporting_providers": 10, "change": 0},
 {"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
-{"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

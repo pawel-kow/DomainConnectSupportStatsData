@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-14T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-15T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "atmark.ai/mail/metadata": {"title": "atmark.ai/mail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Atmark", "service_provider_id": "atmark.ai", "service_id": "mail", "name": "Custom domain mail for AI agents", "version": 1, "versions": [1], "description": "One-step setup of an Atmark agent domain: the ownership challenge TXT (_atmark-challenge on the host), inbound MX on the host through Amazon SES, a custom MAIL FROM (bounce.<host>) with MX and SPF, three Easy DKIM CNAMEs, and a minimal recommended DMARC record (_dmarc on the host, p=none). Apply with domain=<registrable domain> and host=<subdomain> (Atmark agent domains are always subdomains).", "variable_description": "token: 43-character base64url ownership challenge token issued by Atmark for this domain. t1, t2, t3: the three lowercase Amazon SES Easy DKIM tokens for this domain.", "logo_url": "https://atmark.ai/favicon.svg", "template_sha": "0790b013d45b4db3d3ee9d6f90e8ec102f615d8b", "created_at": "2026-10-06 12:59:22", "updated_at": "2026-10-06 12:59:22"}
 ], "footer": null},
@@ -45,6 +45,7 @@
 {"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "supporting_providers": 12, "change": 1},
 {"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "supporting_providers": 12, "change": 0},
-{"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

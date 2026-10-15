@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-14T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-15T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "lunarlabs.dev/email-setup/metadata": {"title": "lunarlabs.dev/email-setup - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "LunarLabs", "service_provider_id": "lunarlabs.dev", "service_id": "email-setup", "name": "LunarLabs Mail", "version": 2, "versions": [2, 1], "description": "Configures DNS records for sending email through LunarLabs Mail (self-hosted Reloop at smtp.lunarlabs.dev): DKIM, SPF, inbound MX and click/open tracking. DMARC is a separate optional group (dmarc) that starts at p=none and is only requested for domains that publish no DMARC record yet.", "variable_description": "domainKey: the DKIM public key LunarLabs Mail generates for the domain.", "logo_url": "https://lunarlabs.dev/favicon.svg", "template_sha": "64b828b5cfe638b08689f536b85ef87a0fdedeba", "created_at": "2026-10-02 11:51:42", "updated_at": "2026-10-05 13:58:06"}
 ], "footer": null},
@@ -41,6 +41,7 @@
 {"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
-{"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}
