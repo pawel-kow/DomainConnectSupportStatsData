@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-15T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-16T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "spaceis.pl/checkout/metadata": {"title": "spaceis.pl/checkout - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "SpaceIs", "service_provider_id": "spaceis.pl", "service_id": "checkout", "name": "SpaceIs payment page", "version": 1, "versions": [1], "description": "Connect a payment subdomain to SpaceIs and add only the verification records selected by the signed groupId. Ask the user to review any conflicting records before applying. Configure all CNAME records as DNS only.", "variable_description": "license is the eight-character SpaceIs shop ID. ownership is the Cloudflare hostname verification value. ssl1Name through ssl3Name are fully qualified verification names within the payment hostname. ssl1Value through ssl3Value contain the TXT value or CNAME target. Unselected verification groups must not be applied. All requests are RSA-SHA256 signed.", "logo_url": "https://panel.spaceis.pl/media/spaceis/mini-logo.svg", "template_sha": "6a28a0af231dfa0556867619f51ed51af47b0fde", "created_at": "2026-10-10 12:06:34", "updated_at": "2026-10-10 12:06:34"}
 ], "footer": null},
@@ -39,11 +39,12 @@
 {"sweep_id": 13, "started_at": "2026-10-07 01:00:07", "completed_at": "2026-10-09 11:15:24", "supporting_providers": 0, "change": 0},
 {"sweep_id": 14, "started_at": "2026-10-08 01:00:06", "completed_at": "2026-10-09 13:32:27", "supporting_providers": 0, "change": 0},
 {"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": "2026-10-09 22:39:00", "supporting_providers": 0, "change": 0},
-{"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": null, "supporting_providers": 0, "change": 0},
+{"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": "2026-10-15 17:29:53", "supporting_providers": 0, "change": 0},
 {"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "supporting_providers": 7, "change": 7},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "supporting_providers": 10, "change": 3},
 {"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
-{"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

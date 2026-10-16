@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-15T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-16T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "lockpick.app/origin-proof/metadata": {"title": "lockpick.app/origin-proof - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Lockpick", "service_provider_id": "lockpick.app", "service_id": "origin-proof", "name": "Lockpick origin verification", "version": 1, "versions": [1], "description": "Publishes the TXT record Lockpick uses to confirm you control a site before assessing it.", "variable_description": "proof: the 64-character hex token Lockpick issued for this site", "logo_url": "https://www.lockpick.app/brand/lockpick-wordmark.svg", "template_sha": "36b6774446a511a57bf164bc1d9cad60b1ea9cc0", "created_at": "2026-09-27 11:39:36", "updated_at": "2026-09-27 11:39:36"}
 ], "footer": null},
@@ -32,7 +32,7 @@
 {"sweep_id": 13, "started_at": "2026-10-07 01:00:07", "completed_at": "2026-10-09 11:15:24", "supporting_providers": 10, "change": 0},
 {"sweep_id": 14, "started_at": "2026-10-08 01:00:06", "completed_at": "2026-10-09 13:32:27", "supporting_providers": 10, "change": 0},
 {"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": "2026-10-09 22:39:00", "supporting_providers": 10, "change": 0},
-{"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": "2026-10-15 17:29:53", "supporting_providers": 10, "change": 0},
 {"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

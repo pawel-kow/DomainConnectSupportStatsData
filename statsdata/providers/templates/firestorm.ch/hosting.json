@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-15T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-16T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "firestorm.ch/hosting/metadata": {"title": "firestorm.ch/hosting - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "FireStorm", "service_provider_id": "firestorm.ch", "service_id": "hosting", "name": "FireStorm Web and Mail Hosting", "version": 1, "versions": [1], "description": "Points a domain to a FireStorm web and mail hosting package (Plesk).", "variable_description": "IP4 and IP6 are the IPv4 and IPv6 addresses of the customer's FireStorm hosting server.", "logo_url": "https://www.firestorm.ch/wp-content/uploads/2018/06/logo_firestorm.png", "template_sha": "216b3f5ad5ced4b465bc23571a058e2770db7b52", "created_at": "2026-10-07 12:53:31", "updated_at": "2026-10-07 12:53:31"}
 ], "footer": null},
@@ -47,11 +47,12 @@
 {"sweep_id": 13, "started_at": "2026-10-07 01:00:07", "completed_at": "2026-10-09 11:15:24", "supporting_providers": 0, "change": 0},
 {"sweep_id": 14, "started_at": "2026-10-08 01:00:06", "completed_at": "2026-10-09 13:32:27", "supporting_providers": 6, "change": 6},
 {"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": "2026-10-09 22:39:00", "supporting_providers": 8, "change": 2},
-{"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 1},
+{"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": "2026-10-15 17:29:53", "supporting_providers": 9, "change": 1},
 {"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "supporting_providers": 10, "change": 1},
 {"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
-{"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 1}
+{"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 1},
+{"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

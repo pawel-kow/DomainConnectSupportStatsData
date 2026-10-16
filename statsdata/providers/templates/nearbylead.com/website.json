@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-15T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-16T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "nearbylead.com/website/metadata": {"title": "nearbylead.com/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "NearbyLead", "service_provider_id": "nearbylead.com", "service_id": "website", "name": "Business website", "version": 1, "versions": [1], "description": "Points a local service business's own domain (e.g. www.theirbusiness.com) at its NearbyLead website, and delegates certificate validation to Cloudflare for SaaS so HTTPS is issued and renewed without further DNS changes. The business keeps its domain, email and every other record.", "variable_description": "No custom variables. host is the name the business connects, e.g. www; the bare domain is not supported (hostRequired).", "logo_url": "https://nearbylead.com/favicon.svg", "template_sha": "65d544febcbd4343fb733db981e3a8a8c6249c7e", "created_at": "2026-10-09 12:48:14", "updated_at": "2026-10-09 12:48:14"}
 ], "footer": null},
@@ -34,11 +34,12 @@
 {"sweep_id": 13, "started_at": "2026-10-07 01:00:07", "completed_at": "2026-10-09 11:15:24", "supporting_providers": 0, "change": 0},
 {"sweep_id": 14, "started_at": "2026-10-08 01:00:06", "completed_at": "2026-10-09 13:32:27", "supporting_providers": 0, "change": 0},
 {"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": "2026-10-09 22:39:00", "supporting_providers": 0, "change": 0},
-{"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": null, "supporting_providers": 8, "change": 8},
+{"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": "2026-10-15 17:29:53", "supporting_providers": 8, "change": 8},
 {"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "supporting_providers": 10, "change": 2},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "supporting_providers": 11, "change": 1},
 {"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
-{"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

@@ -1,9 +1,9 @@
-{"generated_at": "2026-10-15T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-16T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "provider": {"title": "DNS provider", "columns": [{"key": "id", "header": "ID"}, {"key": "name", "header": "Name"}, {"key": "provider_id", "header": "Stack (providerId)"}, {"key": "domain_connect_url", "header": "First DC URL"}, {"key": "api_url", "header": "API URL"}, {"key": "sync_url", "header": "Sync UX URL"}, {"key": "async_url", "header": "Async UX URL"}, {"key": "control_panel_url", "header": "Control panel URL"}, {"key": "nameservers", "header": "Nameservers"}, {"key": "first_seen_at", "header": "First seen"}, {"key": "settings_last_status", "header": "Settings status"}, {"key": "settings_last_error", "header": "Settings error"}, {"key": "settings_last_seen_ok_at", "header": "Settings last OK"}, {"key": "support_last_status", "header": "Support status"}, {"key": "support_last_error", "header": "Support error"}, {"key": "support_last_seen_ok_at", "header": "Support last OK"}], "rows": [
-{"id": 2774, "name": "Webnames.ca Inc", "provider_id": "webnames.ca", "domain_connect_url": "https://www.webnames.ca/domainconnect", "api_url": "https://www.webnames.ca/domainconnect", "sync_url": "https://www.webnames.ca/domainconnect", "async_url": null, "control_panel_url": null, "nameservers": null, "first_seen_at": "2026-09-20 03:10:42", "settings_last_status": "ok", "settings_last_error": null, "settings_last_seen_ok_at": "2026-10-08 02:01:21", "support_last_status": "ok", "support_last_error": null, "support_last_seen_ok_at": "2026-10-15 02:30:14"}
+{"id": 2774, "name": "Webnames.ca Inc", "provider_id": "webnames.ca", "domain_connect_url": "https://www.webnames.ca/domainconnect", "api_url": "https://www.webnames.ca/domainconnect", "sync_url": "https://www.webnames.ca/domainconnect", "async_url": null, "control_panel_url": null, "nameservers": null, "first_seen_at": "2026-09-20 03:10:42", "settings_last_status": "ok", "settings_last_error": null, "settings_last_seen_ok_at": "2026-10-08 02:01:21", "support_last_status": "ok", "support_last_error": null, "support_last_seen_ok_at": "2026-10-16 02:29:57"}
 ], "footer": null},
 "support": {"title": "Template support", "columns": [{"key": "total", "header": "TOTAL"}, {"key": "supported_count", "header": "SUPPORTED"}, {"key": "supported_pct", "header": "SUPPORTED %"}, {"key": "unsupported_count", "header": "NOT SUPP."}, {"key": "unsupported_pct", "header": "NOT SUPP. %"}, {"key": "supported_templates", "header": "SUPPORTED TEMPLATES"}, {"key": "unsupported_templates", "header": "NOT SUPP. TEMPLATES"}, {"key": "undetermined_templates", "header": "UNDETERMINED TEMPLATES"}], "rows": [
-{"total": 1894, "supported_count": 524, "supported_pct": 27.666314677930302, "unsupported_count": 13, "unsupported_pct": 0.6863780359028511, "supported_templates": 493, "unsupported_templates": 12, "undetermined_templates": 1371}
+{"total": 1919, "supported_count": 549, "supported_pct": 28.608650338718082, "unsupported_count": 13, "unsupported_pct": 0.6774361646690985, "supported_templates": 518, "unsupported_templates": 12, "undetermined_templates": 1371}
 ], "footer": null},
 "share": {"title": "Domain share in the selected import", "columns": [{"key": "import_id", "header": "IMPORT"}, {"key": "status", "header": "STATUS"}, {"key": "source", "header": "SOURCE"}, {"key": "domains", "header": "DOMAINS"}, {"key": "scanned_domains", "header": "SCANNED"}, {"key": "share_pct", "header": "SHARE"}, {"key": "rank", "header": "RANK"}, {"key": "providers", "header": "PROVIDERS"}], "rows": [
 {"import_id": 1788571839, "status": "completed", "source": "live", "domains": 18892, "scanned_domains": 190619029, "share_pct": 0.009910867817923887, "rank": 13, "providers": 2903}
@@ -13,10 +13,12 @@
 ], "footer": null},
 "supported_templates": {"title": "Supported templates (current state)", "columns": [{"key": "service_provider_name", "header": "SERVICE PROVIDER"}, {"key": "service_provider_id", "header": "PROVIDER ID"}, {"key": "service_name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "versions", "header": "VERSIONS"}, {"key": "since", "header": "SUPPORTED SINCE"}], "rows": [
 {"service_provider_name": "AdaptlyPost", "service_provider_id": "adaptlypost.com", "service_name": "White-label custom domain", "service_id": "whitelabel", "versions": [1], "since": "2026-09-27 01:21:03"},
+{"service_provider_name": "AdmixBrasil", "service_provider_id": "admixbrasil.com.br", "service_name": "Endereço próprio da página de link na bio", "service_id": "bio", "versions": [1], "since": "2026-10-16 02:27:37"},
 {"service_provider_name": "Adwave", "service_provider_id": "adwave.com", "service_name": "Landing pages", "service_id": "waverunner-landing", "versions": [3], "since": "2026-09-27 01:21:03"},
 {"service_provider_name": "Adwave", "service_provider_id": "adwave.com", "service_name": "Landing pages (staging)", "service_id": "waverunner-landing-staging", "versions": [3], "since": "2026-09-27 01:20:44"},
 {"service_provider_name": "ADXYGEN", "service_provider_id": "oc.adxygen.com", "service_name": "Dedicated email sending domain", "service_id": "email-ses", "versions": [1], "since": "2026-09-27 01:20:54"},
 {"service_provider_name": "Affilix", "service_provider_id": "maxwep.in", "service_name": "Custom offer domain", "service_id": "customdomain", "versions": [1], "since": "2026-09-30 01:43:23"},
+{"service_provider_name": "AgencyPro by bycaptur.io", "service_provider_id": "bycaptur.io", "service_name": "AgencyPro landing page", "service_id": "agencypro", "versions": [1], "since": "2026-10-16 02:27:50"},
 {"service_provider_name": "Agent Loadout", "service_provider_id": "agent-loadout.com", "service_name": "Custom subdomain DKIM", "service_id": "email-dkim", "versions": [1], "since": "2026-09-27 01:21:03"},
 {"service_provider_name": "Agent Loadout", "service_provider_id": "agent-loadout.com", "service_name": "Custom subdomain email", "service_id": "email", "versions": [1], "since": "2026-09-27 01:21:13"},
 {"service_provider_name": "AI Bunny", "service_provider_id": "aibunny.tech", "service_name": "AI Bunny Online Ordering", "service_id": "custom-domain", "versions": [1], "since": "2026-10-14 02:27:16"},
@@ -33,6 +35,7 @@
 {"service_provider_name": "Apiway", "service_provider_id": "apiway.ai", "service_name": "Apiway Email Marketing", "service_id": "email-sending", "versions": [1], "since": "2026-09-27 01:38:29"},
 {"service_provider_name": "Apiway", "service_provider_id": "apiway.ai", "service_name": "Apiway Email Marketing DMARC", "service_id": "email-dmarc", "versions": [1], "since": "2026-09-27 01:39:34"},
 {"service_provider_name": "App Wizards Digital Solutions", "service_provider_id": "appwizards.ca", "service_name": "Business website", "service_id": "website", "versions": [1], "since": "2026-09-30 01:37:15"},
+{"service_provider_name": "AppDevs Cloud", "service_provider_id": "appdevs.cloud", "service_name": "Custom domain", "service_id": "custom-domain", "versions": [1], "since": "2026-10-16 02:25:21"},
 {"service_provider_name": "ApxTek Labs", "service_provider_id": "apxteklabs.com", "service_name": "MailCore Domain Ownership Verification", "service_id": "mailcore-ownership", "versions": [2], "since": "2026-10-12 02:11:58"},
 {"service_provider_name": "Arlow Cyber Assurance", "service_provider_id": "arlow.co.za", "service_name": "Cyber Assurance domain verification", "service_id": "domain-verification", "versions": [1, 2, 3], "since": "2026-10-01 01:56:36"},
 {"service_provider_name": "Assistify", "service_provider_id": "assistify.chat", "service_name": "Help center", "service_id": "helpcenter", "versions": [1], "since": "2026-09-27 01:39:34"},
@@ -57,6 +60,8 @@
 {"service_provider_name": "BongoBean", "service_provider_id": "bongobean.com", "service_name": "BongoBean listing verification", "service_id": "verify", "versions": [1], "since": "2026-10-06 02:04:50"},
 {"service_provider_name": "BongoBean", "service_provider_id": "bongobean.com", "service_name": "Fitness Copilot website", "service_id": "fitnesscopilot", "versions": [1], "since": "2026-10-06 02:05:21"},
 {"service_provider_name": "BongoBean", "service_provider_id": "bongobean.com", "service_name": "Trade Copilot website", "service_id": "tradecopilot", "versions": [1], "since": "2026-10-06 02:03:26"},
+{"service_provider_name": "Bonmoniq", "service_provider_id": "bonmoniq.com", "service_name": "Bonmoniq Email", "service_id": "email", "versions": [1], "since": "2026-10-16 02:25:07"},
+{"service_provider_name": "Bonmoniq", "service_provider_id": "bonmoniq.com", "service_name": "Bonmoniq Website Chat", "service_id": "website-chat", "versions": [1], "since": "2026-10-16 02:26:39"},
 {"service_provider_name": "Book My Website", "service_provider_id": "bookmywebsite.app", "service_name": "Website hosting", "service_id": "firebasehosting", "versions": [1], "since": "2026-09-27 01:41:56"},
 {"service_provider_name": "Booth Studio", "service_provider_id": "boothstudio.io", "service_name": "Booth Studio Email", "service_id": "email", "versions": [1], "since": "2026-09-27 01:39:02"},
 {"service_provider_name": "BotInbox", "service_provider_id": "botinbox.dev", "service_name": "BotInbox Email Sending", "service_id": "send", "versions": [1], "since": "2026-09-30 01:38:49"},
@@ -76,6 +81,8 @@
 {"service_provider_name": "Carpe Messaging", "service_provider_id": "carpemessaging.com", "service_name": "Send from your own domain", "service_id": "sending-domain", "versions": [2, 3], "since": "2026-09-27 01:21:51"},
 {"service_provider_name": "Casccade", "service_provider_id": "casccade.com", "service_name": "Casccade sites", "service_id": "sites", "versions": [1], "since": "2026-09-27 01:21:11"},
 {"service_provider_name": "Charchy", "service_provider_id": "charchy.krd", "service_name": "Charchy email sending", "service_id": "email-sending", "versions": [1], "since": "2026-10-07 02:04:04"},
+{"service_provider_name": "ChrisX", "service_provider_id": "chrisx.ai", "service_name": "ChrisX email", "service_id": "email", "versions": [1], "since": "2026-10-16 02:27:50"},
+{"service_provider_name": "ChrisX", "service_provider_id": "chrisx.ai", "service_name": "ChrisX website", "service_id": "website", "versions": [1], "since": "2026-10-16 02:26:37"},
 {"service_provider_name": "Circulr", "service_provider_id": "circulr.io", "service_name": "Email from your domain", "service_id": "email", "versions": [1], "since": "2026-10-05 02:00:54"},
 {"service_provider_name": "Circulr", "service_provider_id": "circulr.io", "service_name": "Web address on your domain", "service_id": "web", "versions": [1], "since": "2026-10-05 02:02:26"},
 {"service_provider_name": "ClickGrow", "service_provider_id": "clickgrow.ai", "service_name": "ClickGrow Email", "service_id": "email", "versions": [2], "since": "2026-10-01 01:59:09"},
@@ -94,6 +101,7 @@
 {"service_provider_name": "Dalessandro & Guarascio LLC", "service_provider_id": "mrcto.ai", "service_name": "Website", "service_id": "website", "versions": [1], "since": "2026-09-28 20:13:46"},
 {"service_provider_name": "DarkStrata", "service_provider_id": "darkstrata.io", "service_name": "Custom Portal Domain", "service_id": "custom-portal-domain", "versions": [1], "since": "2026-09-30 01:37:48"},
 {"service_provider_name": "DartPanel", "service_provider_id": "dartpanel.com", "service_name": "DartPanel mail", "service_id": "mail", "versions": [1], "since": "2026-10-09 03:39:12"},
+{"service_provider_name": "DartPanel", "service_provider_id": "dartpanel.com", "service_name": "DartPanel sending service", "service_id": "sending", "versions": [1], "since": "2026-10-16 02:28:23"},
 {"service_provider_name": "DartPanel", "service_provider_id": "dartpanel.com", "service_name": "DartPanel website", "service_id": "website", "versions": [1], "since": "2026-10-03 01:46:43"},
 {"service_provider_name": "Dating Frame", "service_provider_id": "dating-frame.com", "service_name": "Dating Frame site", "service_id": "platform-cname", "versions": [1], "since": "2026-09-28 20:18:51"},
 {"service_provider_name": "Dawnstack", "service_provider_id": "dawnstackai.com", "service_name": "Dawn Studio website", "service_id": "studio", "versions": [1], "since": "2026-10-03 01:43:36"},
@@ -172,6 +180,8 @@
 {"service_provider_name": "Homebase by Sober Living Riches", "service_provider_id": "soberlivingriches.com", "service_name": "Homebase website", "service_id": "homebase-website", "versions": [1, 2], "since": "2026-09-27 01:21:45"},
 {"service_provider_name": "HostyFlow", "service_provider_id": "hostyflow.com", "service_name": "Restaurant page", "service_id": "restaurant-page", "versions": [1], "since": "2026-10-01 01:55:34"},
 {"service_provider_name": "HostyFlow", "service_provider_id": "hostyflow.com", "service_name": "Restaurant page for Cloudflare DNS", "service_id": "restaurant-page-cloudflare", "versions": [1], "since": "2026-10-01 01:56:36"},
+{"service_provider_name": "hq0", "service_provider_id": "hq0.com", "service_name": "Meeting room address", "service_id": "roomaddress", "versions": [1], "since": "2026-10-16 02:27:00"},
+{"service_provider_name": "HyoNova", "service_provider_id": "hyonova.com", "service_name": "HyoNova Mail", "service_id": "mail", "versions": [2], "since": "2026-10-16 02:27:23"},
 {"service_provider_name": "i9labs", "service_provider_id": "i9labs.com", "service_name": "i9labs Sites", "service_id": "sites", "versions": [1], "since": "2026-10-14 02:26:43"},
 {"service_provider_name": "ifova", "service_provider_id": "ifova.com", "service_name": "ifova Storefront", "service_id": "storefront", "versions": [1], "since": "2026-09-30 01:36:44"},
 {"service_provider_name": "InkySites", "service_provider_id": "inkysites.com", "service_name": "InkySites website", "service_id": "site", "versions": [1], "since": "2026-10-01 01:59:40"},
@@ -185,6 +195,7 @@
 {"service_provider_name": "Kilo Routes", "service_provider_id": "kiloroutes.com", "service_name": "Kilo branded link domain", "service_id": "link-domain", "versions": [2], "since": "2026-09-27 01:39:49"},
 {"service_provider_name": "Kimoga", "service_provider_id": "kimoga.com", "service_name": "Kimoga Mail", "service_id": "mail", "versions": [1], "since": "2026-09-27 01:40:06"},
 {"service_provider_name": "Kitchn", "service_provider_id": "orderkitchn.com", "service_name": "Kitchn marketing email", "service_id": "marketing-sender", "versions": [1], "since": "2026-10-06 02:02:22"},
+{"service_provider_name": "Klarefi", "service_provider_id": "klarefi.com", "service_name": "Email to applicants", "service_id": "email", "versions": [1], "since": "2026-10-16 02:28:55"},
 {"service_provider_name": "klareseite", "service_provider_id": "klareseite.de", "service_name": "Website", "service_id": "website", "versions": [1], "since": "2026-10-13 02:34:47"},
 {"service_provider_name": "Kloff", "service_provider_id": "kloff.app", "service_name": "Kloff domain auto connection", "service_id": "ses-domain-connection", "versions": [1, 2], "since": "2026-09-27 01:39:16"},
 {"service_provider_name": "Klyk", "service_provider_id": "getklyk.io", "service_name": "Custom link domain", "service_id": "customdomain", "versions": [1], "since": "2026-10-02 01:41:42"},
@@ -192,8 +203,12 @@
 {"service_provider_name": "Kodiggo", "service_provider_id": "kodiggo.com", "service_name": "Kodipages", "service_id": "kodipages", "versions": [1], "since": "2026-10-12 02:17:59"},
 {"service_provider_name": "Kolvo", "service_provider_id": "kolvo.net", "service_name": "Loja Kolvo", "service_id": "loja", "versions": [1], "since": "2026-09-27 01:38:25"},
 {"service_provider_name": "Kreova", "service_provider_id": "kreova.app", "service_name": "Kreova site", "service_id": "website", "versions": [1], "since": "2026-09-27 01:20:53"},
+{"service_provider_name": "Kurumera", "service_provider_id": "kurumera.com", "service_name": "Kurumera Mail", "service_id": "mail", "versions": [1], "since": "2026-10-16 02:25:58"},
 {"service_provider_name": "LabelTify", "service_provider_id": "labeltify.com", "service_name": "LabelTify SSO domain verification", "service_id": "sso-verify", "versions": [1], "since": "2026-10-01 01:58:39"},
 {"service_provider_name": "Launched.so", "service_provider_id": "launched.so", "service_name": "Domain ownership verification", "service_id": "verification", "versions": [1], "since": "2026-09-27 01:21:04"},
+{"service_provider_name": "Leadify SecureMark", "service_provider_id": "leadify.biz", "service_name": "DMARC record", "service_id": "dmarc", "versions": [1], "since": "2026-10-16 02:27:46"},
+{"service_provider_name": "Leadify SecureMark", "service_provider_id": "leadify.biz", "service_name": "Hosted DMARC record", "service_id": "hosted-dmarc", "versions": [1], "since": "2026-10-16 02:27:46"},
+{"service_provider_name": "Leadify SecureMark", "service_provider_id": "leadify.biz", "service_name": "Hosted MTA-STS and TLS reporting", "service_id": "hosted-mta-sts", "versions": [1], "since": "2026-10-16 02:27:46"},
 {"service_provider_name": "Leaguer", "service_provider_id": "leaguer.co", "service_name": "League website", "service_id": "customdomain", "versions": [1], "since": "2026-10-11 02:16:53"},
 {"service_provider_name": "Liha Sitebase", "service_provider_id": "liha.dev", "service_name": "Sitebase domain verification", "service_id": "sitebase-verification", "versions": [1], "since": "2026-09-27 01:38:29"},
 {"service_provider_name": "Limecube", "service_provider_id": "limecube.co", "service_name": "Limecube CRM email (Amazon SES)", "service_id": "sesdkim", "versions": [1], "since": "2026-10-15 02:24:42"},
@@ -221,6 +236,7 @@
 {"service_provider_name": "Maxsend", "service_provider_id": "maxsend.dev", "service_name": "Maxsend email (combined)", "service_id": "combined", "versions": [1], "since": "2026-10-02 01:45:20"},
 {"service_provider_name": "MBXReach", "service_provider_id": "mbxreach.com", "service_name": "Email domain authentication", "service_id": "sending", "versions": [1], "since": "2026-10-02 01:41:02"},
 {"service_provider_name": "Mega Mail", "service_provider_id": "megamail.com.br", "service_name": "Mega Mail", "service_id": "mail", "versions": [1], "since": "2026-10-13 02:44:04"},
+{"service_provider_name": "Meghee Mail", "service_provider_id": "megheemail.online", "service_name": "Email hosting", "service_id": "mail", "versions": [1], "since": "2026-10-16 02:25:18"},
 {"service_provider_name": "Mellow", "service_provider_id": "mellow.is", "service_name": "Customer pages", "service_id": "customer-pages", "versions": [1], "since": "2026-10-06 02:03:05"},
 {"service_provider_name": "Merch.com", "service_provider_id": "merch.com", "service_name": "Merch.com store on your domain", "service_id": "store-apex", "versions": [2], "since": "2026-09-27 01:22:05"},
 {"service_provider_name": "Merch.com", "service_provider_id": "merch.com", "service_name": "Merch.com store on your subdomain", "service_id": "store-subdomain", "versions": [2], "since": "2026-09-27 01:21:32"},
@@ -328,6 +344,7 @@
 {"service_provider_name": "RaffleHub", "service_provider_id": "rafflehub.io", "service_name": "Competition website", "service_id": "website", "versions": [1], "since": "2026-10-10 02:15:28"},
 {"service_provider_name": "RaffleHub", "service_provider_id": "rafflehub.io", "service_name": "Customer emails", "service_id": "email", "versions": [1], "since": "2026-10-10 02:16:33"},
 {"service_provider_name": "Rally", "service_provider_id": "geauxrally.com", "service_name": "Rally Site", "service_id": "site", "versions": [1], "since": "2026-09-27 01:41:38"},
+{"service_provider_name": "ReachEAD", "service_provider_id": "reachead.com", "service_name": "ReachEAD Sending Domain", "service_id": "email-sending", "versions": [2], "since": "2026-10-16 02:25:18"},
 {"service_provider_name": "Ready StoreFront", "service_provider_id": "readystorefront.com", "service_name": "Ready StoreFront website", "service_id": "website", "versions": [1], "since": "2026-09-27 01:21:24"},
 {"service_provider_name": "ReAI", "service_provider_id": "reai.no", "service_name": "Email sending", "service_id": "email", "versions": [1, 2], "since": "2026-10-06 02:02:54"},
 {"service_provider_name": "RealViu", "service_provider_id": "realviu.app", "service_name": "RealViu website on your own domain", "service_id": "custom-domain", "versions": [1], "since": "2026-10-12 02:13:38"},
@@ -358,6 +375,8 @@
 {"service_provider_name": "Sapt", "service_provider_id": "sapt.ai", "service_name": "Sapt website, email and analytics", "service_id": "domain", "versions": [1], "since": "2026-09-27 01:38:25"},
 {"service_provider_name": "scaleKit studio", "service_provider_id": "scalekit.studio", "service_name": "SKSYA Mail", "service_id": "mail", "versions": [1], "since": "2026-10-15 02:29:30"},
 {"service_provider_name": "Scrunchio", "service_provider_id": "scrunchio.com", "service_name": "Studio website and booking", "service_id": "customdomain", "versions": [1], "since": "2026-09-27 01:41:26"},
+{"service_provider_name": "Secria", "service_provider_id": "secria.me", "service_name": "Secria mail: receiving", "service_id": "mail-receiving", "versions": [1], "since": "2026-10-16 02:27:03"},
+{"service_provider_name": "Secria", "service_provider_id": "secria.me", "service_name": "Secria mail: sending", "service_id": "mail-sending", "versions": [2], "since": "2026-10-16 02:26:02"},
 {"service_provider_name": "SellTrust", "service_provider_id": "selltrust.app", "service_name": "SellTrust storefront", "service_id": "storefront", "versions": [1], "since": "2026-10-15 02:29:31"},
 {"service_provider_name": "Semogram", "service_provider_id": "semogram.com", "service_name": "Company SSO domain verification", "service_id": "sso-verification", "versions": [1, 2], "since": "2026-10-05 02:04:28"},
 {"service_provider_name": "Sendar", "service_provider_id": "sendar.app", "service_name": "Email sending", "service_id": "email-sending", "versions": [1], "since": "2026-10-06 02:00:44"},
@@ -408,6 +427,7 @@
 {"service_provider_name": "StatOSS", "service_provider_id": "statoss.com", "service_name": "Status page on a bare domain", "service_id": "status-page-apex", "versions": [1], "since": "2026-09-27 01:38:37"},
 {"service_provider_name": "Stay Kurious", "service_provider_id": "staykurious.studio", "service_name": "Stay Kurious website", "service_id": "website", "versions": [1], "since": "2026-10-09 03:46:20"},
 {"service_provider_name": "Steeple", "service_provider_id": "getsteeple.com", "service_name": "Steeple Website", "service_id": "website", "versions": [1], "since": "2026-10-03 01:45:10"},
+{"service_provider_name": "Stillpoint", "service_provider_id": "withstillpoint.com", "service_name": "Stillpoint practice website", "service_id": "website", "versions": [1], "since": "2026-10-16 02:27:39"},
 {"service_provider_name": "Storly", "service_provider_id": "storly.shop", "service_name": "Storly Storefront", "service_id": "storefront", "versions": [1, 2], "since": "2026-10-13 02:35:38"},
 {"service_provider_name": "Storly", "service_provider_id": "storly.shop", "service_name": "Storly Storefront (subdomain)", "service_id": "storefront-subdomain", "versions": [1, 2], "since": "2026-10-13 02:47:08"},
 {"service_provider_name": "SuperCat", "service_provider_id": "supercat.app", "service_name": "Website", "service_id": "domain", "versions": [1], "since": "2026-10-07 02:06:45"},
@@ -420,6 +440,7 @@
 {"service_provider_name": "Synteq", "service_provider_id": "synteq.com", "service_name": "Synteq Organization Domain Verification", "service_id": "domain-verification", "versions": [1], "since": "2026-09-30 01:36:12"},
 {"service_provider_name": "T3 Store", "service_provider_id": "t3store.com.br", "service_name": "Loja virtual T3 Store", "service_id": "loja", "versions": [1], "since": "2026-10-02 01:43:17"},
 {"service_provider_name": "talkee web", "service_provider_id": "talkee.chat", "service_name": "Website Hosting", "service_id": "website", "versions": [1], "since": "2026-09-27 01:21:48"},
+{"service_provider_name": "Tawked", "service_provider_id": "tawked.com", "service_name": "Tawked Email", "service_id": "email", "versions": [1], "since": "2026-10-16 02:29:49"},
 {"service_provider_name": "TaxScout", "service_provider_id": "taxscout.ai", "service_name": "Client portal on your domain", "service_id": "portal", "versions": [1], "since": "2026-09-28 20:14:48"},
 {"service_provider_name": "Tella", "service_provider_id": "tella.tv", "service_name": "Tella Workspace (Apex Domain)", "service_id": "workspace-apex", "versions": [1], "since": "2026-09-27 01:21:17"},
 {"service_provider_name": "Tella", "service_provider_id": "tella.tv", "service_name": "Tella Workspace (Subdomain)", "service_id": "workspace-subdomain", "versions": [1], "since": "2026-09-27 01:21:48"},
@@ -428,6 +449,8 @@
 {"service_provider_name": "TenantWard", "service_provider_id": "tenantward.com", "service_name": "DMARC policy", "service_id": "dmarc", "versions": [1], "since": "2026-10-15 02:18:41"},
 {"service_provider_name": "TenantWard", "service_provider_id": "tenantward.com", "service_name": "SPF for Google Workspace", "service_id": "spf-google", "versions": [1], "since": "2026-10-15 02:10:31"},
 {"service_provider_name": "TenantWard", "service_provider_id": "tenantward.com", "service_name": "SPF for Microsoft 365", "service_id": "spf-microsoft365", "versions": [1], "since": "2026-10-15 02:18:41"},
+{"service_provider_name": "Tentoro", "service_provider_id": "tentoro.ai", "service_name": "Forge app on a domain", "service_id": "forge-apex", "versions": [1], "since": "2026-10-16 02:26:02"},
+{"service_provider_name": "Tentoro", "service_provider_id": "tentoro.ai", "service_name": "Forge app on a subdomain", "service_id": "forge-subdomain", "versions": [1], "since": "2026-10-16 02:27:27"},
 {"service_provider_name": "TerraGaming Media", "service_provider_id": "terragamingmedia.com", "service_name": "TerraGaming Media ad serving", "service_id": "terragamingmedia", "versions": [1, 2], "since": "2026-10-02 01:41:43"},
 {"service_provider_name": "Terramind", "service_provider_id": "terramind.com", "service_name": "Email sending", "service_id": "email", "versions": [1], "since": "2026-10-08 01:44:12"},
 {"service_provider_name": "Tezgah", "service_provider_id": "tezgahplus.com", "service_name": "Email on your own domain", "service_id": "posta", "versions": [1], "since": "2026-09-28 20:17:21"},
@@ -474,6 +497,8 @@
 {"service_provider_name": "Vasari", "service_provider_id": "vasari.art", "service_name": "Artist newsletters", "service_id": "newsletter", "versions": [1], "since": "2026-10-05 02:00:54"},
 {"service_provider_name": "Velan", "service_provider_id": "velan.app", "service_name": "Velan Members Area", "service_id": "members", "versions": [1], "since": "2026-10-11 02:17:06"},
 {"service_provider_name": "Ventalia", "service_provider_id": "ventalia.app", "service_name": "Tienda online (www)", "service_id": "storefront-www", "versions": [1], "since": "2026-09-27 01:21:41"},
+{"service_provider_name": "Viato", "service_provider_id": "viato.ai", "service_name": "Viato bulk email sending domain", "service_id": "bulk-email-ses", "versions": [1], "since": "2026-10-16 02:29:57"},
+{"service_provider_name": "Viato", "service_provider_id": "viato.ai", "service_name": "Viato bulk email via Mailgun", "service_id": "bulk-email-mailgun", "versions": [1], "since": "2026-10-16 02:26:35"},
 {"service_provider_name": "ViaVib", "service_provider_id": "viavib.com", "service_name": "ViaVib email campaigns", "service_id": "campaignemail", "versions": [2], "since": "2026-10-10 02:15:38"},
 {"service_provider_name": "VibeFlow", "service_provider_id": "vibeflow.com.br", "service_name": "Loja e landing pages", "service_id": "storefront", "versions": [1], "since": "2026-09-27 01:21:41"},
 {"service_provider_name": "Vivonoma", "service_provider_id": "vivonoma.com", "service_name": "Vivonoma website hosting", "service_id": "website", "versions": [1], "since": "2026-10-09 03:38:09"},
@@ -513,7 +538,7 @@
 {"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "supported_templates": 183, "change": 0},
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supported_templates": 206, "change": 23},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supported_templates": 224, "change": 18},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supported_templates": 493, "change": 269}
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supported_templates": 518, "change": 294}
 ], "footer": null},
 "share_history": {"title": "Domain share per import", "columns": [{"key": "import_id", "header": "IMPORT"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "status", "header": "STATUS"}, {"key": "source", "header": "SOURCE"}, {"key": "domains", "header": "DOMAINS"}, {"key": "scanned_domains", "header": "SCANNED"}, {"key": "share_pct", "header": "SHARE"}, {"key": "change_pct", "header": "CHANGE (PP)"}, {"key": "rank", "header": "RANK"}, {"key": "providers", "header": "PROVIDERS"}], "rows": [
 {"import_id": 1774568183, "completed_at": "2026-04-06 03:32:32", "status": "completed", "source": "live", "domains": 18886, "scanned_domains": 184906718, "share_pct": 0.0102137987220129, "change_pct": null, "rank": 13, "providers": 2849},
