@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-16T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-17T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "godaddy.com", "name": "GoDaddy", "first_added_at": "2019-07-09 22:12:38", "last_updated_at": "2026-07-06 15:09:44"}
 ], "footer": null},
@@ -10,7 +10,7 @@
 {"name": "Airo App Builder Subdomain", "service_id": "aab_subdomain", "version": 1, "versions": [1], "added_at": "2019-07-23 16:31:51", "updated_at": "2026-06-25 15:40:07", "supporting_providers": 12, "reach_domains": 64002997, "reach_pct": 33.57639441128409},
 {"name": "Professional Mail", "service_id": "professional_mail", "version": 3, "versions": [3], "added_at": "2021-05-13 04:36:07", "updated_at": "2024-11-08 17:02:28", "supporting_providers": 237, "reach_domains": 40831819, "reach_pct": 21.420641587676958},
 {"name": "cPanel", "service_id": "cpanel", "version": 1, "versions": [1], "added_at": "2019-07-09 22:12:38", "updated_at": "2020-04-15 22:29:20", "supporting_providers": 237, "reach_domains": 40719843, "reach_pct": 21.361898239445967},
-{"name": "cPanel Subdomain", "service_id": "cpanel_subdomain", "version": 1, "versions": [1], "added_at": "2019-07-23 16:31:51", "updated_at": "2020-04-15 22:30:37", "supporting_providers": 236, "reach_domains": 40566590, "reach_pct": 21.28150070473814},
+{"name": "cPanel Subdomain", "service_id": "cpanel_subdomain", "version": 1, "versions": [1], "added_at": "2019-07-23 16:31:51", "updated_at": "2020-04-15 22:30:37", "supporting_providers": 237, "reach_domains": 40719843, "reach_pct": 21.361898239445967},
 {"name": "Managed WordPress", "service_id": "managed-wordpress", "version": 2, "versions": [2], "added_at": "2019-07-23 16:31:51", "updated_at": "2024-06-13 14:29:50", "supporting_providers": 236, "reach_domains": 40566590, "reach_pct": 21.28150070473814},
 {"name": "Website Builder", "service_id": "wsb", "version": 1, "versions": [1], "added_at": "2019-07-23 16:31:51", "updated_at": "2020-06-11 23:07:26", "supporting_providers": 235, "reach_domains": 40566505, "reach_pct": 21.281456113177452},
 {"name": "Website Builder", "service_id": "dpsAws", "version": 1, "versions": [1], "added_at": "2019-07-23 16:31:51", "updated_at": "2022-04-08 18:42:46", "supporting_providers": 12, "reach_domains": 40554289, "reach_pct": 21.275047518996647},

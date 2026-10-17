@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-16T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-17T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "feno.no/hosting/metadata": {"title": "feno.no/hosting - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "FENO", "service_provider_id": "feno.no", "service_id": "hosting", "name": "FENO webhotell og e-post", "version": 1, "versions": [1], "description": "Connects a domain to a FENO hosting package. Group web points the domain at the package's server (A at the apex, www as a CNAME to the apex). Group mail sets up FENO e-post: MX, SPF and DKIM. Group dmarc adds a p=none DMARC policy and is only requested for a domain that has no DMARC record yet.", "variable_description": "ip: IPv4 address of the FENO hosting server for the package; dkimkey: base64 DKIM public key for the domain", "logo_url": "https://feno.no/feno-wide-email.png", "template_sha": "6ff2f43d5239e5f438ce19d8907ddc4d16af88ed", "created_at": "2026-10-06 12:59:12", "updated_at": "2026-10-06 12:59:12"}
 ], "footer": null},
@@ -38,11 +38,12 @@
 {"sweep_id": 14, "started_at": "2026-10-08 01:00:06", "completed_at": "2026-10-09 13:32:27", "supporting_providers": 8, "change": 2},
 {"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": "2026-10-09 22:39:00", "supporting_providers": 8, "change": 0},
 {"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": "2026-10-15 17:29:53", "supporting_providers": 9, "change": 1},
-{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "supporting_providers": 9, "change": 0},
+{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": "2026-10-16 06:36:06", "supporting_providers": 9, "change": 0},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "supporting_providers": 10, "change": 1},
 {"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
 {"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
-{"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

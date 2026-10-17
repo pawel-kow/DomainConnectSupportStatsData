@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-16T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-17T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "dnstoolbox.app", "name": "DNS Toolbox", "first_added_at": "2026-10-13 17:59:44", "last_updated_at": "2026-10-13 17:59:44"}
 ], "footer": null},
@@ -56,9 +56,9 @@
 {"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": "2026-10-15 17:29:53", "service_id": "caa", "supporting_providers": 0},
 {"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": "2026-10-15 17:29:53", "service_id": "dmarc", "supporting_providers": 0},
 {"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": "2026-10-15 17:29:53", "service_id": "spf", "supporting_providers": 0},
-{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "service_id": "caa", "supporting_providers": 0},
-{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "service_id": "dmarc", "supporting_providers": 0},
-{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "service_id": "spf", "supporting_providers": 0},
+{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": "2026-10-16 06:36:06", "service_id": "caa", "supporting_providers": 0},
+{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": "2026-10-16 06:36:06", "service_id": "dmarc", "supporting_providers": 0},
+{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": "2026-10-16 06:36:06", "service_id": "spf", "supporting_providers": 0},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "service_id": "caa", "supporting_providers": 0},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "service_id": "dmarc", "supporting_providers": 0},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "service_id": "spf", "supporting_providers": 0},
@@ -73,6 +73,9 @@
 {"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "service_id": "spf", "supporting_providers": 9},
 {"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "service_id": "caa", "supporting_providers": 8},
 {"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "service_id": "dmarc", "supporting_providers": 9},
-{"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "service_id": "spf", "supporting_providers": 9}
+{"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "service_id": "spf", "supporting_providers": 9},
+{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "service_id": "caa", "supporting_providers": 8},
+{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "service_id": "dmarc", "supporting_providers": 9},
+{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "service_id": "spf", "supporting_providers": 9}
 ], "footer": null}
 }}

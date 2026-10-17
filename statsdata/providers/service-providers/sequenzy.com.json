@@ -1,6 +1,6 @@
-{"generated_at": "2026-10-16T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-17T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
-{"service_provider_id": "sequenzy.com", "name": "Sequenzy", "first_added_at": "2026-08-28 05:10:34", "last_updated_at": "2026-10-07 12:53:22"}
+{"service_provider_id": "sequenzy.com", "name": "Sequenzy", "first_added_at": "2026-08-28 05:10:34", "last_updated_at": "2026-10-16 10:58:45"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
 {"templates": 6, "supported_templates": 5, "supporting_dns_providers": 12, "reach_domains": 24268897, "reach_pct": 12.731623451927247}
@@ -9,7 +9,7 @@
 {"name": "Click Tracking", "service_id": "click-tracking", "version": 1, "versions": [1], "added_at": "2026-08-28 05:10:34", "updated_at": "2026-08-28 05:10:34", "supporting_providers": 11, "reach_domains": 24250005, "reach_pct": 12.721712584109323},
 {"name": "DMARC Policy", "service_id": "dmarc", "version": 1, "versions": [1], "added_at": "2026-08-28 05:10:34", "updated_at": "2026-08-28 05:10:34", "supporting_providers": 11, "reach_domains": 24250005, "reach_pct": 12.721712584109323},
 {"name": "Landing Page", "service_id": "landing-page", "version": 1, "versions": [1], "added_at": "2026-08-28 05:10:34", "updated_at": "2026-08-28 05:10:34", "supporting_providers": 11, "reach_domains": 24250005, "reach_pct": 12.721712584109323},
-{"name": "Mail", "service_id": "mail", "version": 2, "versions": [2, 1], "added_at": "2026-08-28 05:10:34", "updated_at": "2026-10-07 12:53:22", "supporting_providers": 11, "reach_domains": 24250005, "reach_pct": 12.721712584109323},
+{"name": "Mail", "service_id": "mail", "version": 3, "versions": [3, 2, 1], "added_at": "2026-08-28 05:10:34", "updated_at": "2026-10-16 10:58:45", "supporting_providers": 11, "reach_domains": 24250005, "reach_pct": 12.721712584109323},
 {"name": "Inbound", "service_id": "inbound", "version": 1, "versions": [1], "added_at": "2026-10-07 12:53:22", "updated_at": "2026-10-07 12:53:22", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
 {"name": "Tracking", "service_id": "tracking", "version": 1, "versions": [1], "added_at": "2026-08-28 05:10:34", "updated_at": "2026-10-07 12:53:22", "supporting_providers": 0, "reach_domains": 0, "reach_pct": 0.0}
 ], "footer": null},
@@ -64,11 +64,12 @@
 {"sweep_id": 14, "started_at": "2026-10-08 01:00:06", "completed_at": "2026-10-09 13:32:27", "service_id": "inbound", "supporting_providers": 7},
 {"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": "2026-10-09 22:39:00", "service_id": "inbound", "supporting_providers": 9},
 {"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": "2026-10-15 17:29:53", "service_id": "inbound", "supporting_providers": 9},
-{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": null, "service_id": "inbound", "supporting_providers": 9},
+{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": "2026-10-16 06:36:06", "service_id": "inbound", "supporting_providers": 9},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": null, "service_id": "inbound", "supporting_providers": 10},
 {"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": null, "service_id": "inbound", "supporting_providers": 10},
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "service_id": "inbound", "supporting_providers": 10},
 {"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "service_id": "inbound", "supporting_providers": 10},
-{"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "service_id": "inbound", "supporting_providers": 10}
+{"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "service_id": "inbound", "supporting_providers": 10},
+{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "service_id": "inbound", "supporting_providers": 10}
 ], "footer": null}
 }}
