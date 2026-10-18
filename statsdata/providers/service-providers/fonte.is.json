@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-17T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-18T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "fonte.is", "name": "fonte", "first_added_at": "2026-10-09 14:12:33", "last_updated_at": "2026-10-09 14:12:33"}
 ], "footer": null},
@@ -30,6 +30,7 @@
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "service_id": "email", "supporting_providers": 9},
 {"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "service_id": "email", "supporting_providers": 10},
 {"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "service_id": "email", "supporting_providers": 10},
-{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "service_id": "email", "supporting_providers": 10}
+{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "service_id": "email", "supporting_providers": 10},
+{"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": null, "service_id": "email", "supporting_providers": 10}
 ], "footer": null}
 }}

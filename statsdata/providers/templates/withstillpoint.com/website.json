@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-17T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-18T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "withstillpoint.com/website/metadata": {"title": "withstillpoint.com/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Stillpoint", "service_provider_id": "withstillpoint.com", "service_id": "website", "name": "Stillpoint practice website", "version": 1, "versions": [1], "description": "Points a subdomain such as www at your Stillpoint practice website", "variable_description": null, "logo_url": "https://www.withstillpoint.com/apple-icon.png", "template_sha": "49bdb331eb2dabf009ce70a3cd4ed13cfa3dd1ab", "created_at": "2026-10-15 11:03:13", "updated_at": "2026-10-15 11:03:13"}
 ], "footer": null},
@@ -39,6 +39,7 @@
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "supporting_providers": 8, "change": 8},
-{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 2}
+{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 2},
+{"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

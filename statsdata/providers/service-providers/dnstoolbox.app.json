@@ -1,14 +1,14 @@
-{"generated_at": "2026-10-17T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-18T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "dnstoolbox.app", "name": "DNS Toolbox", "first_added_at": "2026-10-13 17:59:44", "last_updated_at": "2026-10-13 17:59:44"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 3, "supported_templates": 3, "supporting_dns_providers": 9, "reach_domains": 19725, "reach_pct": 0.010347865112669313}
+{"templates": 3, "supported_templates": 3, "supporting_dns_providers": 10, "reach_domains": 23476965, "reach_pct": 12.316170700880026}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "versions", "header": "VERSIONS"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "DMARC record", "service_id": "dmarc", "version": 1, "versions": [1], "added_at": "2026-10-13 17:59:44", "updated_at": "2026-10-13 17:59:44", "supporting_providers": 9, "reach_domains": 19725, "reach_pct": 0.010347865112669313},
-{"name": "SPF senders", "service_id": "spf", "version": 1, "versions": [1], "added_at": "2026-10-13 17:59:44", "updated_at": "2026-10-13 17:59:44", "supporting_providers": 9, "reach_domains": 19725, "reach_pct": 0.010347865112669313},
-{"name": "Certificate authority (CAA)", "service_id": "caa", "version": 1, "versions": [1], "added_at": "2026-10-13 17:59:44", "updated_at": "2026-10-13 17:59:44", "supporting_providers": 8, "reach_domains": 833, "reach_pct": 0.0004369972947454265}
+{"name": "DMARC record", "service_id": "dmarc", "version": 1, "versions": [1], "added_at": "2026-10-13 17:59:44", "updated_at": "2026-10-13 17:59:44", "supporting_providers": 10, "reach_domains": 23476965, "reach_pct": 12.316170700880026},
+{"name": "SPF senders", "service_id": "spf", "version": 1, "versions": [1], "added_at": "2026-10-13 17:59:44", "updated_at": "2026-10-13 17:59:44", "supporting_providers": 10, "reach_domains": 23476965, "reach_pct": 12.316170700880026},
+{"name": "Certificate authority (CAA)", "service_id": "caa", "version": 1, "versions": [1], "added_at": "2026-10-13 17:59:44", "updated_at": "2026-10-13 17:59:44", "supporting_providers": 9, "reach_domains": 23458073, "reach_pct": 12.306259833062102}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "caa", "supporting_providers": 0},
@@ -76,6 +76,9 @@
 {"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "service_id": "spf", "supporting_providers": 9},
 {"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "service_id": "caa", "supporting_providers": 8},
 {"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "service_id": "dmarc", "supporting_providers": 9},
-{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "service_id": "spf", "supporting_providers": 9}
+{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "service_id": "spf", "supporting_providers": 9},
+{"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": null, "service_id": "caa", "supporting_providers": 9},
+{"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": null, "service_id": "dmarc", "supporting_providers": 10},
+{"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": null, "service_id": "spf", "supporting_providers": 10}
 ], "footer": null}
 }}

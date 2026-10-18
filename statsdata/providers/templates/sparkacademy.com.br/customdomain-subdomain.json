@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-17T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-18T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "sparkacademy.com.br/customdomain-subdomain/metadata": {"title": "sparkacademy.com.br/customdomain-subdomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Spark Academy", "service_provider_id": "sparkacademy.com.br", "service_id": "customdomain-subdomain", "name": "Spark Academy custom domain (subdomain)", "version": 1, "versions": [1], "description": "Points a subdomain to the customer's Spark Academy learning platform and proves domain ownership.", "variable_description": "%token%: ownership verification token issued by Spark Academy; %target%: the academy hostname on sparkacademy.com.br", "logo_url": "https://sparkacademy.com.br/favicon.svg", "template_sha": "f0879ce39f3becf5d637ccb66999197cfd883161", "created_at": "2026-10-11 12:19:48", "updated_at": "2026-10-11 12:19:48"}
 ], "footer": null},
@@ -7,6 +7,7 @@
 {"type": "TXT", "host": "_spark-verify", "pointsTo": null, "data": "spark-verify=%token%", "ttl": 3600}
 ], "footer": null},
 "sparkacademy.com.br/customdomain-subdomain/supporters": {"title": "sparkacademy.com.br/customdomain-subdomain - Supporting DNS providers (current state)", "columns": [{"key": "name", "header": "NAME"}, {"key": "dns_provider_id", "header": "ID"}, {"key": "provider_id", "header": "STACK"}, {"key": "api_host", "header": "API HOST"}, {"key": "versions", "header": "VERSIONS"}, {"key": "since", "header": "SUPPORTED SINCE"}, {"key": "domains", "header": "DOMAINS"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
+{"name": "cloudflare", "dns_provider_id": 4, "provider_id": "cloudflare.com", "api_host": "api.cloudflare.com", "versions": [1], "since": "2026-10-18 01:04:41", "domains": 23457240, "reach_pct": 12.305822835767357},
 {"name": "Webnames.ca Inc", "dns_provider_id": 2774, "provider_id": "webnames.ca", "api_host": "www.webnames.ca", "versions": [1], "since": "2026-10-12 02:20:16", "domains": 18892, "reach_pct": 0.009910867817923887},
 {"name": "Danego DNS", "dns_provider_id": 2, "provider_id": "DanegoDNS", "api_host": "dns.danego.nl", "versions": [1], "since": "2026-10-13 02:15:29", "domains": 392, "reach_pct": 0.00020564578576255364},
 {"name": "Domain Chief", "dns_provider_id": 16, "provider_id": "domainchief", "api_host": "domain.chief.app", "versions": [1], "since": "2026-10-13 02:09:45", "domains": 151, "reach_pct": 7.921559604628979e-05},
@@ -16,7 +17,7 @@
 {"name": "Plesk", "dns_provider_id": 986, "provider_id": "plesk.com", "api_host": "gwdhosting.com", "versions": [1], "since": "2026-10-12 02:12:37", "domains": 43, "reach_pct": 2.2558083642320934e-05},
 {"name": "Plesk", "dns_provider_id": 866, "provider_id": "plesk.com", "api_host": "emoserver8.net", "versions": [1], "since": "2026-10-12 02:14:11", "domains": 37, "reach_pct": 1.9410444064322666e-05},
 {"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [1], "since": "2026-10-12 02:08:22", "domains": 26, "reach_pct": 1.363977150465917e-05}
-], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "since": null, "domains": 19725, "reach_pct": 0.010347865112669313}},
+], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "since": null, "domains": 23476965, "reach_pct": 12.316170700880026}},
 "sparkacademy.com.br/customdomain-subdomain/history": {"title": "sparkacademy.com.br/customdomain-subdomain - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 0, "change": 0},
@@ -39,6 +40,7 @@
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0}
+{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
+{"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 1}
 ], "footer": null}
 }}

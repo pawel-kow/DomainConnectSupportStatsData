@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-17T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-18T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "kodiggo.com/kodipages/metadata": {"title": "kodiggo.com/kodipages - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Kodiggo", "service_provider_id": "kodiggo.com", "service_id": "kodipages", "name": "Kodipages", "version": 1, "versions": [1], "description": "Serve a Kodipage (link-in-bio page, products, forms) on this domain.", "variable_description": "token: the verification token Kodiggo shows for this domain.", "logo_url": "https://kodiggo.com/brand/kodiggo-logo.svg", "template_sha": "fb78f63e1b73d7f850bd7a2feea7665314041e4c", "created_at": "2026-10-11 12:20:12", "updated_at": "2026-10-11 12:20:12"}
 ], "footer": null},
@@ -39,6 +39,7 @@
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0}
+{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
+{"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

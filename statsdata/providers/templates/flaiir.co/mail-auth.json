@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-17T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-18T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "flaiir.co/mail-auth/metadata": {"title": "flaiir.co/mail-auth - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Version"}, {"key": "versions", "header": "Stored versions"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Flaiir", "service_provider_id": "flaiir.co", "service_id": "mail-auth", "name": "Email authentication (SPF and DMARC)", "version": 1, "versions": [1], "description": "Adds your mail provider to SPF and publishes a starter DMARC policy (p=none), so Gmail, Outlook and Yahoo accept mail from your domain. Flaiir only asks for the records its domain check found missing.", "variable_description": null, "logo_url": "https://flaiir.co/icon.svg", "template_sha": "8d733501e13d66e79bab3040d02ab937a6472f9e", "created_at": "2026-10-13 13:48:39", "updated_at": "2026-10-13 13:48:39"}
 ], "footer": null},
@@ -11,6 +11,7 @@
 {"type": "TXT", "groupId": "dmarc", "host": "_dmarc", "data": "v=DMARC1; p=none; rua=mailto:dmarc-reports@%domain%; adkim=r; aspf=r", "ttl": 3600, "essential": "OnApply", "spfRules": null, "txtConflictMatchingMode": "Prefix", "txtConflictMatchingPrefix": "v=DMARC1"}
 ], "footer": null},
 "flaiir.co/mail-auth/supporters": {"title": "flaiir.co/mail-auth - Supporting DNS providers (current state)", "columns": [{"key": "name", "header": "NAME"}, {"key": "dns_provider_id", "header": "ID"}, {"key": "provider_id", "header": "STACK"}, {"key": "api_host", "header": "API HOST"}, {"key": "versions", "header": "VERSIONS"}, {"key": "since", "header": "SUPPORTED SINCE"}, {"key": "domains", "header": "DOMAINS"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
+{"name": "cloudflare", "dns_provider_id": 4, "provider_id": "cloudflare.com", "api_host": "api.cloudflare.com", "versions": [1], "since": "2026-10-18 01:05:19", "domains": 23457240, "reach_pct": 12.305822835767357},
 {"name": "Webnames.ca Inc", "dns_provider_id": 2774, "provider_id": "webnames.ca", "api_host": "www.webnames.ca", "versions": [1], "since": "2026-10-14 02:25:39", "domains": 18892, "reach_pct": 0.009910867817923887},
 {"name": "Danego DNS", "dns_provider_id": 2, "provider_id": "DanegoDNS", "api_host": "dns.danego.nl", "versions": [1], "since": "2026-10-15 01:03:59", "domains": 392, "reach_pct": 0.00020564578576255364},
 {"name": "Domain Chief", "dns_provider_id": 16, "provider_id": "domainchief", "api_host": "domain.chief.app", "versions": [1], "since": "2026-10-15 02:25:48", "domains": 151, "reach_pct": 7.921559604628979e-05},
@@ -20,7 +21,7 @@
 {"name": "Plesk", "dns_provider_id": 986, "provider_id": "plesk.com", "api_host": "gwdhosting.com", "versions": [1], "since": "2026-10-14 02:20:03", "domains": 43, "reach_pct": 2.2558083642320934e-05},
 {"name": "Plesk", "dns_provider_id": 866, "provider_id": "plesk.com", "api_host": "emoserver8.net", "versions": [1], "since": "2026-10-14 02:22:24", "domains": 37, "reach_pct": 1.9410444064322666e-05},
 {"name": "Plesk", "dns_provider_id": 1168, "provider_id": "plesk.com", "api_host": "lcosoft.com", "versions": [1], "since": "2026-10-14 02:26:46", "domains": 26, "reach_pct": 1.363977150465917e-05}
-], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "since": null, "domains": 19725, "reach_pct": 0.010347865112669313}},
+], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "versions": null, "since": null, "domains": 23476965, "reach_pct": 12.316170700880026}},
 "flaiir.co/mail-auth/history": {"title": "flaiir.co/mail-auth - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "supporting_providers": 0, "change": 0},
@@ -43,6 +44,7 @@
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": null, "supporting_providers": 7, "change": 7},
 {"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 2},
 {"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0}
+{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
+{"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 1}
 ], "footer": null}
 }}
