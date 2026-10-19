@@ -1,26 +1,26 @@
-{"generated_at": "2026-10-19T05:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-19T12:21:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "godaddy.com", "name": "GoDaddy", "first_added_at": "2019-07-09 22:12:38", "last_updated_at": "2026-07-06 15:09:44"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 15, "supported_templates": 15, "supporting_dns_providers": 240, "reach_domains": 64289237, "reach_pct": 33.72655780341846}
+{"templates": 15, "supported_templates": 15, "supporting_dns_providers": 268, "reach_domains": 64289611, "reach_pct": 33.72675400628549}
 ], "footer": null},
-"templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "versions", "header": "VERSIONS"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Airo App Builder", "service_id": "aab", "version": 2, "versions": [2], "added_at": "2019-07-23 16:31:51", "updated_at": "2026-07-06 15:09:44", "supporting_providers": 12, "reach_domains": 64002997, "reach_pct": 33.57639441128409},
-{"name": "Airo App Builder Subdomain", "service_id": "aab_subdomain", "version": 1, "versions": [1], "added_at": "2019-07-23 16:31:51", "updated_at": "2026-06-25 15:40:07", "supporting_providers": 12, "reach_domains": 64002997, "reach_pct": 33.57639441128409},
-{"name": "Professional Mail", "service_id": "professional_mail", "version": 3, "versions": [3], "added_at": "2021-05-13 04:36:07", "updated_at": "2024-11-08 17:02:28", "supporting_providers": 237, "reach_domains": 40831819, "reach_pct": 21.420641587676958},
-{"name": "cPanel", "service_id": "cpanel", "version": 1, "versions": [1], "added_at": "2019-07-09 22:12:38", "updated_at": "2020-04-15 22:29:20", "supporting_providers": 237, "reach_domains": 40719843, "reach_pct": 21.361898239445967},
-{"name": "cPanel Subdomain", "service_id": "cpanel_subdomain", "version": 1, "versions": [1], "added_at": "2019-07-23 16:31:51", "updated_at": "2020-04-15 22:30:37", "supporting_providers": 237, "reach_domains": 40719843, "reach_pct": 21.361898239445967},
-{"name": "Managed WordPress", "service_id": "managed-wordpress", "version": 2, "versions": [2], "added_at": "2019-07-23 16:31:51", "updated_at": "2024-06-13 14:29:50", "supporting_providers": 236, "reach_domains": 40566590, "reach_pct": 21.28150070473814},
-{"name": "Website Builder", "service_id": "wsb", "version": 1, "versions": [1], "added_at": "2019-07-23 16:31:51", "updated_at": "2020-06-11 23:07:26", "supporting_providers": 235, "reach_domains": 40566505, "reach_pct": 21.281456113177452},
-{"name": "Website Builder", "service_id": "dpsAws", "version": 1, "versions": [1], "added_at": "2019-07-23 16:31:51", "updated_at": "2022-04-08 18:42:46", "supporting_providers": 12, "reach_domains": 40554289, "reach_pct": 21.275047518996647},
-{"name": "Web Application Firewall", "service_id": "waf", "version": 2, "versions": [2], "added_at": "2021-09-27 21:29:26", "updated_at": "2021-10-04 21:54:01", "supporting_providers": 12, "reach_domains": 40554289, "reach_pct": 21.275047518996647},
-{"name": "Agent Name Service Registration", "service_id": "ans-registration", "version": 2, "versions": [2], "added_at": "2026-05-22 19:16:30", "updated_at": "2026-05-22 20:05:58", "supporting_providers": 11, "reach_domains": 40545757, "reach_pct": 21.270571575516733},
-{"name": "Pay Links", "service_id": "paylinks", "version": 1, "versions": [1], "added_at": "2022-01-25 20:58:13", "updated_at": "2022-01-31 21:05:01", "supporting_providers": 11, "reach_domains": 40545757, "reach_pct": 21.270571575516733},
-{"name": "plesk", "service_id": "plesk", "version": 1, "versions": [1], "added_at": "2019-07-23 16:31:51", "updated_at": "2020-04-15 22:32:04", "supporting_providers": 236, "reach_domains": 465975, "reach_pct": 0.24445355872629065},
-{"name": "cPanel Titan Mail", "service_id": "cpanel_titanemail", "version": 1, "versions": [1], "added_at": "2020-03-04 22:55:27", "updated_at": "2020-05-27 01:39:14", "supporting_providers": 235, "reach_domains": 465948, "reach_pct": 0.24443939434818962},
-{"name": "cPanel FlockMail", "service_id": "cpanel_flockmail", "version": 1, "versions": [1], "added_at": "2020-03-04 22:55:27", "updated_at": "2020-04-15 22:30:09", "supporting_providers": 234, "reach_domains": 465863, "reach_pct": 0.24439480278750136},
-{"name": "cPanel E-mail", "service_id": "cpanel_email", "version": 1, "versions": [1], "added_at": "2020-03-04 22:55:27", "updated_at": "2020-04-15 22:29:44", "supporting_providers": 233, "reach_domains": 465712, "reach_pct": 0.24431558719145507}
+"templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
+{"name": "Airo App Builder", "service_id": "aab", "version": 2, "added_at": "2019-07-23 16:31:51", "updated_at": "2026-07-06 15:09:44", "supporting_providers": 13, "reach_domains": 64003007, "reach_pct": 33.57639965735005},
+{"name": "Airo App Builder Subdomain", "service_id": "aab_subdomain", "version": 1, "added_at": "2019-07-23 16:31:51", "updated_at": "2026-06-25 15:40:07", "supporting_providers": 13, "reach_domains": 64003007, "reach_pct": 33.57639965735005},
+{"name": "Professional Mail", "service_id": "professional_mail", "version": 3, "added_at": "2021-05-13 04:36:07", "updated_at": "2024-11-08 17:02:28", "supporting_providers": 263, "reach_domains": 40832040, "reach_pct": 21.420757525734746},
+{"name": "cPanel", "service_id": "cpanel", "version": 1, "added_at": "2019-07-09 22:12:38", "updated_at": "2020-04-15 22:29:20", "supporting_providers": 264, "reach_domains": 40720207, "reach_pct": 21.362089196247034},
+{"name": "cPanel Subdomain", "service_id": "cpanel_subdomain", "version": 1, "added_at": "2019-07-23 16:31:51", "updated_at": "2020-04-15 22:30:37", "supporting_providers": 264, "reach_domains": 40720207, "reach_pct": 21.362089196247034},
+{"name": "Managed WordPress", "service_id": "managed-wordpress", "version": 2, "added_at": "2019-07-23 16:31:51", "updated_at": "2024-06-13 14:29:50", "supporting_providers": 262, "reach_domains": 40566811, "reach_pct": 21.28161664279593},
+{"name": "Website Builder", "service_id": "wsb", "version": 1, "added_at": "2019-07-23 16:31:51", "updated_at": "2020-06-11 23:07:26", "supporting_providers": 261, "reach_domains": 40566726, "reach_pct": 21.281572051235244},
+{"name": "Web Application Firewall", "service_id": "waf", "version": 2, "added_at": "2021-09-27 21:29:26", "updated_at": "2021-10-04 21:54:01", "supporting_providers": 14, "reach_domains": 40554460, "reach_pct": 21.27513722672462},
+{"name": "Website Builder", "service_id": "dpsAws", "version": 1, "added_at": "2019-07-23 16:31:51", "updated_at": "2022-04-08 18:42:46", "supporting_providers": 13, "reach_domains": 40554317, "reach_pct": 21.275062207981346},
+{"name": "Pay Links", "service_id": "paylinks", "version": 1, "added_at": "2022-01-25 20:58:13", "updated_at": "2022-01-31 21:05:01", "supporting_providers": 12, "reach_domains": 40545785, "reach_pct": 21.270586264501432},
+{"name": "Agent Name Service Registration", "service_id": "ans-registration", "version": 2, "added_at": "2026-05-22 19:16:30", "updated_at": "2026-05-22 20:05:58", "supporting_providers": 11, "reach_domains": 40545757, "reach_pct": 21.270571575516733},
+{"name": "plesk", "service_id": "plesk", "version": 1, "added_at": "2019-07-23 16:31:51", "updated_at": "2020-04-15 22:32:04", "supporting_providers": 262, "reach_domains": 466196, "reach_pct": 0.24456949678408027},
+{"name": "cPanel Titan Mail", "service_id": "cpanel_titanemail", "version": 1, "added_at": "2020-03-04 22:55:27", "updated_at": "2020-05-27 01:39:14", "supporting_providers": 261, "reach_domains": 466169, "reach_pct": 0.24455533240597926},
+{"name": "cPanel FlockMail", "service_id": "cpanel_flockmail", "version": 1, "added_at": "2020-03-04 22:55:27", "updated_at": "2020-04-15 22:30:09", "supporting_providers": 260, "reach_domains": 466084, "reach_pct": 0.24451074084529098},
+{"name": "cPanel E-mail", "service_id": "cpanel_email", "version": 1, "added_at": "2020-03-04 22:55:27", "updated_at": "2020-04-15 22:29:44", "supporting_providers": 259, "reach_domains": 465933, "reach_pct": 0.24443152524924466}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "aab", "supporting_providers": 13},
@@ -127,6 +127,21 @@
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "plesk", "supporting_providers": 262},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "professional_mail", "supporting_providers": 263},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "waf", "supporting_providers": 13},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "wsb", "supporting_providers": 261}
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "wsb", "supporting_providers": 261},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "aab", "supporting_providers": 13},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "aab_subdomain", "supporting_providers": 13},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "ans-registration", "supporting_providers": 11},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "cpanel", "supporting_providers": 264},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "cpanel_email", "supporting_providers": 259},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "cpanel_flockmail", "supporting_providers": 260},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "cpanel_subdomain", "supporting_providers": 264},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "cpanel_titanemail", "supporting_providers": 261},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "dpsAws", "supporting_providers": 13},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "managed-wordpress", "supporting_providers": 262},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "paylinks", "supporting_providers": 12},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "plesk", "supporting_providers": 262},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "professional_mail", "supporting_providers": 263},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "waf", "supporting_providers": 14},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "wsb", "supporting_providers": 261}
 ], "footer": null}
 }}

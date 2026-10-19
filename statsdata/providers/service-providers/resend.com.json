@@ -1,19 +1,19 @@
-{"generated_at": "2026-10-19T05:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-19T12:21:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "resend.com", "name": "Resend", "first_added_at": "2025-01-16 14:31:45", "last_updated_at": "2026-10-13 17:57:18"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 8, "supported_templates": 7, "supporting_dns_providers": 15, "reach_domains": 68371625, "reach_pct": 35.868205477009326}
+{"templates": 8, "supported_templates": 7, "supporting_dns_providers": 17, "reach_domains": 68371663, "reach_pct": 35.86822541205999}
 ], "footer": null},
-"templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "versions", "header": "VERSIONS"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Mail", "service_id": "mail", "version": 6, "versions": [6], "added_at": "2025-01-16 14:31:45", "updated_at": "2026-04-15 16:22:16", "supporting_providers": 15, "reach_domains": 68371625, "reach_pct": 35.868205477009326},
-{"name": "Click Tracking", "service_id": "click-tracking", "version": 3, "versions": [3], "added_at": "2026-04-07 14:04:08", "updated_at": "2026-04-29 22:38:06", "supporting_providers": 14, "reach_domains": 68363093, "reach_pct": 35.863729533529416},
-{"name": "Domain Verification", "service_id": "domain-verification", "version": 1, "versions": [1], "added_at": "2026-04-29 05:00:34", "updated_at": "2026-05-28 15:15:53", "supporting_providers": 14, "reach_domains": 68363093, "reach_pct": 35.863729533529416},
-{"name": "SSO", "service_id": "sso", "version": 1, "versions": [1], "added_at": "2026-04-29 05:00:34", "updated_at": "2026-04-29 05:00:34", "supporting_providers": 14, "reach_domains": 68363093, "reach_pct": 35.863729533529416},
-{"name": "Mail (Sending & Receiving)", "service_id": "mail-send-and-receive", "version": 3, "versions": [3], "added_at": "2025-01-16 14:31:45", "updated_at": "2026-04-07 18:21:16", "supporting_providers": 13, "reach_domains": 68362942, "reach_pct": 35.86365031793337},
-{"name": "Mail", "service_id": "mail-mta", "version": 1, "versions": [1], "added_at": "2025-01-16 14:31:45", "updated_at": "2026-08-27 04:29:19", "supporting_providers": 13, "reach_domains": 64503900, "reach_pct": 33.839171429207106},
-{"name": "Mail (Sending & Receiving)", "service_id": "mail-send-and-receive-mta", "version": 1, "versions": [1], "added_at": "2025-01-16 14:31:45", "updated_at": "2026-08-27 04:29:19", "supporting_providers": 12, "reach_domains": 64503749, "reach_pct": 33.83909221361105},
-{"name": "Mail (Sending & Receiving)", "service_id": "mail-send-and-receive-forge", "version": 1, "versions": [1], "added_at": "2025-01-16 14:31:45", "updated_at": "2026-10-13 17:57:18", "supporting_providers": 0, "reach_domains": 0, "reach_pct": 0.0}
+"templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
+{"name": "Mail", "service_id": "mail", "version": 6, "added_at": "2025-01-16 14:31:45", "updated_at": "2026-04-15 16:22:16", "supporting_providers": 17, "reach_domains": 68371663, "reach_pct": 35.86822541205999},
+{"name": "Click Tracking", "service_id": "click-tracking", "version": 3, "added_at": "2026-04-07 14:04:08", "updated_at": "2026-04-29 22:38:06", "supporting_providers": 16, "reach_domains": 68363131, "reach_pct": 35.863749468580075},
+{"name": "SSO", "service_id": "sso", "version": 1, "added_at": "2026-04-29 05:00:34", "updated_at": "2026-04-29 05:00:34", "supporting_providers": 16, "reach_domains": 68363131, "reach_pct": 35.863749468580075},
+{"name": "Domain Verification", "service_id": "domain-verification", "version": 1, "added_at": "2026-04-29 05:00:34", "updated_at": "2026-05-28 15:15:53", "supporting_providers": 15, "reach_domains": 68363103, "reach_pct": 35.86373477959538},
+{"name": "Mail (Sending & Receiving)", "service_id": "mail-send-and-receive", "version": 3, "added_at": "2025-01-16 14:31:45", "updated_at": "2026-04-07 18:21:16", "supporting_providers": 15, "reach_domains": 68362980, "reach_pct": 35.86367025298403},
+{"name": "Mail", "service_id": "mail-mta", "version": 1, "added_at": "2025-01-16 14:31:45", "updated_at": "2026-08-27 04:29:19", "supporting_providers": 14, "reach_domains": 64503910, "reach_pct": 33.839176675273066},
+{"name": "Mail (Sending & Receiving)", "service_id": "mail-send-and-receive-mta", "version": 1, "added_at": "2025-01-16 14:31:45", "updated_at": "2026-08-27 04:29:19", "supporting_providers": 13, "reach_domains": 64503759, "reach_pct": 33.83909745967702},
+{"name": "Mail (Sending & Receiving)", "service_id": "mail-send-and-receive-forge", "version": 1, "added_at": "2025-01-16 14:31:45", "updated_at": "2026-10-13 17:57:18", "supporting_providers": 0, "reach_domains": 0, "reach_pct": 0.0}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "click-tracking", "supporting_providers": 16},
@@ -71,6 +71,14 @@
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "mail-send-and-receive", "supporting_providers": 15},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "mail-send-and-receive-forge", "supporting_providers": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "mail-send-and-receive-mta", "supporting_providers": 13},
-{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "sso", "supporting_providers": 16}
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "sso", "supporting_providers": 16},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "click-tracking", "supporting_providers": 16},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "domain-verification", "supporting_providers": 15},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "mail", "supporting_providers": 17},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "mail-mta", "supporting_providers": 14},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "mail-send-and-receive", "supporting_providers": 15},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "mail-send-and-receive-forge", "supporting_providers": 0},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "mail-send-and-receive-mta", "supporting_providers": 13},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "sso", "supporting_providers": 16}
 ], "footer": null}
 }}
