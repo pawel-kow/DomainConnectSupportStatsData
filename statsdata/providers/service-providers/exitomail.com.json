@@ -1,12 +1,12 @@
-{"generated_at": "2026-10-18T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-19T05:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "exitomail.com", "name": "ExitoMail", "first_added_at": "2026-10-16 10:58:12", "last_updated_at": "2026-10-16 10:58:12"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 1, "supported_templates": 1, "supporting_dns_providers": 10, "reach_domains": 23476957, "reach_pct": 12.316166504027255}
+{"templates": 1, "supported_templates": 1, "supporting_dns_providers": 11, "reach_domains": 23767986, "reach_pct": 12.468842237151465}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "versions", "header": "VERSIONS"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "ExitoMail email hosting", "service_id": "mail", "version": 1, "versions": [1], "added_at": "2026-10-16 10:58:12", "updated_at": "2026-10-16 10:58:12", "supporting_providers": 10, "reach_domains": 23476957, "reach_pct": 12.316166504027255}
+{"name": "ExitoMail email hosting", "service_id": "mail", "version": 1, "versions": [1], "added_at": "2026-10-16 10:58:12", "updated_at": "2026-10-16 10:58:12", "supporting_providers": 11, "reach_domains": 23767986, "reach_pct": 12.468842237151465}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "mail", "supporting_providers": 0},
@@ -31,6 +31,7 @@
 {"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": null, "service_id": "mail", "supporting_providers": 0},
 {"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": null, "service_id": "mail", "supporting_providers": 0},
 {"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": null, "service_id": "mail", "supporting_providers": 8},
-{"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": null, "service_id": "mail", "supporting_providers": 10}
+{"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": null, "service_id": "mail", "supporting_providers": 10},
+{"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": null, "service_id": "mail", "supporting_providers": 11}
 ], "footer": null}
 }}
