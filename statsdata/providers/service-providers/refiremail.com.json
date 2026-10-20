@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-19T12:21:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-20T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "refiremail.com", "name": "Refiremail", "first_added_at": "2026-10-10 12:06:38", "last_updated_at": "2026-10-10 12:06:38"}
 ], "footer": null},
@@ -33,6 +33,7 @@
 {"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": "2026-10-19 08:42:25", "service_id": "ses-sending-ap-south-1", "supporting_providers": 10},
 {"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": "2026-10-19 08:42:25", "service_id": "ses-sending-ap-south-1", "supporting_providers": 10},
 {"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": "2026-10-19 08:42:25", "service_id": "ses-sending-ap-south-1", "supporting_providers": 10},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "ses-sending-ap-south-1", "supporting_providers": 10}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "ses-sending-ap-south-1", "supporting_providers": 10},
+{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "service_id": "ses-sending-ap-south-1", "supporting_providers": 10}
 ], "footer": null}
 }}

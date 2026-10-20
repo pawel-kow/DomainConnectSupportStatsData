@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-19T12:21:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-20T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "liha.dev", "name": "Liha Sitebase", "first_added_at": "2026-08-06 07:34:20", "last_updated_at": "2026-09-25 11:25:20"}
 ], "footer": null},
@@ -6,7 +6,7 @@
 {"templates": 2, "supported_templates": 2, "supporting_dns_providers": 12, "reach_domains": 23768004, "reach_pct": 12.468851680070198}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Sitebase custom domain", "service_id": "sitebase", "version": 1, "added_at": "2026-08-06 07:34:20", "updated_at": "2026-08-06 07:34:20", "supporting_providers": 11, "reach_domains": 23749112, "reach_pct": 12.458940812252276},
+{"name": "Sitebase custom domain", "service_id": "sitebase", "version": 1, "added_at": "2026-08-06 07:34:20", "updated_at": "2026-08-06 07:34:20", "supporting_providers": 12, "reach_domains": 23768004, "reach_pct": 12.468851680070198},
 {"name": "Sitebase domain verification", "service_id": "sitebase-verification", "version": 1, "added_at": "2026-09-25 11:25:20", "updated_at": "2026-09-25 11:25:20", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
@@ -31,7 +31,7 @@
 {"sweep_id": 13, "started_at": "2026-10-07 01:00:07", "completed_at": "2026-10-09 11:15:24", "service_id": "sitebase-verification", "supporting_providers": 10},
 {"sweep_id": 14, "started_at": "2026-10-08 01:00:06", "completed_at": "2026-10-09 13:32:27", "service_id": "sitebase-verification", "supporting_providers": 10},
 {"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": "2026-10-09 22:39:00", "service_id": "sitebase-verification", "supporting_providers": 10},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "sitebase", "supporting_providers": 11},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "sitebase", "supporting_providers": 12},
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "sitebase-verification", "supporting_providers": 10}
 ], "footer": null}
 }}
