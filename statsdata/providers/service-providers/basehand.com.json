@@ -1,14 +1,14 @@
-{"generated_at": "2026-10-20T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-21T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "basehand.com", "name": "Basehand", "first_added_at": "2026-10-13 17:57:59", "last_updated_at": "2026-10-14 11:27:06"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 5, "supported_templates": 5, "supporting_dns_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906}
+{"templates": 5, "supported_templates": 5, "supporting_dns_providers": 11, "reach_domains": 811657, "reach_pct": 0.42580061615989034}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
+{"name": "Website", "service_id": "subdomain", "version": 1, "added_at": "2026-10-13 17:57:59", "updated_at": "2026-10-14 11:27:06", "supporting_providers": 11, "reach_domains": 811657, "reach_pct": 0.42580061615989034},
 {"name": "Website", "service_id": "domain-apex-cloudflare", "version": 1, "added_at": "2026-10-13 17:57:59", "updated_at": "2026-10-14 11:26:58", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
 {"name": "Email", "service_id": "email", "version": 1, "added_at": "2026-10-14 11:27:02", "updated_at": "2026-10-14 11:27:02", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
-{"name": "Website", "service_id": "subdomain", "version": 1, "added_at": "2026-10-13 17:57:59", "updated_at": "2026-10-14 11:27:06", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
 {"name": "Website", "service_id": "domain-apex", "version": 1, "added_at": "2026-10-13 17:57:59", "updated_at": "2026-10-13 17:58:11", "supporting_providers": 9, "reach_domains": 310603, "reach_pct": 0.16294438264083277},
 {"name": "Website", "service_id": "domain-www", "version": 1, "added_at": "2026-10-13 17:57:59", "updated_at": "2026-10-13 17:57:59", "supporting_providers": 9, "reach_domains": 310603, "reach_pct": 0.16294438264083277}
 ], "footer": null},
@@ -142,6 +142,11 @@
 {"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "service_id": "domain-apex-cloudflare", "supporting_providers": 10},
 {"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "service_id": "domain-www", "supporting_providers": 9},
 {"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "service_id": "email", "supporting_providers": 10},
-{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "service_id": "subdomain", "supporting_providers": 10}
+{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "service_id": "subdomain", "supporting_providers": 10},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "service_id": "domain-apex", "supporting_providers": 9},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "service_id": "domain-apex-cloudflare", "supporting_providers": 10},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "service_id": "domain-www", "supporting_providers": 9},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "service_id": "email", "supporting_providers": 10},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "service_id": "subdomain", "supporting_providers": 11}
 ], "footer": null}
 }}

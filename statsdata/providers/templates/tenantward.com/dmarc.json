@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-20T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-21T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "tenantward.com/dmarc/metadata": {"title": "tenantward.com/dmarc - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "TenantWard", "service_provider_id": "tenantward.com", "service_id": "dmarc", "name": "DMARC policy", "version": 1, "description": "Publishes the domain's DMARC policy, telling receivers what to do with email that fakes the domain. The policy is %policy% (none, quarantine or reject).", "variable_description": "policy: none, quarantine or reject. rua: where aggregate reports are sent (mailto: address).", "logo_url": "https://www.tenantward.com/icon-512.png", "template_sha": "229fc1cd583ea842406ad3c34af5f746355a5574", "created_at": "2026-10-14 11:26:45", "updated_at": "2026-10-14 11:26:45"}
 ], "footer": null},
@@ -46,6 +46,7 @@
 {"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 9, "change": 0},
 {"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 10, "change": 1},
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 10, "change": 0},
-{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-20T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-21T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "unserver.app/email/metadata": {"title": "unserver.app/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Email Unserver", "service_provider_id": "unserver.app", "service_id": "email", "name": "Email Unserver sending", "version": 1, "description": "Lets Email Unserver send mail from your domain: adds the DKIM signing key, bounce-handling MX and SPF on the send subdomain, and a monitoring DMARC policy.", "variable_description": "dkim: DKIM public key issued for this domain. mxhost: bounce-handling mail server for the sending region.", "logo_url": "https://unserver.app/icon-192.png", "template_sha": "145660f268a7a807fe842efd939c2e3963b8373f", "created_at": "2026-10-09 12:48:38", "updated_at": "2026-10-09 12:48:38"}
 ], "footer": null},
@@ -49,6 +49,7 @@
 {"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 10, "change": 0},
 {"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 10, "change": 0},
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 10, "change": 0},
-{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}
