@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-21T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-22T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "mydomainshub.com/mail/metadata": {"title": "mydomainshub.com/mail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "MyDomainsHub", "service_provider_id": "mydomainshub.com", "service_id": "mail", "name": "MyDomainsHub Mail", "version": 1, "description": "Verifies a domain for sending email through MyDomainsHub Mail (emails.mydomainshub.com), which sends with Amazon SES: the three Easy DKIM CNAME records, and the custom MAIL FROM subdomain send.<domain> with its MX and SPF.", "variable_description": "%dkim1%, %dkim2%, %dkim3%: the three Easy DKIM tokens Amazon SES issued for this domain; %region%: the AWS region of the sending account, such as eu-west-2.", "logo_url": "https://www.mydomainshub.com/brand/mydomainshub-mark.svg", "template_sha": "b8f4613ce42a294b2c7f23c8f60f9d84097dc14b", "created_at": "2026-10-14 11:35:16", "updated_at": "2026-10-14 11:35:16"}
 ], "footer": null},
@@ -52,6 +52,7 @@
 {"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 11, "change": 1},
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
-{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

@@ -1,12 +1,12 @@
-{"generated_at": "2026-10-21T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-22T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
-{"service_provider_id": "redirhub.com", "name": "RedirHub", "first_added_at": "2026-10-01 12:41:25", "last_updated_at": "2026-10-02 11:51:45"}
+{"service_provider_id": "redirhub.com", "name": "RedirHub", "first_added_at": "2026-10-01 12:41:25", "last_updated_at": "2026-10-21 11:23:24"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
 {"templates": 2, "supported_templates": 2, "supporting_dns_providers": 12, "reach_domains": 23768004, "reach_pct": 12.468851680070198}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Custom root domain", "service_id": "apex", "version": 2, "added_at": "2026-10-01 12:41:25", "updated_at": "2026-10-02 11:51:45", "supporting_providers": 12, "reach_domains": 23768004, "reach_pct": 12.468851680070198},
+{"name": "Custom root domain", "service_id": "apex", "version": 3, "added_at": "2026-10-01 12:41:25", "updated_at": "2026-10-21 11:23:24", "supporting_providers": 12, "reach_domains": 23768004, "reach_pct": 12.468851680070198},
 {"name": "Custom hostname", "service_id": "hostname", "version": 1, "added_at": "2026-10-01 12:41:25", "updated_at": "2026-10-01 12:41:25", "supporting_providers": 12, "reach_domains": 23768004, "reach_pct": 12.468851680070198}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
