@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-22T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "flaiir.co/mail-auth/metadata": {"title": "flaiir.co/mail-auth - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Flaiir", "service_provider_id": "flaiir.co", "service_id": "mail-auth", "name": "Email authentication (SPF and DMARC)", "version": 1, "description": "Adds your mail provider to SPF and publishes a starter DMARC policy (p=none), so Gmail, Outlook and Yahoo accept mail from your domain. Flaiir only asks for the records its domain check found missing.", "variable_description": null, "logo_url": "https://flaiir.co/icon.svg", "template_sha": "8d733501e13d66e79bab3040d02ab937a6472f9e", "created_at": "2026-10-13 13:48:39", "updated_at": "2026-10-13 13:48:39"}
 ], "footer": null},
@@ -55,6 +55,7 @@
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 12, "change": 1},
 {"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 12, "change": 0},
 {"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 12, "change": 0},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

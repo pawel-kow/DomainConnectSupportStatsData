@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-22T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "elmntone.com/website/metadata": {"title": "elmntone.com/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "ELMNT", "service_provider_id": "elmntone.com", "service_id": "website", "name": "Connect your website to ELMNT", "version": 1, "description": "Connect your website using ELMNT's permanent protected address. Existing email records remain unchanged.", "variable_description": "apexVerification: ELMNT-issued ownership token for the apex domain; wwwVerification: separate ELMNT-issued ownership token for www. Tokens contain only URL-safe letters, digits, underscores and hyphens.", "logo_url": "https://raw.githubusercontent.com/itsc1/Templates/0a63f107e23c8f21b5913c5e1331c6afc86b6f52/assets/elmnt-mark.svg", "template_sha": "325950fe8a8dedc0235867e0dcab89459f6ac95a", "created_at": "2026-10-17 10:19:58", "updated_at": "2026-10-17 10:19:58"}
 ], "footer": null},
@@ -54,6 +54,7 @@
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 13, "change": 1},
 {"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 13, "change": 0},
 {"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 13, "change": 0},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 13, "change": 0}
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 13, "change": 0},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

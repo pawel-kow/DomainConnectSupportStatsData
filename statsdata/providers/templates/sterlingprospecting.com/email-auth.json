@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-22T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "sterlingprospecting.com/email-auth/metadata": {"title": "sterlingprospecting.com/email-auth - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Sterling Prospecting", "service_provider_id": "sterlingprospecting.com", "service_id": "email-auth", "name": "Email authentication (SPF, DKIM, DMARC)", "version": 1, "description": "Sets up email authentication for the domain's own mailbox provider (Google Workspace or Microsoft 365): adds the provider to SPF, publishes the DKIM key the provider generated, and adds a monitor-only DMARC policy (p=none). Sterling Prospecting's domain check applies only the groups the domain is missing.", "variable_description": "%dkimkey%: public key (p= value) from Google Workspace Admin > Gmail > Authenticate email, used by group dkim_google. %ms1%, %ms2%: CNAME targets for selector1 and selector2 shown in the Microsoft Defender DKIM page, used by group dkim_microsoft.", "logo_url": "https://sterlingprospecting.com/assets/logo-mark-2x.png", "template_sha": "1907d414555680f00c0baadc8cf3708d801504de", "created_at": "2026-10-17 10:19:40", "updated_at": "2026-10-17 10:19:40"}
 ], "footer": null},
@@ -53,6 +53,7 @@
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 10, "change": 0},
 {"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
 {"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

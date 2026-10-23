@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-22T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "supermailos.com/mail/metadata": {"title": "supermailos.com/mail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "SuperMailOS", "service_provider_id": "supermailos.com", "service_id": "mail", "name": "SuperMailOS business email", "version": 1, "description": "Connects a domain to SuperMailOS hosted business email: MX to the SuperMailOS mail server, SPF authorization (SPFM merge), the domain's two DKIM public keys (Ed25519 + RSA, per-domain dated selectors), and a DMARC policy whose aggregate reports go to SuperMailOS.", "variable_description": "edselector / rsaselector: the per-domain DKIM selectors the SuperMailOS mail server generated (for example v1-ed25519-20260704 and v1-rsa-20260704). edkey / rsakey: the matching base64 DKIM public keys (the p= value). dmarc: the DMARC tags after 'v=DMARC1; ', for example 'p=none; rua=mailto:dmarc@supermailos.com'.", "logo_url": "https://supermailos.com/brand/mark-violet.svg", "template_sha": "f700d47c2f7c719b2cf8e8a09c2298e0530e4fbc", "created_at": "2026-10-17 10:19:49", "updated_at": "2026-10-17 10:19:49"}
 ], "footer": null},
@@ -53,6 +53,7 @@
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-22T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "vvd.world", "name": "vvd", "first_added_at": "2026-10-14 11:26:31", "last_updated_at": "2026-10-14 11:26:31"}
 ], "footer": null},
@@ -7,7 +7,7 @@
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
 {"name": "vvd site on your domain (Cloudflare DNS)", "service_id": "domain-cloudflare", "version": 1, "added_at": "2026-10-14 11:26:31", "updated_at": "2026-10-14 11:26:31", "supporting_providers": 12, "reach_domains": 23768004, "reach_pct": 12.468851680070198},
-{"name": "vvd site on your subdomain", "service_id": "subdomain", "version": 1, "added_at": "2026-10-14 11:26:31", "updated_at": "2026-10-14 11:26:31", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906}
+{"name": "vvd site on your subdomain", "service_id": "subdomain", "version": 1, "added_at": "2026-10-14 11:26:31", "updated_at": "2026-10-14 11:26:31", "supporting_providers": 11, "reach_domains": 23767994, "reach_pct": 12.468846434004236}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "domain-cloudflare", "supporting_providers": 0},
@@ -65,6 +65,8 @@
 {"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "service_id": "domain-cloudflare", "supporting_providers": 12},
 {"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "service_id": "subdomain", "supporting_providers": 10},
 {"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "service_id": "domain-cloudflare", "supporting_providers": 12},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "service_id": "subdomain", "supporting_providers": 10}
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "service_id": "subdomain", "supporting_providers": 10},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "service_id": "domain-cloudflare", "supporting_providers": 12},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "service_id": "subdomain", "supporting_providers": 11}
 ], "footer": null}
 }}

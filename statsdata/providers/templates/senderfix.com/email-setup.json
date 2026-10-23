@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-22T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "senderfix.com/email-setup/metadata": {"title": "senderfix.com/email-setup - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "SenderFix", "service_provider_id": "senderfix.com", "service_id": "email-setup", "name": "SenderFix email settings", "version": 1, "description": "Adds the email settings SenderFix found missing: the domain's approved senders list (merged with any existing one) and a DMARC record that protects the domain and sends daily reports to SenderFix.", "variable_description": "spfrules: SPF mechanisms for the customer's email provider, without the leading 'v=spf1' or trailing 'all', e.g. 'include:spf.protection.outlook.com'. dmarcrules: the DMARC tags after the version, e.g. 'p=none; rua=mailto:abc123@senderfixreports.com'.", "logo_url": "https://www.senderfix.com/logo.svg", "template_sha": "7ce363be026d66c561af59e6efd14f985b357625", "created_at": "2026-10-18 10:35:26", "updated_at": "2026-10-18 10:35:26"}
 ], "footer": null},
@@ -48,6 +48,7 @@
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 9, "change": 2},
 {"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0}
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

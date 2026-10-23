@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-22T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "aglyn.com/website/metadata": {"title": "aglyn.com/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Aglyn", "service_provider_id": "aglyn.com", "service_id": "website", "name": "Aglyn website", "version": 2, "description": "Points a domain's root at an Aglyn website, and its www subdomain at the same site. Aglyn serves the name the owner chose and redirects the other one to it.", "variable_description": "No variables. The records name Aglyn's hosting edge, which is the same for every website.", "logo_url": "https://raw.githubusercontent.com/aglyn/aglyn/main/tools/domain-connect/logo/aglyn-logo-full-dark.png", "template_sha": "42e74aab3b80ea883846f266a750b69b157d4c95", "created_at": "2026-10-19 12:31:18", "updated_at": "2026-10-20 11:07:41"}
 ], "footer": null},
@@ -49,6 +49,7 @@
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 8, "change": 8},
 {"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 2},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}
