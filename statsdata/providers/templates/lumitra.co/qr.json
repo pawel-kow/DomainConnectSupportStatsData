@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "lumitra.co/qr/metadata": {"title": "lumitra.co/qr - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Lumitra QR", "service_provider_id": "lumitra.co", "service_id": "qr", "name": "Lumitra QR custom domain", "version": 1, "description": "Points a subdomain at Lumitra QR so your QR codes carry your own domain, and delegates certificate validation so HTTPS renews on its own.", "variable_description": null, "logo_url": null, "template_sha": "6bfdf9daec17a0055a0f1a46c3213f98bb95687a", "created_at": "2026-08-30 17:04:48", "updated_at": "2026-08-30 17:04:48"}
 ], "footer": null},
@@ -29,6 +29,6 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 10, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 10, "change": 1}
 ], "footer": null}
 }}

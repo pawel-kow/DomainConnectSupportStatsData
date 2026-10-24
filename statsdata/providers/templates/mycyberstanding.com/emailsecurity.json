@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "mycyberstanding.com/emailsecurity/metadata": {"title": "mycyberstanding.com/emailsecurity - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "CyberStanding", "service_provider_id": "mycyberstanding.com", "service_id": "emailsecurity", "name": "Email security records for your Cyber Credential", "version": 1, "description": "Publishes the email authentication and transport security records a small business needs: SPF (merged into any existing SPF record, never a second one), DMARC in monitoring mode (p=none), MTA-STS in testing mode with a policy hosted by CyberStanding, TLS reporting, and the DKIM records Microsoft 365 or Google Workspace issues for the domain. CyberStanding applies only the groups the domain is missing. None of these records changes where the business's mail is delivered.", "variable_description": "dmarcrua: mailbox that receives DMARC aggregate reports. tlsrptrua: mailbox that receives TLS reports. stsid: MTA-STS policy id (date-based). dkim1, dkim2: the two DKIM CNAME targets Microsoft 365 shows for the domain. googledkim: the DKIM TXT value Google Workspace generates for the domain.", "logo_url": "https://csmedia8841.blob.core.windows.net/tutorials/brand/cyberstanding-logo-180.png", "template_sha": "4f89803229adb49f383169d4d27a6cf395cafa37", "created_at": "2026-10-21 11:23:51", "updated_at": "2026-10-21 11:23:51"}
 ], "footer": null},
@@ -52,10 +52,11 @@
 {"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 0, "change": 0},
 {"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 0, "change": 0},
 {"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 0, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 7, "change": 7},
-{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 2}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 0, "change": 0},
+{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 0, "change": 0},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 0, "change": 0},
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 7, "change": 7},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 9, "change": 2},
+{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

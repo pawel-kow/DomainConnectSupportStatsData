@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "devhelp.pk/email/metadata": {"title": "devhelp.pk/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "devhelp shop", "service_provider_id": "devhelp.pk", "service_id": "email", "name": "Store email", "version": 1, "description": "Lets a devhelp shop store send email from the merchant's own domain (sent through Amazon SES): DKIM signing records, a dedicated bounce (MAIL FROM) subdomain and a starter DMARC policy that never replaces an existing one. Website records, inbound email (root MX) and nameservers are not changed.", "variable_description": "Group 'dkim': sid is the store's signing id; the DKIM keys are published and rotated by devhelp under dkim.devhelp.store. Group 'dkim-ses': dkim1-3 are the per-domain Amazon SES Easy DKIM tokens and dkimzone is the SES signing hosted zone for the identity (it varies by AWS Region and identity). Groups 'bounce' and 'dmarc' have no variables.", "logo_url": "https://devhelp.pk/brand-icon.svg", "template_sha": "221dd17619e1239b0bf429605ca91556571d18fb", "created_at": "2026-10-18 10:35:18", "updated_at": "2026-10-18 10:35:18"}
 ], "footer": null},
@@ -51,10 +51,11 @@
 {"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 0, "change": 0},
 {"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 0, "change": 0},
 {"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 7, "change": 7},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 9, "change": 2},
-{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 9, "change": 2},
+{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 9, "change": 0},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 9, "change": 0},
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 9, "change": 0},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 9, "change": 0},
+{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

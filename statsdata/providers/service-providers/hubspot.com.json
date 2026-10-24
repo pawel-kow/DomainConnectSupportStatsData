@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "hubspot.com", "name": "HubSpot", "first_added_at": "2017-08-01 00:03:40", "last_updated_at": "2023-05-11 18:29:39"}
 ], "footer": null},
@@ -72,13 +72,13 @@
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "hubspot-template-2", "supporting_providers": 260},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "hubspot-template-3", "supporting_providers": 262},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "hubspot-txt", "supporting_providers": 263},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "hubspot-cname", "supporting_providers": 268},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "hubspot-cname-txt", "supporting_providers": 270},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "hubspot-email-domain", "supporting_providers": 12},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "hubspot-prod-web-hosting", "supporting_providers": 267},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "hubspot-qa-web-hosting", "supporting_providers": 268},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "hubspot-template-2", "supporting_providers": 268},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "hubspot-template-3", "supporting_providers": 269},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "hubspot-txt", "supporting_providers": 269}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "hubspot-cname", "supporting_providers": 268},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "hubspot-cname-txt", "supporting_providers": 270},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "hubspot-email-domain", "supporting_providers": 12},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "hubspot-prod-web-hosting", "supporting_providers": 267},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "hubspot-qa-web-hosting", "supporting_providers": 268},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "hubspot-template-2", "supporting_providers": 268},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "hubspot-template-3", "supporting_providers": 269},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "hubspot-txt", "supporting_providers": 269}
 ], "footer": null}
 }}

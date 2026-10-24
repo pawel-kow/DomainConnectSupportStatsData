@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "redirhub.com/apex/metadata": {"title": "redirhub.com/apex - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "RedirHub", "service_provider_id": "redirhub.com", "service_id": "apex", "name": "Custom root domain", "version": 3, "description": "Points a root domain, and optionally its www subdomain, to RedirHub so they can serve redirects and short links with HTTPS.", "variable_description": "%ip%: IPv4 address of the RedirHub edge cluster; %hashid%: RedirHub workspace identifier used in the verification token and the www CNAME target", "logo_url": "https://dcr3565853rcg.cloudfront.net/brand-kit/v1/svg/redirhub-logo-horizontal.svg", "template_sha": "d8d054345410bd6284853672717b9a4992cf7306", "created_at": "2026-10-01 12:41:25", "updated_at": "2026-10-21 11:23:24"}
 ], "footer": null},
@@ -45,6 +45,6 @@
 {"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 11, "change": 0},
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 11, "change": 0},
 {"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 11, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 12, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 1}
 ], "footer": null}
 }}

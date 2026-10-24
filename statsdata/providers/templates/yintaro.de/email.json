@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "yintaro.de/email/metadata": {"title": "yintaro.de/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Yintaro", "service_provider_id": "yintaro.de", "service_id": "email", "name": "Yintaro E-Mail-Versand", "version": 1, "description": "Lets a practice using Yintaro (practice software for physiotherapy) send e-mails from its own domain: DKIM key, SPF and return path for the sending subdomain.", "variable_description": "dkimpublickey: DKIM public key (base64, without the leading 'p=') issued for this domain by the e-mail service", "logo_url": "https://yintaro.de/img/apple-touch-icon.png", "template_sha": "e8d98c70fa6e8c0b4d3da7553806523e78ea547d", "created_at": "2026-10-21 11:23:02", "updated_at": "2026-10-21 11:23:02"}
 ], "footer": null},
@@ -47,10 +47,11 @@
 {"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 0, "change": 0},
 {"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 0, "change": 0},
 {"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 0, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 7, "change": 7},
-{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 2}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 0, "change": 0},
+{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 0, "change": 0},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 0, "change": 0},
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 7, "change": 7},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 9, "change": 2},
+{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

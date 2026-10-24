@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "weweb.io/hosting/metadata": {"title": "weweb.io/hosting - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "WeWeb", "service_provider_id": "weweb.io", "service_id": "hosting", "name": "WeWeb Hosting", "version": 1, "description": "Connect your domain to your WeWeb app", "variable_description": "%ssltoken%: per-customer ACM validation host token. %sslvalidation%: per-customer ACM validation target token.", "logo_url": "https://weweb-public.s3.us-east-1.amazonaws.com/weweb-logo-icon-black.svg", "template_sha": "cb557019c38dfc1cbbaceb32a697bbfdded33efa", "created_at": "2026-05-29 05:08:06", "updated_at": "2026-05-29 05:08:06"}
 ], "footer": null},
@@ -32,6 +32,6 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 12, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 12, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 12, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 13, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 13, "change": 1}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "agent-loadout.com/email-dkim/metadata": {"title": "agent-loadout.com/email-dkim - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Agent Loadout", "service_provider_id": "agent-loadout.com", "service_id": "email-dkim", "name": "Custom subdomain DKIM", "version": 1, "description": "Add the three Easy DKIM CNAMEs issued after ownership is verified.", "variable_description": "%dkim1%, %dkim2%, %dkim3%: SES Easy DKIM tokens", "logo_url": "https://agent-loadout.com/favicon.svg", "template_sha": "bea7e9a7c81b47a5f8cee57f3363a88a347589e3", "created_at": "2026-09-20 10:53:14", "updated_at": "2026-09-20 10:53:14"}
 ], "footer": null},
@@ -34,6 +34,6 @@
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 10, "change": -1},
 {"sweep_id": 9, "started_at": "2026-10-03 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 1},
 {"sweep_id": 10, "started_at": "2026-10-04 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 12, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 1}
 ], "footer": null}
 }}

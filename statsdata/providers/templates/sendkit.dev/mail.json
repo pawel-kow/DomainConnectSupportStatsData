@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "sendkit.dev/mail/metadata": {"title": "sendkit.dev/mail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "SendKit", "service_provider_id": "sendkit.dev", "service_id": "mail", "name": "Mail", "version": 2, "description": "Enable email signing and specify authorized senders.", "variable_description": null, "logo_url": "https://cdn.sendkit.dev/domain-connect.png", "template_sha": "7baf133443d8414ee7fa5cf2c90ffbc41c77a956", "created_at": "2026-03-15 15:04:27", "updated_at": "2026-03-16 12:55:01"}
 ], "footer": null},
@@ -35,6 +35,6 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 12, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 12, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 12, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 14, "change": 2}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 14, "change": 2}
 ], "footer": null}
 }}

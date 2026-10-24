@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "hikyak.com/email/metadata": {"title": "hikyak.com/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Hikyak", "service_provider_id": "hikyak.com", "service_id": "email", "name": "Hikyak Email DNS", "version": 1, "description": "Configures Hikyak outbound authentication and optional inbound mail routing through AWS SES in us-east-1.", "variable_description": "dkimToken1, dkimToken2, and dkimToken3 are the AWS SES Easy DKIM tokens for the Hikyak domain.", "logo_url": null, "template_sha": "dff16d407b8236ea45f800681d6fd7104597c5d7", "created_at": "2026-07-14 21:14:23", "updated_at": "2026-07-14 21:14:23"}
 ], "footer": null},
@@ -36,6 +36,6 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 12, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 1}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "mail.dishis.tech/ditmail/metadata": {"title": "mail.dishis.tech/ditmail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "DITMail", "service_provider_id": "mail.dishis.tech", "service_id": "ditmail", "name": "DITMail Email Service", "version": 1, "description": "DITMail DNS configuration for email delivery, authentication, and anti-spam protection.", "variable_description": "%domain%: customer domain, %verification_code%: unique code for domain verification, %dkim_public_key%: DKIM public key", "logo_url": "https://mail.dishis.tech/logo.svg", "template_sha": "2e15823220f4a6d57f011b15c9fbca470ee27fc7", "created_at": "2025-08-22 06:31:23", "updated_at": "2025-08-22 06:31:23"}
 ], "footer": null},
@@ -34,6 +34,6 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 12, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 1}
 ], "footer": null}
 }}

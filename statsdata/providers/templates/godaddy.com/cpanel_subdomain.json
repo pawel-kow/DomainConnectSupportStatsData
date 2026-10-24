@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "godaddy.com/cpanel_subdomain/metadata": {"title": "godaddy.com/cpanel_subdomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "GoDaddy", "service_provider_id": "godaddy.com", "service_id": "cpanel_subdomain", "name": "cPanel Subdomain", "version": 1, "description": "Enables a sub-domain to work with GoDaddy cPanel", "variable_description": "v1 is the IP address of the server.", "logo_url": "https://www.domainconnect.org/wp-content/uploads/2020/02/godaddy_logo_new.png", "template_sha": "0d2ff6d991bbeb88a687a12feebfbb71c134253f", "created_at": "2019-07-23 16:31:51", "updated_at": "2020-04-15 22:30:37"}
 ], "footer": null},
@@ -9,7 +9,7 @@
 {"name": "GoDaddy", "dns_provider_id": 15, "provider_id": "godaddy.com", "api_host": "domainconnect.api.godaddy.com", "served_version": 1, "response_kind": "version", "template_match": null, "since": "2026-09-20 18:55:29", "domains": 38531050, "reach_pct": 20.213642993638373},
 {"name": "Secure Server", "dns_provider_id": 17, "provider_id": "secureserver.net", "api_host": "domainconnect.api.secureserver.net", "served_version": 1, "response_kind": "version", "template_match": null, "since": "2026-09-20 18:55:06", "domains": 1722845, "reach_pct": 0.9038158514594049},
 {"name": "NameSilo.com LLC", "dns_provider_id": 2773, "provider_id": "namesilo.com", "api_host": "www.namesilo.com", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-21 03:52:45", "domains": 291029, "reach_pct": 0.15267573312420973},
-{"name": "DomainFactory", "dns_provider_id": 6, "provider_id": null, "api_host": "dc.ispgateway.de", "served_version": null, "response_kind": null, "template_match": null, "since": "2026-09-20 18:55:29", "domains": 153253, "reach_pct": 0.08039753470782815},
+{"name": "DomainFactory", "dns_provider_id": 6, "provider_id": null, "api_host": "dc.ispgateway.de", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-20 18:55:29", "domains": 153253, "reach_pct": 0.08039753470782815},
 {"name": "Webnames.ca Inc", "dns_provider_id": 2774, "provider_id": "webnames.ca", "api_host": "www.webnames.ca", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-10-19 22:23:38", "domains": 18892, "reach_pct": 0.009910867817923887},
 {"name": "Locaweb", "dns_provider_id": 9, "provider_id": "locaweb.com.br", "api_host": "domain-connect.locaweb.com.br", "served_version": 1, "response_kind": "version", "template_match": null, "since": "2026-09-20 18:54:31", "domains": 8532, "reach_pct": 0.00447594347991354},
 {"name": "Danego DNS", "dns_provider_id": 2, "provider_id": "DanegoDNS", "api_host": "dns.danego.nl", "served_version": 1, "response_kind": "version", "template_match": null, "since": "2026-09-20 18:55:40", "domains": 392, "reach_pct": 0.00020564578576255364},
@@ -289,6 +289,6 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 263, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 263, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 263, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 271, "change": 8}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 271, "change": 8}
 ], "footer": null}
 }}

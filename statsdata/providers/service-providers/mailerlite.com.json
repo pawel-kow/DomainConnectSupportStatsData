@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "mailerlite.com", "name": "MailerLite", "first_added_at": "2023-09-22 21:45:38", "last_updated_at": "2023-10-25 11:49:01"}
 ], "footer": null},
@@ -40,9 +40,9 @@
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "domain-authentication", "supporting_providers": 16},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "website", "supporting_providers": 16},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "website-subdomain", "supporting_providers": 15},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "domain-alignment", "supporting_providers": 17},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "domain-authentication", "supporting_providers": 17},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "website", "supporting_providers": 18},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "website-subdomain", "supporting_providers": 16}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "domain-alignment", "supporting_providers": 17},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "domain-authentication", "supporting_providers": 17},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "website", "supporting_providers": 18},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "website-subdomain", "supporting_providers": 16}
 ], "footer": null}
 }}

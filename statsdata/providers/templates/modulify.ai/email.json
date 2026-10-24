@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "modulify.ai/email/metadata": {"title": "modulify.ai/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Modulify", "service_provider_id": "modulify.ai", "service_id": "email", "name": "Send email from your domain with Modulify", "version": 1, "description": "Adds the ownership record and the three DKIM records that let your Modulify site send email from your domain.", "variable_description": "%token%: the ownership code Modulify issued to your site for this domain. %dkim1%, %dkim2%, %dkim3%: the DKIM tokens the mail provider issued for this domain. All are supplied by Modulify.", "logo_url": "https://modulify.ai/logo.svg", "template_sha": "f662cab232832a274dd6d2d59fca5bd5f14e029d", "created_at": "2026-10-02 12:00:55", "updated_at": "2026-10-02 12:00:55"}
 ], "footer": null},
@@ -47,6 +47,6 @@
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 11, "change": 0},
 {"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 11, "change": 0},
 {"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 11, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 12, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 1}
 ], "footer": null}
 }}

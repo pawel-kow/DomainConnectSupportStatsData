@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "shopiyz.com/storefront-verification/metadata": {"title": "shopiyz.com/storefront-verification - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Shopiyz", "service_provider_id": "shopiyz.com", "service_id": "storefront-verification", "name": "Website ownership and TLS verification", "version": 1, "description": "Verify a customer-owned website hostname and prepare its TLS certificate before moving website traffic to Shopiyz.", "variable_description": "ownership and certificate are exact per-hostname opaque tokens returned by Cloudflare for SaaS. Their prescribed values cannot contain a service prefix. They are restricted to fixed verification labels in signed requests.", "logo_url": "https://superadmin.shopiyz.com/brand/shopiyz-logo-black.svg", "template_sha": "6b42ef5dea4beecab84f1c4a44a63eb8b9770a0f", "created_at": "2026-09-10 19:04:10", "updated_at": "2026-09-10 19:04:10"}
 ], "footer": null},
@@ -31,6 +31,6 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 12, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 1}
 ], "footer": null}
 }}

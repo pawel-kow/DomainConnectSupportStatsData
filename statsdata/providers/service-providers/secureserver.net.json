@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "secureserver.net", "name": "SecureServer", "first_added_at": "2019-07-09 22:12:38", "last_updated_at": "2024-11-08 17:02:28"}
 ], "footer": null},
@@ -104,17 +104,17 @@
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "professional_mail", "supporting_providers": 262},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "waf", "supporting_providers": 14},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "wsb", "supporting_providers": 261},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "O365", "supporting_providers": 16},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "cpanel", "supporting_providers": 272},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "cpanel_email", "supporting_providers": 267},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "cpanel_flockmail", "supporting_providers": 267},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "cpanel_subdomain", "supporting_providers": 271},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "cpanel_titanemail", "supporting_providers": 268},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "dpsAws", "supporting_providers": 13},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "managed-wordpress", "supporting_providers": 271},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "plesk", "supporting_providers": 269},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "professional_mail", "supporting_providers": 269},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "waf", "supporting_providers": 16},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "wsb", "supporting_providers": 270}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "O365", "supporting_providers": 16},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "cpanel", "supporting_providers": 272},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "cpanel_email", "supporting_providers": 267},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "cpanel_flockmail", "supporting_providers": 267},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "cpanel_subdomain", "supporting_providers": 271},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "cpanel_titanemail", "supporting_providers": 268},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "dpsAws", "supporting_providers": 13},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "managed-wordpress", "supporting_providers": 271},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "plesk", "supporting_providers": 269},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "professional_mail", "supporting_providers": 269},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "waf", "supporting_providers": 16},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "wsb", "supporting_providers": 270}
 ], "footer": null}
 }}

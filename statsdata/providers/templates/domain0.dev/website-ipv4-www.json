@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "domain0.dev/website-ipv4-www/metadata": {"title": "domain0.dev/website-ipv4-www - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Domain0", "service_provider_id": "domain0.dev", "service_id": "website-ipv4-www", "name": "Website IPv4 and www connection", "version": 1, "description": "Connect the selected hostname by A record and its www child by CNAME only when both records are in the integrating application's saved intent. Does not provision HTTP redirects.", "variable_description": "ipv4: the saved IPv4 destination. target: the saved fully qualified destination for the www CNAME.", "logo_url": "https://www.domain0.dev/brand/domain0-logo-white.svg", "template_sha": "65b28870791a9cdb22cf7d954f9bf2922279b17b", "created_at": "2026-09-10 19:06:01", "updated_at": "2026-09-10 19:06:01"}
 ], "footer": null},
@@ -29,6 +29,6 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 10, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 10, "change": 1}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "myoriginos.com/email-sending/metadata": {"title": "myoriginos.com/email-sending - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Origin", "service_provider_id": "myoriginos.com", "service_id": "email-sending", "name": "Origin Email Sending", "version": 1, "description": "Authorizes Origin (sending through Resend on Amazon SES) to send email from this domain: return-path MX and SPF on the send subdomain, the per-domain Resend DKIM key, and an optional starter DMARC policy.", "variable_description": "%region%: Resend sending region (us-east-1, eu-west-1, sa-east-1, ap-northeast-1) used in the return-path MX target; %dkimPublicKey%: the per-domain DKIM public key Resend returns for resend._domainkey, without the leading p=", "logo_url": "https://myoriginos.com/brand/origin-wordmark-navy.svg", "template_sha": "b9b29eacbafa41cef559570edbb96ad91700e2ff", "created_at": "2026-09-29 12:22:46", "updated_at": "2026-09-29 12:22:46"}
 ], "footer": null},
@@ -42,6 +42,6 @@
 {"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": "2026-10-16 06:36:06", "supporting_providers": 10, "change": 0},
 {"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 10, "change": 0},
 {"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 10, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

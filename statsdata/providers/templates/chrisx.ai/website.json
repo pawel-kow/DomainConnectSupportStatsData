@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "chrisx.ai/website/metadata": {"title": "chrisx.ai/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "ChrisX", "service_provider_id": "chrisx.ai", "service_id": "website", "name": "ChrisX website", "version": 1, "description": "Points a business's domain and its www at its ChrisX website (hosted on Vercel). Applied at the root.", "variable_description": "%ip%: the IPv4 address Vercel gives the root (76.76.21.21 or 216.198.79.1 today); %cname%: the CNAME target Vercel gives www (cname.vercel-dns.com, or a project-specific name under vercel-dns-0NN.com). Both are bare because Vercel hands out more than 1 value, as in vercel.com.website.", "logo_url": "https://chrisx.ai/chrisx/mark-black.svg", "template_sha": "f5c680289aeb9bd19cd286646db9ff6e250b081e", "created_at": "2026-10-15 11:02:55", "updated_at": "2026-10-15 11:02:55"}
 ], "footer": null},
@@ -49,10 +49,11 @@
 {"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 10, "change": 2},
 {"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 11, "change": 1},
 {"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 12, "change": 1},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 13, "change": 1},
-{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 13, "change": 0},
-{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 13, "change": 0},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 13, "change": 0},
-{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "supporting_providers": 13, "change": 0}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 13, "change": 1},
+{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 13, "change": 0},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 13, "change": 0},
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 13, "change": 0},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 13, "change": 0},
+{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

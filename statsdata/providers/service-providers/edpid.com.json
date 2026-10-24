@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "edpid.com", "name": "EDP Mail", "first_added_at": "2026-10-18 10:35:40", "last_updated_at": "2026-10-18 10:35:40"}
 ], "footer": null},
@@ -33,10 +33,11 @@
 {"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": "2026-10-19 08:42:25", "service_id": "mail", "supporting_providers": 0},
 {"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": "2026-10-19 08:42:25", "service_id": "mail", "supporting_providers": 0},
 {"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": "2026-10-19 08:42:25", "service_id": "mail", "supporting_providers": 8},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "mail", "supporting_providers": 9},
-{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "service_id": "mail", "supporting_providers": 9},
-{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "service_id": "mail", "supporting_providers": 9},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "service_id": "mail", "supporting_providers": 9},
-{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "service_id": "mail", "supporting_providers": 10}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "mail", "supporting_providers": 9},
+{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": "2026-10-24 01:44:55", "service_id": "mail", "supporting_providers": 9},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "service_id": "mail", "supporting_providers": 9},
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": "2026-10-24 01:44:55", "service_id": "mail", "supporting_providers": 9},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "service_id": "mail", "supporting_providers": 10},
+{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": null, "service_id": "mail", "supporting_providers": 10}
 ], "footer": null}
 }}

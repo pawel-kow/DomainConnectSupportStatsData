@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "appnest.ing/appnest/metadata": {"title": "appnest.ing/appnest - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "AppNest", "service_provider_id": "appnest.ing", "service_id": "appnest", "name": "AppNest app", "version": 1, "description": "Serves an app built on AppNest (appnest.ing) at the user's subdomain. One CNAME to AppNest's Cloudflare-for-SaaS fallback origin; the TLS certificate is issued automatically via HTTP domain-control validation once the record resolves. Removing the CNAME detaches the subdomain from AppNest.", "variable_description": "This template uses no custom variables. The standard domain and host parameters select the subdomain the CNAME is written for.", "logo_url": "https://appnest.ing/favicon.svg", "template_sha": "06dcc6ad7e3fbedd20f4020849ef0053d0160c96", "created_at": "2026-06-11 18:23:29", "updated_at": "2026-06-11 18:23:29"}
 ], "footer": null},
@@ -28,6 +28,6 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 10, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 10, "change": 1}
 ], "footer": null}
 }}

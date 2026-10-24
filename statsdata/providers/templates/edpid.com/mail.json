@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "edpid.com/mail/metadata": {"title": "edpid.com/mail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "EDP Mail", "service_provider_id": "edpid.com", "service_id": "mail", "name": "Mail", "version": 1, "description": "E-mail hosting for the domain on EDP Mail (mail.edpid.com): ownership verification, MX for receiving, SPF and DKIM for sending, SRV records for mail client autoconfiguration.", "variable_description": "verify: the per-domain ownership token shown in EDP Mail settings (edp-verify=<token>). dkimSelector and dkimKey: the selector and RSA-2048 public key of the DKIM signature created for the domain by EDP Mail.", "logo_url": "https://edpid.com/edp-id-logo.svg", "template_sha": "9de88eaa6c70cbc4917f3d812eacce72b6333861", "created_at": "2026-10-18 10:35:40", "updated_at": "2026-10-18 10:35:40"}
 ], "footer": null},
@@ -51,10 +51,11 @@
 {"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 0, "change": 0},
 {"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 0, "change": 0},
 {"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 8, "change": 8},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 9, "change": 1},
-{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": null, "supporting_providers": 10, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 9, "change": 1},
+{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 9, "change": 0},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 9, "change": 0},
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 9, "change": 0},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 10, "change": 1},
+{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

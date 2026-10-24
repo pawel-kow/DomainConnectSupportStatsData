@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "postboi.email", "name": "Postboi", "first_added_at": "2026-07-07 15:54:01", "last_updated_at": "2026-10-09 12:48:41"}
 ], "footer": null},
@@ -56,11 +56,11 @@
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "dkim-inbound", "supporting_providers": 9},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "forms", "supporting_providers": 9},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "views", "supporting_providers": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "dkim", "supporting_providers": 13},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "dkim-dmarc", "supporting_providers": 12},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "dkim-dmarc-inbound", "supporting_providers": 12},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "dkim-inbound", "supporting_providers": 12},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "forms", "supporting_providers": 12},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "service_id": "views", "supporting_providers": 12}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "dkim", "supporting_providers": 13},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "dkim-dmarc", "supporting_providers": 12},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "dkim-dmarc-inbound", "supporting_providers": 12},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "dkim-inbound", "supporting_providers": 12},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "forms", "supporting_providers": 12},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "views", "supporting_providers": 12}
 ], "footer": null}
 }}

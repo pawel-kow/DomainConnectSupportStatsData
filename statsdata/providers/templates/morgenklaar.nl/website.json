@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-23T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "morgenklaar.nl/website/metadata": {"title": "morgenklaar.nl/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "MorgenKlaar", "service_provider_id": "morgenklaar.nl", "service_id": "website", "name": "Website", "version": 1, "description": "Connects a customer's own domain to the website MorgenKlaar hosts for them: an A record for the domain itself, a CNAME for www pointing to the domain, and a TXT record with a per-domain verification key that our provisioner checks before it requests the TLS certificate.", "variable_description": "verificatie: the per-domain verification key shown in the customer's MorgenKlaar portal, without its fixed 'mk-' prefix (lowercase letters and digits). The IP address is fixed on purpose, so the template cannot be used to point a domain anywhere else.", "logo_url": "https://morgenklaar.nl/img/merk/icoon-512.png", "template_sha": "d7e26ac3cf84c947858d1e0765654fd62dfe6b3a", "created_at": "2026-09-27 11:39:33", "updated_at": "2026-09-27 11:39:33"}
 ], "footer": null},
@@ -40,6 +40,6 @@
 {"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": "2026-10-09 22:39:00", "supporting_providers": 10, "change": 0},
 {"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": "2026-10-15 17:29:53", "supporting_providers": 11, "change": 1},
 {"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": "2026-10-16 06:36:06", "supporting_providers": 11, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}
