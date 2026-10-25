@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "certdashboard.cloud/mail/metadata": {"title": "certdashboard.cloud/mail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "CertDashboard", "service_provider_id": "certdashboard.cloud", "service_id": "mail", "name": "CertDashboard Site mail records", "version": 1, "description": "Enable domain to work with the CertDashboard by configuring the necessary MX ,SPFM and TXT SSL records.", "variable_description": "MXTarget: refers to the target for MX, SPFMRules: represents SPMF rules, TXTValue: refers to txt record value.", "logo_url": "https://res.cloudinary.com/dy94cdmsp/image/upload/v1754392054/svgviewer-output_yinzzk.svg", "template_sha": "a9ddd0c6213d29eb80362f2b4bee167e2d439b81", "created_at": "2025-08-19 07:54:18", "updated_at": "2025-08-19 07:54:18"}
 ], "footer": null},
@@ -35,6 +35,8 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 13, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 13, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 13, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 15, "change": 2}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 15, "change": 2},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 15, "change": 0},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 15, "change": 0}
 ], "footer": null}
 }}

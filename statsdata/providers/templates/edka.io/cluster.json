@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "edka.io/cluster/metadata": {"title": "edka.io/cluster - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Edka", "service_provider_id": "edka.io", "service_id": "cluster", "name": "Cluster domain", "version": 1, "description": "Point a hostname or wildcard domain to an Edka cluster and delegate DNS-01 certificate validation.", "variable_description": "%tlsTarget%: Edka ACME delegation target; %ip4_1% to %ip4_4%: cluster IPv4 addresses; %ip6_1% to %ip6_4%: cluster IPv6 addresses; %cnameTarget%: cluster hostname target for wildcard records.", "logo_url": "https://assets.edka.io/logo.svg", "template_sha": "7a0db4b7f7f3d4949bd9562dcbd97d92fbe684e0", "created_at": "2026-08-09 13:17:00", "updated_at": "2026-08-09 13:17:00"}
 ], "footer": null},
@@ -47,6 +47,8 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 1},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "dub.co/links-subdomain/metadata": {"title": "dub.co/links-subdomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Dub", "service_provider_id": "dub.co", "service_id": "links-subdomain", "name": "Dub Links (subdomain)", "version": 2, "description": "CNAME for one subdomain label to cname.dub.co. Optional Vercel ownership TXT at _vercel on the zone apex.", "variable_description": "Do not pass the Domain Connect host parameter. cnameHost is the subdomain label only (go for go.example.com). verification group: txtValue is the Vercel TXT value (vc-domain-verify=...). The TXT name is fixed at _vercel so it is not written under the subdomain. multiInstance so a later subdomain does not remove an earlier one. txtConflictMatchingMode None so another _vercel TXT value is added beside existing ones.", "logo_url": "https://assets.dub.co/brand/logo.svg", "template_sha": "e8781bc7b6a1a6fb9a5a3f5272f1cce2f29b03dd", "created_at": "2026-05-09 12:46:40", "updated_at": "2026-09-29 15:06:56"}
 ], "footer": null},
@@ -33,6 +33,8 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 13, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 13, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 13, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 14, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 14, "change": 1},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 14, "change": 0},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 14, "change": 0}
 ], "footer": null}
 }}

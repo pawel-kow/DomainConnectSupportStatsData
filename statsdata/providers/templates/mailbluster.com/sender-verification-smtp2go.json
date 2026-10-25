@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "mailbluster.com/sender-verification-smtp2go/metadata": {"title": "mailbluster.com/sender-verification-smtp2go - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "MailBluster", "service_provider_id": "mailbluster.com", "service_id": "sender-verification-smtp2go", "name": "MailBluster Email Sender Verification (SMTP2Go)", "version": 2, "description": "Configures DKIM, DMARC, Return Path, and Tracking DNS records for MailBluster email sender verification using SMTP2Go", "variable_description": null, "logo_url": "https://mailbluster.com/wp-content/themes/mailbluster/resources/assets/images/mailbluster-logo.svg", "template_sha": "77b66ee2c5b31a377eec6b18a0efcf72bbc1bb16", "created_at": "2026-04-22 11:52:48", "updated_at": "2026-10-05 07:28:25"}
 ], "footer": null},
@@ -34,6 +34,8 @@
 {"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "supporting_providers": 12, "change": 0},
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 12, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 12, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 13, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 13, "change": 1},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 13, "change": 0},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

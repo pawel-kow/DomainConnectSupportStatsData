@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "terragamingmedia.com/terragamingmedia/metadata": {"title": "terragamingmedia.com/terragamingmedia - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "TerraGaming Media", "service_provider_id": "terragamingmedia.com", "service_id": "terragamingmedia", "name": "TerraGaming Media ad serving", "version": 2, "description": "Points a subdomain you choose (e.g. tgmads) at the TerraGaming Media ad ingress so ads, frequency capping and measurement run first-party on your site.", "variable_description": "No variables: the subdomain is the host you choose.", "logo_url": "https://terragamingmedia.com/brand/logo.png", "template_sha": "48d5cc253a6d53fcd64b5337504ca3e86a88ec5a", "created_at": "2026-10-01 12:41:37", "updated_at": "2026-10-07 12:53:36"}
 ], "footer": null},
@@ -43,6 +43,8 @@
 {"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 10, "change": 0},
 {"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 11, "change": 1},
 {"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 11, "change": 0},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 1}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 1},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

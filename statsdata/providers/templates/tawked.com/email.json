@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "tawked.com/email/metadata": {"title": "tawked.com/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Tawked", "service_provider_id": "tawked.com", "service_id": "email", "name": "Tawked Email", "version": 3, "description": "Authorizes Tawked to send email from your domain: the DKIM record that verifies the domain and signs its mail with Tawked's key for it, and, optionally, the two records of the domain's return path that make SPF match the domain, and the MX record of a receiving address on a subdomain.", "variable_description": "%selector%: the DKIM selector (tawked or tawked2); %publickey%: the domain's DKIM public key, base64, made by Tawked for this domain; %mailfrom%: the return path's label before the domain (send); %inbound%: the receiving address's label before the domain (inbound)", "logo_url": "https://tawked.com/icon.svg", "template_sha": "1a9f0326218a89bb9e8c9025c5b56e89185f2d97", "created_at": "2026-10-15 11:02:37", "updated_at": "2026-10-21 11:23:44"}
 ], "footer": null},
@@ -55,6 +55,8 @@
 {"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 0},
 {"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 0},
 {"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 0},
-{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": "2026-10-24 20:33:07", "supporting_providers": 12, "change": 0},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

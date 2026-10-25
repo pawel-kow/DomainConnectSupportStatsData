@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "bonmoniq.com/email/metadata": {"title": "bonmoniq.com/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Bonmoniq", "service_provider_id": "bonmoniq.com", "service_id": "email", "name": "Bonmoniq Email", "version": 1, "description": "Connects a domain (or a subdomain such as mail.example.com) to Bonmoniq Email: three DKIM records so mail Bonmoniq sends for you is signed for your domain, and the MX record that delivers mail for that host to Bonmoniq.", "variable_description": "dkim1, dkim2, dkim3: the three Amazon SES Easy DKIM tokens issued for this domain (the label in front of .dkim.amazonses.com).", "logo_url": "https://bonmoniq.com/brand/logo-main-light.png", "template_sha": "77f901cfec8acd6bba72672059320d6baf8fdd7f", "created_at": "2026-10-15 11:02:33", "updated_at": "2026-10-15 11:02:33"}
 ], "footer": null},
@@ -53,6 +53,8 @@
 {"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 10, "change": 0},
 {"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 10, "change": 0},
 {"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 10, "change": 0},
-{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": "2026-10-24 20:33:07", "supporting_providers": 10, "change": 0},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

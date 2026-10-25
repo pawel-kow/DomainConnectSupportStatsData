@@ -1,13 +1,13 @@
-{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "microsoft.com", "name": "Microsoft", "first_added_at": "2017-03-11 23:22:24", "last_updated_at": "2024-03-05 17:57:41"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 2, "supported_templates": 2, "supporting_dns_providers": 277, "reach_domains": 69266392, "reach_pct": 36.33760614739045}
+{"templates": 2, "supported_templates": 2, "supporting_dns_providers": 288, "reach_domains": 69266798, "reach_pct": 36.33781913766857}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Microsoft 365", "service_id": "O365", "version": 5, "added_at": "2017-03-11 23:22:24", "updated_at": "2024-03-05 17:41:42", "supporting_providers": 276, "reach_domains": 69266241, "reach_pct": 36.337526931794415},
-{"name": "Domain proof of ownership for configuring Microsoft services", "service_id": "DPOO", "version": 1, "added_at": "2017-09-13 00:09:39", "updated_at": "2024-03-05 17:57:41", "supporting_providers": 276, "reach_domains": 69260265, "reach_pct": 36.334391882774725}
+{"name": "Microsoft 365", "service_id": "O365", "version": 5, "added_at": "2017-03-11 23:22:24", "updated_at": "2024-03-05 17:41:42", "supporting_providers": 287, "reach_domains": 69266647, "reach_pct": 36.33773992207252},
+{"name": "Domain proof of ownership for configuring Microsoft services", "service_id": "DPOO", "version": 1, "added_at": "2017-09-13 00:09:39", "updated_at": "2024-03-05 17:57:41", "supporting_providers": 287, "reach_domains": 69260671, "reach_pct": 36.33460487305284}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "DPOO", "supporting_providers": 270},
@@ -25,6 +25,10 @@
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "DPOO", "supporting_providers": 270},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "O365", "supporting_providers": 270},
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "DPOO", "supporting_providers": 276},
-{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "O365", "supporting_providers": 276}
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "O365", "supporting_providers": 276},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "service_id": "DPOO", "supporting_providers": 277},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "service_id": "O365", "supporting_providers": 277},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "DPOO", "supporting_providers": 287},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "O365", "supporting_providers": 287}
 ], "footer": null}
 }}

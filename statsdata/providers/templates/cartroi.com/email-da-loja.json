@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "cartroi.com/email-da-loja/metadata": {"title": "cartroi.com/email-da-loja - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "CartROI", "service_provider_id": "cartroi.com", "service_id": "email-da-loja", "name": "CartROI - e-mail da loja", "version": 1, "description": "Authorizes CartROI (a Brazilian checkout and storefront platform) to send the store's transactional e-mails (order, abandoned cart, automations) on behalf of the merchant's domain. Sets the DKIM public key for the fixed selector 'resend', and on the 'send' subdomain the SPF include and the bounce/feedback MX. The merchant can also publish the same three records by hand; this template only replaces the copy-and-paste.", "variable_description": "%dkim%: the DKIM public key issued for this domain (the value after p=, base64, no spaces); %regiao%: the sending region of the mail provider, e.g. sa-east-1 or us-east-1", "logo_url": "https://app.cartroi.com/icon.png", "template_sha": "f85ab534c6f7523de319365c25941009495cac16", "created_at": "2026-10-21 11:23:20", "updated_at": "2026-10-21 11:23:20"}
 ], "footer": null},
@@ -51,6 +51,8 @@
 {"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 0, "change": 0},
 {"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 7, "change": 7},
 {"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 9, "change": 2},
-{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": null, "supporting_providers": 9, "change": 0}
+{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": "2026-10-24 20:33:07", "supporting_providers": 9, "change": 0},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 9, "change": 0},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

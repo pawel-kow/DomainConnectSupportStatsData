@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "growganic.io/blog/metadata": {"title": "growganic.io/blog - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "GrowGanic", "service_provider_id": "growganic.io", "service_id": "blog", "name": "GrowGanic blog and website", "version": 1, "description": "Points one hostname of the customer's domain (a blog subdomain such as blog.example.com, or the www form of their website) at GrowGanic hosting, and delegates certificate validation for that hostname to Cloudflare, so its HTTPS certificate issues and renews with no further DNS edits. Applied with host set to the subdomain label; the zone apex is never changed.", "variable_description": "dcvid: the Cloudflare DCV delegation identifier of the GrowGanic zone, which Cloudflare uses to answer certificate validation for the hostname.", "logo_url": "https://growganic.io/icon-512.png", "template_sha": "392571d678d082765cf061af0ac9338b4bcb439b", "created_at": "2026-10-07 12:53:40", "updated_at": "2026-10-07 12:53:40"}
 ], "footer": null},
@@ -50,6 +50,8 @@
 {"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": "2026-10-19 08:42:25", "supporting_providers": 11, "change": 0},
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 1},
 {"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 0},
-{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 0}
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 0},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-24T05:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "trywheelhouse.app/storefront/metadata": {"title": "trywheelhouse.app/storefront - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Wheelhouse", "service_provider_id": "trywheelhouse.app", "service_id": "storefront", "name": "Wheelhouse storefront", "version": 1, "description": "Connect a subdomain to a Wheelhouse production storefront. Does not change email or apex records.", "variable_description": "verification is the Wheelhouse ownership token for this storefront. providerVerification is the Cloudflare custom hostname ownership token when the cloudflare-ownership group is selected.", "logo_url": "https://studio.trywheelhouse.app/domain-connect-logo.png", "template_sha": "f809b2ff97b8c5b7a3918235f9bcbdbdb1928ef3", "created_at": "2026-10-10 12:06:49", "updated_at": "2026-10-10 12:06:49"}
 ], "footer": null},
@@ -54,6 +54,8 @@
 {"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 0},
 {"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 0},
 {"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 0},
-{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": "2026-10-24 20:33:07", "supporting_providers": 12, "change": 0},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}
