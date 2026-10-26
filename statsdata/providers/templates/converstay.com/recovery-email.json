@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-26T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "converstay.com/recovery-email/metadata": {"title": "converstay.com/recovery-email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Converstay", "service_provider_id": "converstay.com", "service_id": "recovery-email", "name": "Converstay booking recovery email", "version": 1, "description": "Lets Converstay send booking recovery email for your hotel from this domain (via Resend), with DKIM, SPF, bounce handling, link tracking and an optional DMARC record.", "variable_description": "%dkimKey%: DKIM public key issued for this domain (the part after p=); %region%: sending region of the bounce MX host, e.g. us-east-1", "logo_url": "https://www.converstay.com/favicon.svg", "template_sha": "a3749e154fc04179e7bb6e8781f370be197ea04f", "created_at": "2026-10-16 10:58:24", "updated_at": "2026-10-16 10:58:24"}
 ], "footer": null},
@@ -59,6 +59,7 @@
 {"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 0},
 {"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": "2026-10-24 20:33:07", "supporting_providers": 12, "change": 0},
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 12, "change": 0},
-{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

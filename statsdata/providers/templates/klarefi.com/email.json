@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-26T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "klarefi.com/email/metadata": {"title": "klarefi.com/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Klarefi", "service_provider_id": "klarefi.com", "service_id": "email", "name": "Email to applicants", "version": 2, "description": "Lets Klarefi send email to applicants from this domain, and, on a domain that takes no mail yet, take in the email applicants send to it.", "variable_description": "%domainKey%: the public DKIM key issued for this domain. %region%: the region this domain's mail is handled in.", "logo_url": "https://www.klarefi.com/brand/klarefi-mark.png", "template_sha": "7aca23b9caf629779f6412191119b2b29e7ba222", "created_at": "2026-10-15 11:03:31", "updated_at": "2026-10-18 10:35:44"}
 ], "footer": null},
@@ -58,6 +58,7 @@
 {"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 0},
 {"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": "2026-10-24 20:33:07", "supporting_providers": 12, "change": 0},
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 12, "change": 0},
-{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

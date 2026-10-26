@@ -1,12 +1,12 @@
-{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-26T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "domain0.dev", "name": "Domain0", "first_added_at": "2026-09-10 19:06:01", "last_updated_at": "2026-09-10 19:06:26"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 4, "supported_templates": 4, "supporting_dns_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906}
+{"templates": 4, "supported_templates": 4, "supporting_dns_providers": 11, "reach_domains": 811657, "reach_pct": 0.42580061615989034}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Domain verification", "service_id": "verification", "version": 1, "added_at": "2026-09-10 19:06:26", "updated_at": "2026-09-10 19:06:26", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
+{"name": "Domain verification", "service_id": "verification", "version": 1, "added_at": "2026-09-10 19:06:26", "updated_at": "2026-09-10 19:06:26", "supporting_providers": 11, "reach_domains": 811657, "reach_pct": 0.42580061615989034},
 {"name": "Website subdomain connection", "service_id": "website-cname", "version": 1, "added_at": "2026-09-10 19:06:01", "updated_at": "2026-09-10 19:06:01", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
 {"name": "Website IPv4 connection", "service_id": "website-ipv4", "version": 1, "added_at": "2026-09-10 19:06:01", "updated_at": "2026-09-10 19:06:01", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
 {"name": "Website IPv4 and www connection", "service_id": "website-ipv4-www", "version": 1, "added_at": "2026-09-10 19:06:01", "updated_at": "2026-09-10 19:06:01", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906}
@@ -48,7 +48,7 @@
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "service_id": "website-cname", "supporting_providers": 10},
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "service_id": "website-ipv4", "supporting_providers": 10},
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "service_id": "website-ipv4-www", "supporting_providers": 10},
-{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "verification", "supporting_providers": 10},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "verification", "supporting_providers": 11},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "website-cname", "supporting_providers": 10},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "website-ipv4", "supporting_providers": 10},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "website-ipv4-www", "supporting_providers": 10}

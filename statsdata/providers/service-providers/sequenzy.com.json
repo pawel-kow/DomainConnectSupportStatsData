@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-26T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "sequenzy.com", "name": "Sequenzy", "first_added_at": "2026-08-28 05:10:34", "last_updated_at": "2026-10-16 10:58:45"}
 ], "footer": null},
@@ -11,7 +11,7 @@
 {"name": "DMARC Policy", "service_id": "dmarc", "version": 1, "added_at": "2026-08-28 05:10:34", "updated_at": "2026-08-28 05:10:34", "supporting_providers": 13, "reach_domains": 24268907, "reach_pct": 12.73162869799321},
 {"name": "Landing Page", "service_id": "landing-page", "version": 1, "added_at": "2026-08-28 05:10:34", "updated_at": "2026-08-28 05:10:34", "supporting_providers": 13, "reach_domains": 24268907, "reach_pct": 12.73162869799321},
 {"name": "Inbound", "service_id": "inbound", "version": 1, "added_at": "2026-10-07 12:53:22", "updated_at": "2026-10-07 12:53:22", "supporting_providers": 11, "reach_domains": 811657, "reach_pct": 0.42580061615989034},
-{"name": "Tracking", "service_id": "tracking", "version": 1, "added_at": "2026-08-28 05:10:34", "updated_at": "2026-10-07 12:53:22", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906}
+{"name": "Tracking", "service_id": "tracking", "version": 1, "added_at": "2026-08-28 05:10:34", "updated_at": "2026-10-07 12:53:22", "supporting_providers": 11, "reach_domains": 811657, "reach_pct": 0.42580061615989034}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "click-tracking", "supporting_providers": 12},
@@ -92,6 +92,6 @@
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "inbound", "supporting_providers": 11},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "landing-page", "supporting_providers": 13},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "mail", "supporting_providers": 14},
-{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "tracking", "supporting_providers": 10}
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "tracking", "supporting_providers": 11}
 ], "footer": null}
 }}

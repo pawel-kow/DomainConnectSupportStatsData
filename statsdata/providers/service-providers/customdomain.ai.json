@@ -1,11 +1,12 @@
-{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-26T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "customdomain.ai", "name": "Customdomain", "first_added_at": "2026-07-08 13:21:21", "last_updated_at": "2026-09-29 15:03:48"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 18, "supported_templates": 18, "supporting_dns_providers": 11, "reach_domains": 310897, "reach_pct": 0.1630986169801547}
+{"templates": 18, "supported_templates": 18, "supporting_dns_providers": 12, "reach_domains": 811800, "reach_pct": 0.42587563490316593}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
+{"name": "Verify domain ownership", "service_id": "verify", "version": 2, "added_at": "2026-07-08 22:45:59", "updated_at": "2026-09-29 15:03:48", "supporting_providers": 11, "reach_domains": 811657, "reach_pct": 0.42580061615989034},
 {"name": "Website", "service_id": "website", "version": 1, "added_at": "2026-07-08 13:21:21", "updated_at": "2026-07-08 13:21:21", "supporting_providers": 11, "reach_domains": 310897, "reach_pct": 0.1630986169801547},
 {"name": "Point apex (A record)", "service_id": "apex-a", "version": 2, "added_at": "2026-07-08 22:45:59", "updated_at": "2026-09-29 15:03:48", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
 {"name": "Point apex (IPv6)", "service_id": "apex-aaaa", "version": 2, "added_at": "2026-07-08 22:45:59", "updated_at": "2026-09-29 15:03:48", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
@@ -18,7 +19,6 @@
 {"name": "Email MX", "service_id": "email-mx", "version": 2, "added_at": "2026-07-08 22:45:59", "updated_at": "2026-09-29 15:03:48", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
 {"name": "Email SPF (merge)", "service_id": "email-spf", "version": 2, "added_at": "2026-07-08 22:45:59", "updated_at": "2026-09-29 15:03:48", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
 {"name": "Point a subdomain", "service_id": "subdomain", "version": 2, "added_at": "2026-07-08 22:45:59", "updated_at": "2026-09-29 15:03:48", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
-{"name": "Verify domain ownership", "service_id": "verify", "version": 2, "added_at": "2026-07-08 22:45:59", "updated_at": "2026-09-29 15:03:48", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
 {"name": "Point all subdomains (wildcard)", "service_id": "wildcard", "version": 2, "added_at": "2026-07-08 22:45:59", "updated_at": "2026-09-29 15:03:48", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
 {"name": "Point www", "service_id": "www", "version": 2, "added_at": "2026-07-08 22:45:59", "updated_at": "2026-09-29 15:03:48", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
 {"name": "Point apex (flatten-capable hosts)", "service_id": "apex-cname", "version": 2, "added_at": "2026-07-08 22:45:59", "updated_at": "2026-09-29 15:03:48", "supporting_providers": 9, "reach_domains": 310603, "reach_pct": 0.16294438264083277},
@@ -202,7 +202,7 @@
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "email-spf", "supporting_providers": 10},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "redirect", "supporting_providers": 9},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "subdomain", "supporting_providers": 10},
-{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "verify", "supporting_providers": 10},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "verify", "supporting_providers": 11},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "website", "supporting_providers": 11},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "wildcard", "supporting_providers": 10},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "www", "supporting_providers": 10}

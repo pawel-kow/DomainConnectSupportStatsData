@@ -1,13 +1,13 @@
-{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-26T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "wpengine.com", "name": "WPEngine.com", "first_added_at": "2018-03-12 20:16:58", "last_updated_at": "2023-07-07 10:44:46"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 5, "supported_templates": 5, "supporting_dns_providers": 281, "reach_domains": 27648761, "reach_pct": 14.504722401035838}
+{"templates": 5, "supported_templates": 5, "supporting_dns_providers": 283, "reach_domains": 27648835, "reach_pct": 14.504761221923967}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "WP Engine Digital Experience Platform", "service_id": "arecord", "version": 2, "added_at": "2018-03-12 20:16:58", "updated_at": "2019-03-06 10:25:48", "supporting_providers": 281, "reach_domains": 27648761, "reach_pct": 14.504722401035838},
-{"name": "WP Engine Digital Experience Platform", "service_id": "cname", "version": 2, "added_at": "2018-03-12 20:16:58", "updated_at": "2019-07-23 13:16:33", "supporting_providers": 276, "reach_domains": 27640054, "reach_pct": 14.500154651401568},
+{"name": "WP Engine Digital Experience Platform", "service_id": "arecord", "version": 2, "added_at": "2018-03-12 20:16:58", "updated_at": "2019-03-06 10:25:48", "supporting_providers": 283, "reach_domains": 27648835, "reach_pct": 14.504761221923967},
+{"name": "WP Engine Digital Experience Platform", "service_id": "cname", "version": 2, "added_at": "2018-03-12 20:16:58", "updated_at": "2019-07-23 13:16:33", "supporting_providers": 282, "reach_domains": 27640303, "reach_pct": 14.500285278444053},
 {"name": "WP Engine Digital Experience Platform", "service_id": "arecord-cdn", "version": 1, "added_at": "2018-03-12 20:16:58", "updated_at": "2022-05-03 14:07:11", "supporting_providers": 15, "reach_domains": 27635757, "reach_pct": 14.497900416857124},
 {"name": "WP Engine Digital Experience Platform", "service_id": "cname-cdn", "version": 1, "added_at": "2022-03-10 12:50:16", "updated_at": "2022-03-14 09:18:33", "supporting_providers": 14, "reach_domains": 27627225, "reach_pct": 14.493424473377209},
 {"name": "WP Engine Digital Experience Platform", "service_id": "txtrecord", "version": 1, "added_at": "2022-03-10 12:50:16", "updated_at": "2023-07-07 10:44:46", "supporting_providers": 14, "reach_domains": 23776564, "reach_pct": 12.473342312534811}
@@ -58,9 +58,9 @@
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "service_id": "cname", "supporting_providers": 272},
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "service_id": "cname-cdn", "supporting_providers": 14},
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "service_id": "txtrecord", "supporting_providers": 14},
-{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "arecord", "supporting_providers": 281},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "arecord", "supporting_providers": 283},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "arecord-cdn", "supporting_providers": 15},
-{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "cname", "supporting_providers": 276},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "cname", "supporting_providers": 282},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "cname-cdn", "supporting_providers": 14},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "txtrecord", "supporting_providers": 14}
 ], "footer": null}

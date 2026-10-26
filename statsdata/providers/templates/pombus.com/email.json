@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-25T06:00:04Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-26T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "pombus.com/email/metadata": {"title": "pombus.com/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Pombus", "service_provider_id": "pombus.com", "service_id": "email", "name": "Pombus Email", "version": 2, "description": "Email for your domain with Pombus: receiving, sending and DKIM/DMARC.", "variable_description": null, "logo_url": "https://pombus.com/brand/logos/svg/pombus_symbol_dark.svg", "template_sha": "fca4a0c05fc24a5c5cbedb4d0040406d73f8653b", "created_at": "2026-10-17 10:19:52", "updated_at": "2026-10-18 10:35:09"}
 ], "footer": null},
@@ -62,6 +62,7 @@
 {"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 12, "change": 0},
 {"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": "2026-10-24 20:33:07", "supporting_providers": 12, "change": 0},
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 12, "change": 0},
-{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}
