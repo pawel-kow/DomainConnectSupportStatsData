@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-27T06:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-28T06:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "pversion.com/website/metadata": {"title": "pversion.com/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "PVersion", "service_provider_id": "pversion.com", "service_id": "website", "name": "PVersion website", "version": 1, "description": "Points a domain or subdomain at a website published by PVersion.", "variable_description": "ip: IPv4 address of the PVersion web server that hosts the site", "logo_url": "https://pversion.com/logo.png", "template_sha": "6ef4826b93962f9f3d1a0e01f73acac108df150a", "created_at": "2026-10-21 11:23:47", "updated_at": "2026-10-21 11:23:47"}
 ], "footer": null},
@@ -55,6 +55,7 @@
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 10, "change": 1},
 {"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
-{"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "supporting_providers": 11, "change": 1}
+{"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "supporting_providers": 11, "change": 1},
+{"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

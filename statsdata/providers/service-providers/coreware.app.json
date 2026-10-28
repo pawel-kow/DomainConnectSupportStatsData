@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-27T06:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-28T06:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "coreware.app", "name": "Coreware", "first_added_at": "2026-03-10 13:58:32", "last_updated_at": "2026-10-26 12:28:41"}
 ], "footer": null},
@@ -7,7 +7,7 @@
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
 {"name": "Email Verification", "service_id": "emailverification", "version": 1, "added_at": "2026-03-10 13:58:32", "updated_at": "2026-03-10 13:58:32", "supporting_providers": 13, "reach_domains": 40564677, "reach_pct": 21.280497132319358},
-{"name": "Website DNS", "service_id": "websitedns", "version": 1, "added_at": "2026-10-26 12:28:41", "updated_at": "2026-10-26 12:28:41", "supporting_providers": 8, "reach_domains": 19574, "reach_pct": 0.010268649516623023}
+{"name": "Website DNS", "service_id": "websitedns", "version": 1, "added_at": "2026-10-26 12:28:41", "updated_at": "2026-10-26 12:28:41", "supporting_providers": 9, "reach_domains": 19725, "reach_pct": 0.010347865112669313}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "emailverification", "supporting_providers": 12},
@@ -53,6 +53,7 @@
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "emailverification", "supporting_providers": 13},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "websitedns", "supporting_providers": 0},
 {"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": null, "service_id": "websitedns", "supporting_providers": 0},
-{"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "service_id": "websitedns", "supporting_providers": 8}
+{"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "service_id": "websitedns", "supporting_providers": 8},
+{"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "service_id": "websitedns", "supporting_providers": 9}
 ], "footer": null}
 }}

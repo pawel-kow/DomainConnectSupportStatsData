@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-27T06:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-28T06:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "userpath.app", "name": "UserPath", "first_added_at": "2026-10-12 14:46:12", "last_updated_at": "2026-10-14 11:25:38"}
 ], "footer": null},
@@ -110,6 +110,7 @@
 {"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": null, "service_id": "campaigns", "supporting_providers": 10},
 {"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": null, "service_id": "inbox", "supporting_providers": 12},
 {"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": null, "service_id": "outreach", "supporting_providers": 12},
-{"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "service_id": "campaigns", "supporting_providers": 10}
+{"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "service_id": "campaigns", "supporting_providers": 10},
+{"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "service_id": "campaigns", "supporting_providers": 10}
 ], "footer": null}
 }}
