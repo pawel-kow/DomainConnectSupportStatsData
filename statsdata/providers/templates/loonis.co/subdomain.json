@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-28T06:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-29T06:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "loonis.co/subdomain/metadata": {"title": "loonis.co/subdomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Loonis", "service_provider_id": "loonis.co", "service_id": "subdomain", "name": "Loonis website on a subdomain", "version": 1, "description": "Connects a subdomain to a website built and hosted on Loonis.", "variable_description": null, "logo_url": "https://app.loonis.co/domain-connect-logo.svg", "template_sha": "b885ba580f443f2ea5590917f4a4c78fd616fec4", "created_at": "2026-10-20 11:06:49", "updated_at": "2026-10-20 11:06:49"}
 ], "footer": null},
@@ -55,6 +55,7 @@
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 10, "change": 1},
 {"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
 {"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
-{"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 41, "started_at": "2026-10-29 02:00:06", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}
