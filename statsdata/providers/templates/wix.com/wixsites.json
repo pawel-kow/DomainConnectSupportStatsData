@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-29T06:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-30T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "wix.com/wixsites/metadata": {"title": "wix.com/wixsites - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Wix", "service_provider_id": "wix.com", "service_id": "wixsites", "name": "Wix Websites", "version": 2, "description": "Enables a domain to work with Wix Websites", "variable_description": "v1 is the numeric cluster within wix for hosting the site.", "logo_url": "https://domainconnect.org/wp-content/uploads/2016/06/wix-300x103.png", "template_sha": "caa65cc08f0d6b07294294c73a8281346e94a2ee", "created_at": "2017-03-11 23:26:56", "updated_at": "2020-01-27 13:28:53"}
 ], "footer": null},
@@ -300,7 +300,7 @@
 {"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "supporting_providers": 254, "change": 0},
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 254, "change": 0},
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 269, "change": 15},
-{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "supporting_providers": 270, "change": 1},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": "2026-10-29 19:02:39", "supporting_providers": 270, "change": 1},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 280, "change": 10}
 ], "footer": null}
 }}

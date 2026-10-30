@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-29T06:00:02Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-30T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "accredconsulting.com", "name": "Accred", "first_added_at": "2026-10-24 10:31:48", "last_updated_at": "2026-10-24 10:31:48"}
 ], "footer": null},
@@ -39,11 +39,12 @@
 {"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": "2026-10-24 01:44:55", "service_id": "sso-verify", "supporting_providers": 0},
 {"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "service_id": "sso-verify", "supporting_providers": 0},
 {"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": "2026-10-24 20:33:07", "service_id": "sso-verify", "supporting_providers": 0},
-{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": null, "service_id": "sso-verify", "supporting_providers": 4},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": "2026-10-29 19:02:39", "service_id": "sso-verify", "supporting_providers": 4},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "sso-verify", "supporting_providers": 10},
 {"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": null, "service_id": "sso-verify", "supporting_providers": 10},
 {"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "service_id": "sso-verify", "supporting_providers": 10},
 {"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "service_id": "sso-verify", "supporting_providers": 10},
-{"sweep_id": 41, "started_at": "2026-10-29 02:00:06", "completed_at": null, "service_id": "sso-verify", "supporting_providers": 10}
+{"sweep_id": 41, "started_at": "2026-10-29 02:00:06", "completed_at": null, "service_id": "sso-verify", "supporting_providers": 10},
+{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "service_id": "sso-verify", "supporting_providers": 10}
 ], "footer": null}
 }}
