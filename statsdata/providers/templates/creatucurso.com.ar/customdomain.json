@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-30T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-31T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "creatucurso.com.ar/customdomain/metadata": {"title": "creatucurso.com.ar/customdomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Creatucurso", "service_provider_id": "creatucurso.com.ar", "service_id": "customdomain", "name": "Dominio propio para tu academia", "version": 3, "description": "Points a subdomain of the customer (for example cursos.example.com) to the Creatucurso platform with one CNAME, so the online academy is served there. Apply it with the host parameter set to the subdomain.", "variable_description": null, "logo_url": "https://creatucurso.com.ar/logo.svg", "template_sha": "be07c1ac8ff854f384793df5203fc90edc7ae26a", "created_at": "2026-10-29 01:18:32", "updated_at": "2026-10-29 01:18:32"}
 ], "footer": null},
@@ -56,6 +56,7 @@
 {"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 41, "started_at": "2026-10-29 02:00:06", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "supporting_providers": 9, "change": 9}
+{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "supporting_providers": 9, "change": 9},
+{"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

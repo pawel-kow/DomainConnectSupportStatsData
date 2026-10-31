@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-30T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-31T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "userloop.io/survey-domain/metadata": {"title": "userloop.io/survey-domain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "UserLoop", "service_provider_id": "userloop.io", "service_id": "survey-domain", "name": "Survey domain", "version": 1, "description": "Points a subdomain of the merchant's domain (for example survey.example.com) at UserLoop's Cloudflare for SaaS fallback origin, fallback.user-loop.com, so it serves the merchant's UserLoop link and email surveys. UserLoop's custom hostname uses HTTP validation, so this one CNAME record is the only record needed.", "variable_description": "No variables. Apply with host set to the subdomain (for example host=survey on domain=example.com); the record is created at that host.", "logo_url": "https://userloop.io/images/userloop-logo-blue.svg", "template_sha": "2707f9d95a0ab8a9a028c60be14c34c60e3e6cca", "created_at": "2026-10-20 11:07:28", "updated_at": "2026-10-20 11:07:28"}
 ], "footer": null},
@@ -58,6 +58,7 @@
 {"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
 {"sweep_id": 41, "started_at": "2026-10-29 02:00:06", "completed_at": null, "supporting_providers": 11, "change": 0},
-{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

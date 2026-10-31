@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-30T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-31T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "outflare.ai/microsoft365/metadata": {"title": "outflare.ai/microsoft365 - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Outflare", "service_provider_id": "outflare.ai", "service_id": "microsoft365", "name": "Email domain (Microsoft 365)", "version": 1, "description": "Sets up a domain's mail on your own Microsoft 365: its MX and Autodiscover records, Microsoft in its SPF record, its two DKIM records, and a DMARC policy when there is none.", "variable_description": "mx: the MX host Microsoft 365 shows (example-com.mail.protection.outlook.com); dkim1, dkim2: the targets Microsoft shows for selector1 and selector2", "logo_url": "https://outflare.ai/brand/png/outflare-mark-black-256.png", "template_sha": "007ad155bdc2a39d3b0a454cacaa4c25ef073073", "created_at": "2026-10-28 12:21:28", "updated_at": "2026-10-28 12:21:28"}
 ], "footer": null},
@@ -61,6 +61,7 @@
 {"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 41, "started_at": "2026-10-29 02:00:06", "completed_at": null, "supporting_providers": 8, "change": 8},
-{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "supporting_providers": 9, "change": 1}
+{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "supporting_providers": 9, "change": 1},
+{"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

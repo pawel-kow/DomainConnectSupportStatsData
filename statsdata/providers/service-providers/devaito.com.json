@@ -1,0 +1,51 @@
+{"generated_at": "2026-10-31T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+"service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
+{"service_provider_id": "devaito.com", "name": "Devaito", "first_added_at": "2026-10-30 12:23:33", "last_updated_at": "2026-10-30 12:23:33"}
+], "footer": null},
+"support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
+{"templates": 1, "supported_templates": 1, "supporting_dns_providers": 8, "reach_domains": 19574, "reach_pct": 0.010268649516623023}
+], "footer": null},
+"templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
+{"name": "Connect a domain to a Devaito store", "service_id": "connect", "version": 1, "added_at": "2026-10-30 12:23:33", "updated_at": "2026-10-30 12:23:33", "supporting_providers": 8, "reach_domains": 19574, "reach_pct": 0.010268649516623023}
+], "footer": null},
+"support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
+{"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 3, "started_at": "2026-09-27 01:00:04", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 4, "started_at": "2026-09-28 18:39:41", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 5, "started_at": "2026-09-29 01:00:07", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 6, "started_at": "2026-09-30 01:00:08", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 7, "started_at": "2026-10-01 01:00:06", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 9, "started_at": "2026-10-03 01:00:06", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 10, "started_at": "2026-10-04 01:00:06", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 11, "started_at": "2026-10-05 01:00:07", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 12, "started_at": "2026-10-06 01:00:07", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 13, "started_at": "2026-10-07 01:00:07", "completed_at": "2026-10-09 11:15:24", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 14, "started_at": "2026-10-08 01:00:06", "completed_at": "2026-10-09 13:32:27", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 15, "started_at": "2026-10-09 01:00:07", "completed_at": "2026-10-09 22:39:00", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 16, "started_at": "2026-10-10 01:00:06", "completed_at": "2026-10-15 17:29:53", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 17, "started_at": "2026-10-11 01:00:08", "completed_at": "2026-10-16 06:36:06", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 22, "started_at": "2026-10-12 01:00:08", "completed_at": "2026-10-19 08:42:25", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 23, "started_at": "2026-10-13 01:00:06", "completed_at": "2026-10-19 08:42:25", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 24, "started_at": "2026-10-14 01:00:07", "completed_at": "2026-10-19 08:42:25", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 25, "started_at": "2026-10-15 01:00:07", "completed_at": "2026-10-19 08:42:25", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 26, "started_at": "2026-10-16 01:00:06", "completed_at": "2026-10-19 08:42:25", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 27, "started_at": "2026-10-17 01:00:06", "completed_at": "2026-10-19 08:42:25", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 28, "started_at": "2026-10-18 01:00:07", "completed_at": "2026-10-19 08:42:25", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 29, "started_at": "2026-10-19 01:00:07", "completed_at": "2026-10-19 08:42:25", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 31, "started_at": "2026-10-20 01:00:07", "completed_at": "2026-10-24 01:44:55", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 32, "started_at": "2026-10-21 01:00:06", "completed_at": "2026-10-24 01:44:55", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 33, "started_at": "2026-10-22 01:00:07", "completed_at": "2026-10-24 01:44:55", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": "2026-10-24 20:33:07", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": "2026-10-29 19:02:39", "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 41, "started_at": "2026-10-29 02:00:06", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "service_id": "connect", "supporting_providers": 0},
+{"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": null, "service_id": "connect", "supporting_providers": 8}
+], "footer": null}
+}}

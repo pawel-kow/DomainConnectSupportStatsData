@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-30T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-31T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "ske.io/validation-cname/metadata": {"title": "ske.io/validation-cname - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "SKE", "service_provider_id": "ske.io", "service_id": "validation-cname", "name": "Certificate validation", "version": 1, "description": "Install the DNS record used to validate and renew your application certificate.", "variable_description": "target: the full DNS target or IPv4 address supplied by SKE. The standard host parameter selects the record name within the DNS zone.", "logo_url": null, "template_sha": "dc52d3b98162187227db2d66e7d38417f0bd1c9b", "created_at": "2026-10-25 10:57:14", "updated_at": "2026-10-25 10:57:14"}
 ], "footer": null},
@@ -57,6 +57,7 @@
 {"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "supporting_providers": 9, "change": 1},
 {"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "supporting_providers": 9, "change": 0},
 {"sweep_id": 41, "started_at": "2026-10-29 02:00:06", "completed_at": null, "supporting_providers": 9, "change": 0},
-{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "supporting_providers": 10, "change": 1}
+{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "supporting_providers": 10, "change": 1},
+{"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

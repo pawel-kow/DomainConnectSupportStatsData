@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-30T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-10-31T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "ingeniousservices.com/website-apex/metadata": {"title": "ingeniousservices.com/website-apex - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Ingenious Services", "service_provider_id": "ingeniousservices.com", "service_id": "website-apex", "name": "Ingenious Services website on the bare domain", "version": 1, "description": "Sends visitors of the bare domain (example.com) to the website Ingenious Services hosts on its www name. Apply one group: 'alias' where the DNS provider supports APEXCNAME (the bare domain is served by Ingenious Services, which redirects it to www), otherwise 'forward' (the DNS provider redirects the bare domain to www). Used together with the website template, which points www.", "variable_description": "No variables: the alias points at Ingenious Services hosting and the forward goes to the www name of the same domain.", "logo_url": "https://ingeniousservices.com/favicon.svg", "template_sha": "3f55ad4d60156150477a00610c0351e75b8b94b6", "created_at": "2026-10-29 01:17:39", "updated_at": "2026-10-29 01:17:39"}
 ], "footer": null},
@@ -56,6 +56,7 @@
 {"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 41, "started_at": "2026-10-29 02:00:06", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "supporting_providers": 8, "change": 8}
+{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "supporting_providers": 8, "change": 8},
+{"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": null, "supporting_providers": 8, "change": 0}
 ], "footer": null}
 }}
