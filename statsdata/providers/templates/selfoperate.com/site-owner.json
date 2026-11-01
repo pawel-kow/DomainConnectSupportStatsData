@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-31T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-01T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "selfoperate.com/site-owner/metadata": {"title": "selfoperate.com/site-owner - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "SelfOperate", "service_provider_id": "selfoperate.com", "service_id": "site-owner", "name": "Website ownership check", "version": 1, "description": "Adds a TXT record that proves to SelfOperate you own this website's domain.", "variable_description": "token: the one-time code SelfOperate shows you", "logo_url": "https://selfoperate.com/selfoperate-logo.png", "template_sha": "95694053aa1c8b5ccddf3c80a4aaeca14c9ff88f", "created_at": "2026-10-29 12:30:34", "updated_at": "2026-10-29 12:30:34"}
 ], "footer": null},
@@ -51,12 +51,13 @@
 {"sweep_id": 34, "started_at": "2026-10-23 01:00:07", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 0, "change": 0},
 {"sweep_id": 35, "started_at": "2026-10-24 01:00:06", "completed_at": "2026-10-24 20:33:07", "supporting_providers": 0, "change": 0},
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": "2026-10-29 19:02:39", "supporting_providers": 0, "change": 0},
-{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 41, "started_at": "2026-10-29 02:00:06", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": null, "supporting_providers": 8, "change": 8},
-{"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": null, "supporting_providers": 9, "change": 1}
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 0, "change": 0},
+{"sweep_id": 38, "started_at": "2026-10-26 02:00:07", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 0, "change": 0},
+{"sweep_id": 39, "started_at": "2026-10-27 02:00:07", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 0, "change": 0},
+{"sweep_id": 40, "started_at": "2026-10-28 02:00:07", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 0, "change": 0},
+{"sweep_id": 41, "started_at": "2026-10-29 02:00:06", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 0, "change": 0},
+{"sweep_id": 42, "started_at": "2026-10-30 02:00:07", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 8, "change": 8},
+{"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 9, "change": 1},
+{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

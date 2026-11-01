@@ -1,4 +1,4 @@
-{"generated_at": "2026-10-31T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-01T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "goboost.io/site/metadata": {"title": "goboost.io/site - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "GoBoost Sites", "service_provider_id": "goboost.io", "service_id": "site", "name": "GoBoost Sites", "version": 1, "description": "Enables a domain to work with GoBoost sites", "variable_description": null, "logo_url": "https://goboost.io/static/goboost-logo-42b49c5bc8bf013be2276dfc95ead3b9.png", "template_sha": "e3992ae48edcb7a37be22b6b10c3e8c19e630452", "created_at": "2020-05-19 13:27:46", "updated_at": "2020-05-19 13:27:46"}
 ], "footer": null},
@@ -68,7 +68,6 @@
 {"name": "Plesk", "dns_provider_id": 1178, "provider_id": "plesk.com", "api_host": "linuswest1wp.hustly.live", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-21 00:00:10", "domains": 65, "reach_pct": 3.4099428761647924e-05},
 {"name": "Plesk", "dns_provider_id": 1655, "provider_id": "plesk.com", "api_host": "plesk11.esmero.nl", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-21 01:23:03", "domains": 64, "reach_pct": 3.357482216531488e-05},
 {"name": "Plesk", "dns_provider_id": 589, "provider_id": "plesk.com", "api_host": "beeldr.hosting", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-20 22:59:17", "domains": 63, "reach_pct": 3.305021556898184e-05},
-{"name": "Plesk", "dns_provider_id": 1334, "provider_id": "plesk.com", "api_host": "mark.irapture.com", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-10-19 17:40:16", "domains": 62, "reach_pct": 3.2525608972648795e-05},
 {"name": "Plesk", "dns_provider_id": 2286, "provider_id": "plesk.com", "api_host": "svw112.serverneubox.com.mx", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-21 02:39:23", "domains": 62, "reach_pct": 3.2525608972648795e-05},
 {"name": "Plesk", "dns_provider_id": 1625, "provider_id": "plesk.com", "api_host": "pl-sh3.host4.biz", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-21 01:16:09", "domains": 61, "reach_pct": 3.2001002376315745e-05},
 {"name": "Plesk", "dns_provider_id": 2524, "provider_id": "plesk.com", "api_host": "w04.daha.host", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-21 03:19:48", "domains": 61, "reach_pct": 3.2001002376315745e-05},
@@ -285,9 +284,9 @@
 {"name": "Plesk", "dns_provider_id": 168, "provider_id": "plesk.com", "api_host": "plesk.flexbit.at", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-10-19 14:19:42", "domains": 3, "reach_pct": 1.573819788999135e-06},
 {"name": "Plesk", "dns_provider_id": 158, "provider_id": "plesk.com", "api_host": "raddserver.raddarhost.com.br", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-10-19 14:18:09", "domains": 2, "reach_pct": 1.04921319266609e-06},
 {"name": "Plesk", "dns_provider_id": 2308, "provider_id": "plesk.com", "api_host": "svw111.serverneubox.com.mx", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-21 02:44:13", "domains": 2, "reach_pct": 1.04921319266609e-06}
-], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "served_version": null, "response_kind": null, "template_match": null, "since": null, "domains": 323833, "reach_pct": 0.16988492791031898}},
+], "footer": {"name": "TOTAL", "dns_provider_id": null, "provider_id": null, "api_host": null, "served_version": null, "response_kind": null, "template_match": null, "since": null, "domains": 323771, "reach_pct": 0.16985240230134632}},
 "goboost.io/site/served": {"title": "goboost.io/site - Served templates (current state)", "columns": [{"key": "supporters", "header": "Supporting DNS providers"}, {"key": "with_version_count", "header": "Serving a version"}, {"key": "current_version_count", "header": "Serving the repository version"}, {"key": "full_template_count", "header": "Serving the full template"}, {"key": "morphed_count", "header": "Morphed"}, {"key": "outdated_count", "header": "Outdated"}], "rows": [
-{"supporters": 278, "with_version_count": 5, "current_version_count": 5, "full_template_count": 2, "morphed_count": 0, "outdated_count": 0}
+{"supporters": 277, "with_version_count": 5, "current_version_count": 5, "full_template_count": 2, "morphed_count": 0, "outdated_count": 0}
 ], "footer": null},
 "goboost.io/site/history": {"title": "goboost.io/site - Support history", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "change", "header": "CHANGE"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "supporting_providers": 259, "change": 259},
@@ -299,6 +298,7 @@
 {"sweep_id": 8, "started_at": "2026-10-02 01:00:06", "completed_at": null, "supporting_providers": 259, "change": 0},
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 267, "change": 8},
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": "2026-10-29 19:02:39", "supporting_providers": 269, "change": 2},
-{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": null, "supporting_providers": 278, "change": 9}
+{"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 278, "change": 9},
+{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": null, "supporting_providers": 277, "change": -1}
 ], "footer": null}
 }}
