@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-01T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-02T06:00:03Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "sendeto.com", "name": "Sendeto", "first_added_at": "2026-10-24 10:31:51", "last_updated_at": "2026-10-29 01:15:15"}
 ], "footer": null},
@@ -7,11 +7,11 @@
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
 {"name": "Verify Sendeto email domain ownership", "service_id": "managed-email-ownership", "version": 2, "added_at": "2026-10-24 10:31:51", "updated_at": "2026-10-24 10:31:51", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
-{"name": "Sendeto email authentication and receiving", "service_id": "managed-email-records", "version": 2, "added_at": "2026-10-24 10:31:51", "updated_at": "2026-10-24 10:31:51", "supporting_providers": 8, "reach_domains": 291711, "reach_pct": 0.1530335148229089},
-{"name": "Sendeto email setup", "service_id": "managed-provider-emailit", "version": 1, "added_at": "2026-10-29 01:15:15", "updated_at": "2026-10-29 01:15:15", "supporting_providers": 9, "reach_domains": 19725, "reach_pct": 0.010347865112669313},
-{"name": "Sendeto support email setup", "service_id": "managed-provider-mxroute", "version": 1, "added_at": "2026-10-29 01:15:15", "updated_at": "2026-10-29 01:15:15", "supporting_providers": 9, "reach_domains": 19725, "reach_pct": 0.010347865112669313},
-{"name": "Sendeto email ownership", "service_id": "managed-provider-mxroute-ownership", "version": 1, "added_at": "2026-10-29 01:15:15", "updated_at": "2026-10-29 01:15:15", "supporting_providers": 9, "reach_domains": 19725, "reach_pct": 0.010347865112669313},
-{"name": "Sendeto email setup", "service_id": "managed-provider-ses", "version": 1, "added_at": "2026-10-29 01:15:15", "updated_at": "2026-10-29 01:15:15", "supporting_providers": 9, "reach_domains": 19725, "reach_pct": 0.010347865112669313}
+{"name": "Sendeto email setup", "service_id": "managed-provider-emailit", "version": 1, "added_at": "2026-10-29 01:15:15", "updated_at": "2026-10-29 01:15:15", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
+{"name": "Sendeto support email setup", "service_id": "managed-provider-mxroute", "version": 1, "added_at": "2026-10-29 01:15:15", "updated_at": "2026-10-29 01:15:15", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
+{"name": "Sendeto email ownership", "service_id": "managed-provider-mxroute-ownership", "version": 1, "added_at": "2026-10-29 01:15:15", "updated_at": "2026-10-29 01:15:15", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
+{"name": "Sendeto email setup", "service_id": "managed-provider-ses", "version": 1, "added_at": "2026-10-29 01:15:15", "updated_at": "2026-10-29 01:15:15", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
+{"name": "Sendeto email authentication and receiving", "service_id": "managed-email-records", "version": 2, "added_at": "2026-10-24 10:31:51", "updated_at": "2026-10-24 10:31:51", "supporting_providers": 8, "reach_domains": 291711, "reach_pct": 0.1530335148229089}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "managed-email-ownership", "supporting_providers": 0},
@@ -244,9 +244,15 @@
 {"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": "2026-11-01 02:01:20", "service_id": "managed-provider-ses", "supporting_providers": 9},
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": null, "service_id": "managed-email-ownership", "supporting_providers": 10},
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": null, "service_id": "managed-email-records", "supporting_providers": 8},
-{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": null, "service_id": "managed-provider-emailit", "supporting_providers": 9},
-{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": null, "service_id": "managed-provider-mxroute", "supporting_providers": 9},
-{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": null, "service_id": "managed-provider-mxroute-ownership", "supporting_providers": 9},
-{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": null, "service_id": "managed-provider-ses", "supporting_providers": 9}
+{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": null, "service_id": "managed-provider-emailit", "supporting_providers": 10},
+{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": null, "service_id": "managed-provider-mxroute", "supporting_providers": 10},
+{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": null, "service_id": "managed-provider-mxroute-ownership", "supporting_providers": 10},
+{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": null, "service_id": "managed-provider-ses", "supporting_providers": 10},
+{"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": null, "service_id": "managed-email-ownership", "supporting_providers": 10},
+{"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": null, "service_id": "managed-email-records", "supporting_providers": 8},
+{"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": null, "service_id": "managed-provider-emailit", "supporting_providers": 10},
+{"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": null, "service_id": "managed-provider-mxroute", "supporting_providers": 10},
+{"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": null, "service_id": "managed-provider-mxroute-ownership", "supporting_providers": 10},
+{"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": null, "service_id": "managed-provider-ses", "supporting_providers": 10}
 ], "footer": null}
 }}
