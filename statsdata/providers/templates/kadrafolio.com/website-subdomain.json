@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-03T06:00:21Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-04T06:00:16Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "kadrafolio.com/website-subdomain/metadata": {"title": "kadrafolio.com/website-subdomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Kadrafolio", "service_provider_id": "kadrafolio.com", "service_id": "website-subdomain", "name": "Photographer website on a subdomain", "version": 1, "description": "Connects a subdomain (for example photo.example.com, set with the host parameter) to a photographer website built with Kadrafolio and hosted on Vercel: one CNAME to the target Vercel assigns to the Kadrafolio project. For the apex domain use the website template.", "variable_description": "cname and pool: label and pool number of the Vercel CNAME target from the domain configuration of the Kadrafolio project (e.g. d1d4fc829fe7bc7c and 017 for d1d4fc829fe7bc7c.vercel-dns-017.com).", "logo_url": null, "template_sha": "7fd6fe449bc07b7cdd0a77203c512d0a03d3ba83", "created_at": "2026-10-30 12:21:53", "updated_at": "2026-10-30 12:21:53"}
 ], "footer": null},
@@ -61,6 +61,7 @@
 {"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 8, "change": 8},
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "supporting_providers": 10, "change": 2},
 {"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": "2026-11-03 02:52:45", "supporting_providers": 10, "change": 0},
-{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 47, "started_at": "2026-11-04 02:01:23", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

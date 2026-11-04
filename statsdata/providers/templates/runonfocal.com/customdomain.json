@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-03T06:00:21Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-04T06:00:16Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "runonfocal.com/customdomain/metadata": {"title": "runonfocal.com/customdomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Focal", "service_provider_id": "runonfocal.com", "service_id": "customdomain", "name": "Custom domain", "version": 1, "description": "Points a subdomain (for example photos.yourstudio.com) at a creative studio's client pages on Focal. The CNAME target is the one Focal's hosting assigned to that domain; the TXT proof is only applied when Focal asks the owner to prove control of a domain someone else released.", "variable_description": "target: the hostname the subdomain points to (Focal's hosting assigns it per domain); ownership: a one-time proof token (the record reads domain-verify=<token>)", "logo_url": "https://runonfocal.com/icon-512.png", "template_sha": "68f4d346ccf98074deb916649e6dbe00fbc57935", "created_at": "2026-10-30 12:23:16", "updated_at": "2026-10-30 12:23:16"}
 ], "footer": null},
@@ -63,6 +63,7 @@
 {"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 7, "change": 7},
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "supporting_providers": 10, "change": 3},
 {"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": "2026-11-03 02:52:45", "supporting_providers": 11, "change": 1},
-{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 47, "started_at": "2026-11-04 02:01:23", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

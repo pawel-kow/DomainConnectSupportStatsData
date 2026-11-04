@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-03T06:00:21Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-04T06:00:16Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "qtwo.app/verify/metadata": {"title": "qtwo.app/verify - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Q2", "service_provider_id": "qtwo.app", "service_id": "verify", "name": "Q2 domain verification", "version": 1, "description": "Adds the TXT record that proves you control the domain, so you can chat on Q2 as an address at it", "variable_description": "code: the verification code Q2 shows for your device (hex)", "logo_url": "https://qtwo.app/qtwo-pug.png", "template_sha": "d6af765ec00c6531898c44cecccdd0d16bb6b968", "created_at": "2026-11-01 12:52:06", "updated_at": "2026-11-01 12:52:06"}
 ], "footer": null},
@@ -60,6 +60,7 @@
 {"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 0, "change": 0},
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "supporting_providers": 0, "change": 0},
 {"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": "2026-11-03 02:52:45", "supporting_providers": 9, "change": 9},
-{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": null, "supporting_providers": 9, "change": 0}
+{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": null, "supporting_providers": 9, "change": 0},
+{"sweep_id": 47, "started_at": "2026-11-04 02:01:23", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

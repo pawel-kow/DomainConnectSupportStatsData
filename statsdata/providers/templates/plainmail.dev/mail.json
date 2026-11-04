@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-03T06:00:21Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-04T06:00:16Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "plainmail.dev/mail/metadata": {"title": "plainmail.dev/mail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Plainmail", "service_provider_id": "plainmail.dev", "service_id": "mail", "name": "Plainmail email hosting", "version": 2, "description": "Hosted mail for a customer domain: inbound MX to Plainmail, SPF, Amazon SES Easy DKIM and custom MAIL FROM (bounce), DMARC, mail client autoconfig/autodiscover, and a TXT proving the Plainmail account owns the domain. Optional groups, applied only when requested: backup MX (backupmx), MTA-STS policy delegation (mtasts), and TLS reporting (tlsrpt).", "variable_description": "%dkim1%, %dkim2%, %dkim3%: the three Amazon SES Easy DKIM tokens for the domain (lowercase alphanumeric); %verify%: the Plainmail ownership token (base64url)", "logo_url": "https://plainmail.dev/assets/logo.svg", "template_sha": "e5cf5bed8e16fac11651d30ffcf0088ab39e0d3d", "created_at": "2026-10-30 12:23:25", "updated_at": "2026-10-31 11:53:22"}
 ], "footer": null},
@@ -76,6 +76,7 @@
 {"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 8, "change": 8},
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "supporting_providers": 10, "change": 2},
 {"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": "2026-11-03 02:52:45", "supporting_providers": 11, "change": 1},
-{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 47, "started_at": "2026-11-04 02:01:23", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

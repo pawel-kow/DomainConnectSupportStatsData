@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-03T06:00:21Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-04T06:00:16Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "nostaya.io/site-hotel-sous-domaine/metadata": {"title": "nostaya.io/site-hotel-sous-domaine - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Nostaya", "service_provider_id": "nostaya.io", "service_id": "site-hotel-sous-domaine", "name": "Nostaya hotel website (subdomain)", "version": 1, "description": "Points one subdomain (for example book.example.com) to the hotel website and booking engine hosted by Nostaya. The rest of the zone is not modified.", "variable_description": "ip: IPv4 address of the Nostaya web server", "logo_url": "https://extranet.nostaya.io/favicon.svg", "template_sha": "34dd09804fad549c1827b969c9e11ccbf1f3d8e3", "created_at": "2026-10-29 01:08:56", "updated_at": "2026-10-29 01:08:56"}
 ], "footer": null},
@@ -61,6 +61,7 @@
 {"sweep_id": 43, "started_at": "2026-10-31 02:00:06", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 9, "change": 0},
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "supporting_providers": 10, "change": 1},
 {"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": "2026-11-03 02:52:45", "supporting_providers": 10, "change": 0},
-{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": null, "supporting_providers": 10, "change": 0},
+{"sweep_id": 47, "started_at": "2026-11-04 02:01:23", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}
