@@ -1,13 +1,13 @@
-{"generated_at": "2026-11-04T06:00:16Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-05T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "basehand.com", "name": "Basehand", "first_added_at": "2026-10-13 17:57:59", "last_updated_at": "2026-10-30 01:07:40"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 7, "supported_templates": 7, "supporting_dns_providers": 12, "reach_domains": 24268897, "reach_pct": 12.731623451927247}
+{"templates": 7, "supported_templates": 7, "supporting_dns_providers": 13, "reach_domains": 24268925, "reach_pct": 12.731638140911944}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Google Group email sending", "service_id": "email-group", "version": 1, "added_at": "2026-10-30 01:07:40", "updated_at": "2026-10-30 01:07:40", "supporting_providers": 11, "reach_domains": 23767994, "reach_pct": 12.468846434004236},
-{"name": "Email sending", "service_id": "email-sending", "version": 1, "added_at": "2026-10-30 01:07:40", "updated_at": "2026-10-30 01:07:40", "supporting_providers": 11, "reach_domains": 23767994, "reach_pct": 12.468846434004236},
+{"name": "Google Group email sending", "service_id": "email-group", "version": 1, "added_at": "2026-10-30 01:07:40", "updated_at": "2026-10-30 01:07:40", "supporting_providers": 12, "reach_domains": 23768022, "reach_pct": 12.468861122988933},
+{"name": "Email sending", "service_id": "email-sending", "version": 1, "added_at": "2026-10-30 01:07:40", "updated_at": "2026-10-30 01:07:40", "supporting_providers": 12, "reach_domains": 23768022, "reach_pct": 12.468861122988933},
 {"name": "Website", "service_id": "subdomain", "version": 1, "added_at": "2026-10-13 17:57:59", "updated_at": "2026-10-14 11:27:06", "supporting_providers": 11, "reach_domains": 811657, "reach_pct": 0.42580061615989034},
 {"name": "Website", "service_id": "domain-apex-cloudflare", "version": 1, "added_at": "2026-10-13 17:57:59", "updated_at": "2026-10-14 11:26:58", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
 {"name": "Email", "service_id": "email", "version": 2, "added_at": "2026-10-14 11:27:02", "updated_at": "2026-10-30 01:07:40", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
@@ -271,9 +271,11 @@
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "subdomain", "supporting_providers": 11},
 {"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "email-group", "supporting_providers": 11},
 {"sweep_id": 45, "started_at": "2026-11-02 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "email-sending", "supporting_providers": 11},
-{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": null, "service_id": "email-group", "supporting_providers": 11},
-{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": null, "service_id": "email-sending", "supporting_providers": 11},
+{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": "2026-11-04 07:55:08", "service_id": "email-group", "supporting_providers": 11},
+{"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": "2026-11-04 07:55:08", "service_id": "email-sending", "supporting_providers": 11},
 {"sweep_id": 47, "started_at": "2026-11-04 02:01:23", "completed_at": null, "service_id": "email-group", "supporting_providers": 11},
-{"sweep_id": 47, "started_at": "2026-11-04 02:01:23", "completed_at": null, "service_id": "email-sending", "supporting_providers": 11}
+{"sweep_id": 47, "started_at": "2026-11-04 02:01:23", "completed_at": null, "service_id": "email-sending", "supporting_providers": 11},
+{"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": null, "service_id": "email-group", "supporting_providers": 12},
+{"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": null, "service_id": "email-sending", "supporting_providers": 12}
 ], "footer": null}
 }}
