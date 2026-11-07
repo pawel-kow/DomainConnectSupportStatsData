@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-06T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-07T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "tsoftcloud.com/app/metadata": {"title": "tsoftcloud.com/app - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "TSoftCloud", "service_provider_id": "tsoftcloud.com", "service_id": "app", "name": "Your TSoftCloud app", "version": 1, "description": "Points one subdomain, such as shop.example.com, to your TSoftCloud app with one CNAME. The subdomain is the host the flow is started for; nothing else is written.", "variable_description": "%app%: the app's name on TSoftCloud (its label under app.tsoftcloud.com, for example shop gives shop.app.tsoftcloud.com).", "logo_url": null, "template_sha": "aa4cd03b20f856d5567edab2c5fbead0b6fa535c", "created_at": "2026-10-28 12:21:49", "updated_at": "2026-10-28 12:21:49"}
 ], "footer": null},
@@ -65,6 +65,7 @@
 {"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": "2026-11-04 07:55:08", "supporting_providers": 10, "change": 0},
 {"sweep_id": 47, "started_at": "2026-11-04 02:01:23", "completed_at": "2026-11-05 15:10:27", "supporting_providers": 10, "change": 0},
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 11, "change": 1},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-06T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-07T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "2way.app/short-links/metadata": {"title": "2way.app/short-links - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "2way", "service_provider_id": "2way.app", "service_id": "short-links", "name": "2way branded short links", "version": 2, "description": "Points this address (for example go or link) at 2way so your SMS short links use your own domain. 2way issues the HTTPS certificate automatically. Use an address that is not already in use: records on it are replaced. Your main domain and email are not changed.", "variable_description": null, "logo_url": "https://cdn.2way.app/domain-connect/logo.svg", "template_sha": "a8a23f937100b07b90b1dd2a8855e473f9480204", "created_at": "2026-10-30 12:23:02", "updated_at": "2026-11-01 12:51:40"}
 ], "footer": null},
@@ -66,6 +66,7 @@
 {"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": "2026-11-04 07:55:08", "supporting_providers": 11, "change": 0},
 {"sweep_id": 47, "started_at": "2026-11-04 02:01:23", "completed_at": "2026-11-05 15:10:27", "supporting_providers": 11, "change": 0},
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 12, "change": 1},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

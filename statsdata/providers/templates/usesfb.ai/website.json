@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-06T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-07T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "usesfb.ai/website/metadata": {"title": "usesfb.ai/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Systems for Business", "service_provider_id": "usesfb.ai", "service_id": "website", "name": "Website, members area and email", "version": 1, "description": "Puts a business's website (the domain and www), its members area (clients.) and its sending email (send. and resend._domainkey) on Systems for Business. Each group is applied only when the business chose it.", "variable_description": "%ip%: Systems for Business's web server address; %mxhost%: the email sender's feedback host; %dkim%: the domain's DKIM public key", "logo_url": "https://usesfb.ai/apple-touch-icon.png", "template_sha": "5522898394cc94d535c0433da787a5bfa6e39dcf", "created_at": "2026-10-28 12:21:15", "updated_at": "2026-10-28 12:21:15"}
 ], "footer": null},
@@ -71,6 +71,7 @@
 {"sweep_id": 46, "started_at": "2026-11-03 02:22:47", "completed_at": "2026-11-04 07:55:08", "supporting_providers": 11, "change": 0},
 {"sweep_id": 47, "started_at": "2026-11-04 02:01:23", "completed_at": "2026-11-05 15:10:27", "supporting_providers": 11, "change": 0},
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 12, "change": 1},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}
