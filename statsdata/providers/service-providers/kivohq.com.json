@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-07T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-08T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "kivohq.com", "name": "Kivo", "first_added_at": "2026-11-03 13:50:24", "last_updated_at": "2026-11-03 13:50:24"}
 ], "footer": null},
@@ -96,9 +96,11 @@
 {"sweep_id": 47, "started_at": "2026-11-04 02:01:23", "completed_at": "2026-11-05 15:10:27", "service_id": "store-apex", "supporting_providers": 0},
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "service_id": "store", "supporting_providers": 7},
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "service_id": "store-apex", "supporting_providers": 7},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "store", "supporting_providers": 7},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "store-apex", "supporting_providers": 7},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "store", "supporting_providers": 7},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "store-apex", "supporting_providers": 7}
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "store", "supporting_providers": 7},
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "store-apex", "supporting_providers": 7},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "store", "supporting_providers": 7},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "store-apex", "supporting_providers": 7},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "store", "supporting_providers": 7},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "store-apex", "supporting_providers": 7}
 ], "footer": null}
 }}

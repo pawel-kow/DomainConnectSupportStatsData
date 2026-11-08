@@ -1,15 +1,15 @@
-{"generated_at": "2026-11-07T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-08T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "findabis.com", "name": "Findabis", "first_added_at": "2026-09-25 11:25:23", "last_updated_at": "2026-10-17 10:20:12"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 4, "supported_templates": 4, "supporting_dns_providers": 13, "reach_domains": 23768147, "reach_pct": 12.468926698813474}
+{"templates": 4, "supported_templates": 4, "supporting_dns_providers": 14, "reach_domains": 23768175, "reach_pct": 12.468941387798171}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Findabis website", "service_id": "website", "version": 1, "added_at": "2026-09-25 11:25:23", "updated_at": "2026-09-25 11:25:23", "supporting_providers": 13, "reach_domains": 23768147, "reach_pct": 12.468926698813474},
-{"name": "Findabis website (whole domain)", "service_id": "website-root", "version": 1, "added_at": "2026-09-25 11:25:23", "updated_at": "2026-09-25 11:25:23", "supporting_providers": 12, "reach_domains": 23768004, "reach_pct": 12.468851680070198},
-{"name": "Findabis website (behind your proxy)", "service_id": "website-proxied", "version": 1, "added_at": "2026-10-17 10:20:12", "updated_at": "2026-10-17 10:20:12", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906},
-{"name": "Findabis website (whole domain, behind your proxy)", "service_id": "website-root-proxied", "version": 1, "added_at": "2026-10-17 10:20:12", "updated_at": "2026-10-17 10:20:12", "supporting_providers": 10, "reach_domains": 310754, "reach_pct": 0.16302359823687906}
+{"name": "Findabis website", "service_id": "website", "version": 1, "added_at": "2026-09-25 11:25:23", "updated_at": "2026-09-25 11:25:23", "supporting_providers": 14, "reach_domains": 23768175, "reach_pct": 12.468941387798171},
+{"name": "Findabis website (whole domain)", "service_id": "website-root", "version": 1, "added_at": "2026-09-25 11:25:23", "updated_at": "2026-09-25 11:25:23", "supporting_providers": 13, "reach_domains": 23768032, "reach_pct": 12.468866369054897},
+{"name": "Findabis website (behind your proxy)", "service_id": "website-proxied", "version": 1, "added_at": "2026-10-17 10:20:12", "updated_at": "2026-10-17 10:20:12", "supporting_providers": 11, "reach_domains": 310782, "reach_pct": 0.1630382872215764},
+{"name": "Findabis website (whole domain, behind your proxy)", "service_id": "website-root-proxied", "version": 1, "added_at": "2026-10-17 10:20:12", "updated_at": "2026-10-17 10:20:12", "supporting_providers": 11, "reach_domains": 310782, "reach_pct": 0.1630382872215764}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "website", "supporting_providers": 0},
@@ -125,6 +125,10 @@
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "website", "supporting_providers": 13},
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "website-proxied", "supporting_providers": 10},
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "website-root", "supporting_providers": 12},
-{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "website-root-proxied", "supporting_providers": 10}
+{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "website-root-proxied", "supporting_providers": 10},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "website", "supporting_providers": 14},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "website-proxied", "supporting_providers": 11},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "website-root", "supporting_providers": 13},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "website-root-proxied", "supporting_providers": 11}
 ], "footer": null}
 }}

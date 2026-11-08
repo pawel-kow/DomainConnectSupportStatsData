@@ -1,16 +1,16 @@
-{"generated_at": "2026-11-07T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-08T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "growstack.eu", "name": "Growstack", "first_added_at": "2026-11-06 13:55:46", "last_updated_at": "2026-11-06 13:55:46"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 5, "supported_templates": 0, "supporting_dns_providers": 0, "reach_domains": 0, "reach_pct": 0.0}
+{"templates": 5, "supported_templates": 5, "supporting_dns_providers": 3, "reach_domains": 515, "reach_pct": 0.0002701723971115182}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Growstack links and booking address", "service_id": "address", "version": 1, "added_at": "2026-11-06 13:55:46", "updated_at": "2026-11-06 13:55:46", "supporting_providers": 0, "reach_domains": 0, "reach_pct": 0.0},
-{"name": "Growstack DMARC policy", "service_id": "dmarc", "version": 1, "added_at": "2026-11-06 13:55:46", "updated_at": "2026-11-06 13:55:46", "supporting_providers": 0, "reach_domains": 0, "reach_pct": 0.0},
-{"name": "Growstack email sending through Lettermint", "service_id": "email-lettermint", "version": 1, "added_at": "2026-11-06 13:55:46", "updated_at": "2026-11-06 13:55:46", "supporting_providers": 0, "reach_domains": 0, "reach_pct": 0.0},
-{"name": "Growstack email sending through Amazon SES", "service_id": "email-ses", "version": 1, "added_at": "2026-11-06 13:55:46", "updated_at": "2026-11-06 13:55:46", "supporting_providers": 0, "reach_domains": 0, "reach_pct": 0.0},
-{"name": "Growstack website", "service_id": "website", "version": 1, "added_at": "2026-11-06 13:55:46", "updated_at": "2026-11-06 13:55:46", "supporting_providers": 0, "reach_domains": 0, "reach_pct": 0.0}
+{"name": "Growstack links and booking address", "service_id": "address", "version": 1, "added_at": "2026-11-06 13:55:46", "updated_at": "2026-11-06 13:55:46", "supporting_providers": 3, "reach_domains": 515, "reach_pct": 0.0002701723971115182},
+{"name": "Growstack DMARC policy", "service_id": "dmarc", "version": 1, "added_at": "2026-11-06 13:55:46", "updated_at": "2026-11-06 13:55:46", "supporting_providers": 3, "reach_domains": 515, "reach_pct": 0.0002701723971115182},
+{"name": "Growstack email sending through Lettermint", "service_id": "email-lettermint", "version": 1, "added_at": "2026-11-06 13:55:46", "updated_at": "2026-11-06 13:55:46", "supporting_providers": 3, "reach_domains": 515, "reach_pct": 0.0002701723971115182},
+{"name": "Growstack email sending through Amazon SES", "service_id": "email-ses", "version": 1, "added_at": "2026-11-06 13:55:46", "updated_at": "2026-11-06 13:55:46", "supporting_providers": 3, "reach_domains": 515, "reach_pct": 0.0002701723971115182},
+{"name": "Growstack website", "service_id": "website", "version": 1, "added_at": "2026-11-06 13:55:46", "updated_at": "2026-11-06 13:55:46", "supporting_providers": 3, "reach_domains": 515, "reach_pct": 0.0002701723971115182}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "address", "supporting_providers": 0},
@@ -228,15 +228,20 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "service_id": "email-lettermint", "supporting_providers": 0},
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "service_id": "email-ses", "supporting_providers": 0},
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "service_id": "website", "supporting_providers": 0},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "address", "supporting_providers": 0},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "dmarc", "supporting_providers": 0},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "email-lettermint", "supporting_providers": 0},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "email-ses", "supporting_providers": 0},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "website", "supporting_providers": 0},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "address", "supporting_providers": 0},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "dmarc", "supporting_providers": 0},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "email-lettermint", "supporting_providers": 0},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "email-ses", "supporting_providers": 0},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "website", "supporting_providers": 0}
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "address", "supporting_providers": 0},
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "dmarc", "supporting_providers": 0},
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "email-lettermint", "supporting_providers": 0},
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "email-ses", "supporting_providers": 0},
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "website", "supporting_providers": 0},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "address", "supporting_providers": 0},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "dmarc", "supporting_providers": 0},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "email-lettermint", "supporting_providers": 0},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "email-ses", "supporting_providers": 0},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "website", "supporting_providers": 0},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "address", "supporting_providers": 3},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "dmarc", "supporting_providers": 3},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "email-lettermint", "supporting_providers": 3},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "email-ses", "supporting_providers": 3},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "website", "supporting_providers": 3}
 ], "footer": null}
 }}

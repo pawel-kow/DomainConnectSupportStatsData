@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-07T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-08T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "outlook.com/personalizedoutlookemail/metadata": {"title": "outlook.com/personalizedoutlookemail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Outlook", "service_provider_id": "outlook.com", "service_id": "personalizedoutlookemail", "name": "Personalized Outlook Email", "version": 1, "description": "Enables a domain to work with Microsoft Outlook", "variable_description": "", "logo_url": "", "template_sha": "648a6a3aefb3463ca4afc1bcd8ece855480edb0f", "created_at": "2017-11-07 17:44:43", "updated_at": "2019-03-06 10:25:48"}
 ], "footer": null},
@@ -217,7 +217,7 @@
 {"name": "Plesk", "dns_provider_id": 2243, "provider_id": "plesk.com", "api_host": "srv.ibe.pl", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-21 02:45:28", "domains": 29, "reach_pct": 1.5213591293658305e-05},
 {"name": "Plesk", "dns_provider_id": 2959, "provider_id": "plesk.com", "api_host": "server.mediamas.net", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-21 04:33:08", "domains": 29, "reach_pct": 1.5213591293658305e-05},
 {"name": "Plesk", "dns_provider_id": 2973, "provider_id": "plesk.com", "api_host": "srv18.ideefix.net", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-21 04:34:34", "domains": 29, "reach_pct": 1.5213591293658305e-05},
-{"name": "Digiserv", "dns_provider_id": 20, "provider_id": "digiserv.cloud", "api_host": "digiserv.cloud", "served_version": 1, "response_kind": "template", "template_match": null, "since": "2026-09-20 19:10:42", "domains": 28, "reach_pct": 1.468898469732526e-05},
+{"name": "Digiserv", "dns_provider_id": 20, "provider_id": "digiserv.cloud", "api_host": "digiserv.cloud", "served_version": 1, "response_kind": "template", "template_match": "match", "since": "2026-09-20 19:10:42", "domains": 28, "reach_pct": 1.468898469732526e-05},
 {"name": "Plesk", "dns_provider_id": 130, "provider_id": "plesk.com", "api_host": "w1plsk.vnetindia.com", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-20 21:12:36", "domains": 28, "reach_pct": 1.468898469732526e-05},
 {"name": "Plesk", "dns_provider_id": 150, "provider_id": "plesk.com", "api_host": "mgmt.justeasyhosting.com", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-20 22:31:46", "domains": 28, "reach_pct": 1.468898469732526e-05},
 {"name": "Plesk", "dns_provider_id": 524, "provider_id": "plesk.com", "api_host": "atmosfera-seo.atmosfera.net", "served_version": null, "response_kind": "empty", "template_match": null, "since": "2026-09-20 22:50:44", "domains": 28, "reach_pct": 1.468898469732526e-05},
@@ -306,6 +306,7 @@
 {"sweep_id": 30, "started_at": "2026-10-19 12:00:15", "completed_at": "2026-10-24 01:44:55", "supporting_providers": 270, "change": 8},
 {"sweep_id": 36, "started_at": "2026-10-24 20:48:34", "completed_at": "2026-10-29 19:02:39", "supporting_providers": 271, "change": 1},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": "2026-11-01 02:01:20", "supporting_providers": 282, "change": 11},
-{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "supporting_providers": 282, "change": 0}
+{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "supporting_providers": 282, "change": 0},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 282, "change": 0}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-07T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-08T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "websitetoolbox.com", "name": "Website Toolbox", "first_added_at": "2020-08-04 19:24:22", "last_updated_at": "2022-07-29 01:21:51"}
 ], "footer": null},
@@ -31,6 +31,8 @@
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": "2026-11-01 02:01:20", "service_id": "apexforum", "supporting_providers": 278},
 {"sweep_id": 37, "started_at": "2026-10-25 02:00:12", "completed_at": "2026-11-01 02:01:20", "service_id": "forum", "supporting_providers": 277},
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "apexforum", "supporting_providers": 277},
-{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "forum", "supporting_providers": 277}
+{"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "forum", "supporting_providers": 277},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "apexforum", "supporting_providers": 277},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "forum", "supporting_providers": 277}
 ], "footer": null}
 }}

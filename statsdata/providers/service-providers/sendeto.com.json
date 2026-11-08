@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-07T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-08T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "sendeto.com", "name": "Sendeto", "first_added_at": "2026-10-24 10:31:51", "last_updated_at": "2026-10-29 01:15:15"}
 ], "footer": null},
@@ -272,17 +272,23 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "service_id": "managed-provider-mxroute", "supporting_providers": 11},
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "service_id": "managed-provider-mxroute-ownership", "supporting_providers": 11},
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "service_id": "managed-provider-ses", "supporting_providers": 11},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "managed-email-ownership", "supporting_providers": 11},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "managed-email-records", "supporting_providers": 9},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "managed-provider-emailit", "supporting_providers": 11},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "managed-provider-mxroute", "supporting_providers": 11},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "managed-provider-mxroute-ownership", "supporting_providers": 11},
-{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": null, "service_id": "managed-provider-ses", "supporting_providers": 11},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "managed-email-ownership", "supporting_providers": 11},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "managed-email-records", "supporting_providers": 9},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "managed-provider-emailit", "supporting_providers": 11},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "managed-provider-mxroute", "supporting_providers": 11},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "managed-provider-mxroute-ownership", "supporting_providers": 11},
-{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": null, "service_id": "managed-provider-ses", "supporting_providers": 11}
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "managed-email-ownership", "supporting_providers": 11},
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "managed-email-records", "supporting_providers": 9},
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "managed-provider-emailit", "supporting_providers": 11},
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "managed-provider-mxroute", "supporting_providers": 11},
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "managed-provider-mxroute-ownership", "supporting_providers": 11},
+{"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "service_id": "managed-provider-ses", "supporting_providers": 11},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "managed-email-ownership", "supporting_providers": 11},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "managed-email-records", "supporting_providers": 9},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "managed-provider-emailit", "supporting_providers": 11},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "managed-provider-mxroute", "supporting_providers": 11},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "managed-provider-mxroute-ownership", "supporting_providers": 11},
+{"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "managed-provider-ses", "supporting_providers": 11},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "managed-email-ownership", "supporting_providers": 11},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "managed-email-records", "supporting_providers": 9},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "managed-provider-emailit", "supporting_providers": 11},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "managed-provider-mxroute", "supporting_providers": 11},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "managed-provider-mxroute-ownership", "supporting_providers": 11},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "managed-provider-ses", "supporting_providers": 11}
 ], "footer": null}
 }}
