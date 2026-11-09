@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-08T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "sokosumi.com/newsletter/metadata": {"title": "sokosumi.com/newsletter - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Sokosumi", "service_provider_id": "sokosumi.com", "service_id": "newsletter", "name": "Sokosumi Newsletter sending domain", "version": 1, "description": "Lets Sokosumi send newsletters from your own address on this domain. Adds the DKIM key that proves the mail is from you, the SPF record that lets Sokosumi send for you, the MX record that receives bounces and, when the domain has none, a monitoring-only DMARC policy.", "variable_description": "dkimkey: the DKIM public key (TXT value, p=...) Resend issued for this domain. mxhost: the Amazon SES feedback host for the domain's Resend region, e.g. feedback-smtp.us-east-1.amazonses.com. Group mail is always applied; group dmarc only when the domain has no DMARC policy.", "logo_url": "https://app.sokosumi.com/images/app-icons/manifest-icon-192.maskable.png", "template_sha": "aac579574955edcb7efc6fa167945bbf4a5a0c2f", "created_at": "2026-10-30 12:22:16", "updated_at": "2026-10-30 12:22:16"}
 ], "footer": null},
@@ -70,6 +70,7 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 11, "change": 1},
 {"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 11, "change": 0},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 11, "change": 0},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

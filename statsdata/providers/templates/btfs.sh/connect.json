@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-08T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "btfs.sh/connect/metadata": {"title": "btfs.sh/connect - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "btfs.sh", "service_provider_id": "btfs.sh", "service_id": "connect", "name": "Custom domain", "version": 1, "description": "Points a subdomain at the hosting service of the app that sent you here, and adds its verification record.", "variable_description": "target: hostname the subdomain should point to; verifyLabel: label after the leading underscore of the verification record; verifyValue: verification token", "logo_url": "https://btfs.sh/logo.svg", "template_sha": "d353d5ea18605b1ed9958cec2ccbeb94bce944b9", "created_at": "2026-10-31 11:52:52", "updated_at": "2026-10-31 11:52:52"}
 ], "footer": null},
@@ -68,6 +68,7 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 11, "change": 1},
 {"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 11, "change": 0},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 11, "change": 0},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 11, "change": 0},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

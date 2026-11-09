@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-08T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "rngmstr.dev/sending/metadata": {"title": "rngmstr.dev/sending - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Ringmaster", "service_provider_id": "rngmstr.dev", "service_id": "sending", "name": "Ringmaster email sending", "version": 2, "description": "Lets Ringmaster send email from this domain: a return-path MX record and SPF include for Amazon SES, a CNAME to Resend's mail servers, and the domain's DKIM signing key.", "variable_description": "region is the Amazon SES region of the domain's feedback host, such as eu-west-1. forge is the first label of the rsend CNAME's target under forge.rmta.net, such as send. dkimkey is the domain's DKIM public key, the base64 after p=.", "logo_url": "https://rngmstr.dev/icon.svg", "template_sha": "df194cb0afc4cdc732f843c2065b426c9553d67a", "created_at": "2026-10-31 11:53:30", "updated_at": "2026-11-03 13:49:45"}
 ], "footer": null},
@@ -71,6 +71,7 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 12, "change": 1},
 {"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 12, "change": 0},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 12, "change": 0},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

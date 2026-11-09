@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-08T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "localblocks.co.uk/website/metadata": {"title": "localblocks.co.uk/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Local Blocks", "service_provider_id": "localblocks.co.uk", "service_id": "website", "name": "Local Blocks website", "version": 1, "description": "Points your domain at the website you made with Local Blocks, and proves to our hosting that the domain is yours. Only the address you choose (usually www) changes; your email and everything else stay as they are.", "variable_description": "verify: the ownership code our hosting (Cloudflare) gives for this address, put in a TXT record next to it.", "logo_url": "https://localblocks.co.uk/icon-512.png", "template_sha": "339118bc60d6e4a848edf83773c38a0ec7ec99c5", "created_at": "2026-10-27 11:47:40", "updated_at": "2026-10-27 11:47:40"}
 ], "footer": null},
@@ -69,6 +69,7 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 12, "change": 1},
 {"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 12, "change": 0},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 12, "change": 0},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}
