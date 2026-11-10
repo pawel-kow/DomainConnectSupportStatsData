@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "duva.ca/email/metadata": {"title": "duva.ca/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Duva", "service_provider_id": "duva.ca", "service_id": "email", "name": "Duva transactional email", "version": 1, "description": "Adds the DNS records that let Duva send transactional email on behalf of your domain: the DKIM signature and the bounce return path.", "variable_description": "%selector%: DKIM selector name; %dkimkey%: public DKIM key of the domain", "logo_url": "https://duva.ca/static/img/duva-favicon.svg", "template_sha": "61c8d8be2e46f339e7a2ec0871a07478c78109ca", "created_at": "2026-10-27 11:48:37", "updated_at": "2026-10-27 11:48:37"}
 ], "footer": null},
@@ -70,7 +70,8 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 12, "change": 1},
 {"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 12, "change": 0},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 12, "change": 0},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 12, "change": 0},
-{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 12, "change": 0},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 12, "change": 0},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

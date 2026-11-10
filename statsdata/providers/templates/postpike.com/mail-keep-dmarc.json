@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "postpike.com/mail-keep-dmarc/metadata": {"title": "postpike.com/mail-keep-dmarc - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "PostPike", "service_provider_id": "postpike.com", "service_id": "mail-keep-dmarc", "name": "PostPike mail", "version": 1, "description": "The mail template without its DMARC record, for a domain that already has one. Some providers ignore TXT conflict matching, so the mail template would leave two DMARC records, which makes receivers ignore both.", "variable_description": "edselector, edkey: selector and public key of the domain's Ed25519 DKIM key. rsaselector, rsakey: the same for its RSA key. The mail server generates both for each domain.", "logo_url": "https://admin.postpike.com/favicon.svg", "template_sha": "9fb1ec7446722a9ded869ef3f2fd6d8f6f46ccef", "created_at": "2026-11-02 15:02:53", "updated_at": "2026-11-02 15:02:53"}
 ], "footer": null},
@@ -70,7 +70,8 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 8, "change": 8},
 {"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 8, "change": 0},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 8, "change": 0},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 9, "change": 1},
-{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "supporting_providers": 9, "change": 0}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 9, "change": 1},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 9, "change": 0},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

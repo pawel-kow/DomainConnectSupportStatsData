@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "position-iq.de/email-resend/metadata": {"title": "position-iq.de/email-resend - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "POSITION IQ", "service_provider_id": "position-iq.de", "service_id": "email-resend", "name": "E-Mail-Versand mit eigener Absenderadresse", "version": 1, "description": "Erlaubt POSITION IQ, Newsletter und Benachrichtigungen mit deiner eigenen Absenderadresse zu versenden (über Resend). Die Einträge liegen auf der Unterdomain send und dem DKIM-Schlüssel; Website und bestehende Postfächer bleiben unverändert.", "variable_description": "%dkimselector%: DKIM-Selektor, den Resend für diese Domain ausstellt (z. B. resend); %dkimvalue%: öffentlicher DKIM-Schlüssel; %mxvalue%: Rückläufer-Host der Versandregion (z. B. feedback-smtp.eu-west-1.amazonses.com). Gruppe dmarc wird nur angewendet, wenn die Domain noch keinen DMARC-Eintrag hat.", "logo_url": "https://app.position-iq.de/iq-favicon.svg", "template_sha": "476d5a207214ccc263dc06ecd83590893f662ae6", "created_at": "2026-11-02 15:03:26", "updated_at": "2026-11-02 15:03:26"}
 ], "footer": null},
@@ -68,7 +68,8 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 8, "change": 8},
 {"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 8, "change": 0},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 8, "change": 0},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 9, "change": 1},
-{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "supporting_providers": 9, "change": 0}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 9, "change": 1},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 9, "change": 0},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

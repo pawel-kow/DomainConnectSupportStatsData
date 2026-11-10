@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "rvparkplanner.com/booking-site/metadata": {"title": "rvparkplanner.com/booking-site - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "RV Park Planner", "service_provider_id": "rvparkplanner.com", "service_id": "booking-site", "name": "RV Park Planner booking website", "version": 1, "description": "Points your domain at your RV Park Planner booking website (A records for our main and standby servers), sends www to it through connect.rvparkplanner.com (CNAME) and adds a TXT record that proves you own the domain.", "variable_description": "ip: the IPv4 address of the main RV Park Planner server (A record for the domain); ip2: the IPv4 address of the standby RV Park Planner server (second A record for the domain, used on failover); token: the one-time ownership code shown in RV Park Planner, without its rvpp- prefix (TXT record at _rvpp-verify, written as rvpp-<token>)", "logo_url": "https://rvparkplanner.com/images/domain-connect-logo.png", "template_sha": "1561e54bd65c24df5953c000e033fb448def97a7", "created_at": "2026-11-07 12:40:25", "updated_at": "2026-11-07 12:40:25"}
 ], "footer": null},
@@ -67,7 +67,8 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 0, "change": 0},
 {"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 0, "change": 0},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 0, "change": 0},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 8, "change": 8},
-{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "supporting_providers": 8, "change": 0}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 8, "change": 8},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 8, "change": 0},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "supporting_providers": 8, "change": 0}
 ], "footer": null}
 }}

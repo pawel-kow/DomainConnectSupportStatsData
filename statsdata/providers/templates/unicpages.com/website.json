@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "unicpages.com/website/metadata": {"title": "unicpages.com/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "UnicPages", "service_provider_id": "unicpages.com", "service_id": "website", "name": "UnicPages Website", "version": 1, "description": "Points a root domain (and its www) to a website hosted on UnicPages", "variable_description": "ip1 and ip2 are the IPv4 addresses of the UnicPages edge. dono and donowww are the ownership tokens, ssl and sslwww are the certificate validation tokens issued for the domain and its www.", "logo_url": "https://unicpages.com/bimi/logo.svg", "template_sha": "11117c5b506b9f266efe5fe3ce15309035a8272c", "created_at": "2026-11-02 15:03:12", "updated_at": "2026-11-02 15:03:12"}
 ], "footer": null},
@@ -71,7 +71,8 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 8, "change": 8},
 {"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 8, "change": 0},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 8, "change": 0},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 9, "change": 1},
-{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "supporting_providers": 9, "change": 0}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 9, "change": 1},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 9, "change": 0},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}

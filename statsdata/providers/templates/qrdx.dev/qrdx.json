@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "qrdx.dev/qrdx/metadata": {"title": "qrdx.dev/qrdx - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "QRdx", "service_provider_id": "qrdx.dev", "service_id": "qrdx", "name": "QRdx custom domain", "version": 1, "description": "Points a subdomain (for example go.example.com) at QRdx so it can serve dynamic QR code short links. Group route sets the CNAME. Group vercel adds Vercel's ownership TXT on the zone apex, only when Vercel asks for one. Group qrdx adds the ownership TXT that self-hosted QRdx checks.", "variable_description": "target: the CNAME target QRdx shows for the domain, either the Vercel project's target (for example cname.vercel-dns.com) or a self-hosted server's host name. vercel: Vercel's TXT value after vc-domain-verify= (the full host name, a comma, then Vercel's code). token: the hex token after qrdx-verify=.", "logo_url": "https://qrdx.dev/favicon.svg", "template_sha": "4f55661e8e4f3c141f5eb1c079130cbb17ce80c5", "created_at": "2026-11-07 12:39:45", "updated_at": "2026-11-07 12:39:45"}
 ], "footer": null},
@@ -66,7 +66,8 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 0, "change": 0},
 {"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 0, "change": 0},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 0, "change": 0},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 7, "change": 7},
-{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "supporting_providers": 8, "change": 1}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 7, "change": 7},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 8, "change": 1},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "supporting_providers": 8, "change": 0}
 ], "footer": null}
 }}

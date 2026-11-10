@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "ginbox.net/mail/metadata": {"title": "ginbox.net/mail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "GINbox", "service_provider_id": "ginbox.net", "service_id": "mail", "name": "GINbox business email", "version": 1, "description": "Sets up a domain for GINbox business email: proves ownership, lets GINbox send for the domain (SPF, DKIM, DMARC), adds TLS reporting, and, as a separate step, routes the domain's mail to GINbox (MX).", "variable_description": "verify: the domain's GINbox ownership token; dkimsel: the DKIM selector, e.g. g20261017-rsa; dkimpub: the DKIM RSA public key (base64)", "logo_url": "https://ginbox.net/brand/logo-full.png", "template_sha": "8823b103d9a816ce1b5d5accd933cff05cdd54fa", "created_at": "2026-10-24 10:31:19", "updated_at": "2026-10-24 10:31:19"}
 ], "footer": null},
@@ -72,6 +72,6 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 11, "change": 1},
 {"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 11, "change": 0},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 11, "change": 0},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "utajir.com", "name": "Utajir", "first_added_at": "2025-12-16 16:41:09", "last_updated_at": "2025-12-16 16:41:09"}
 ], "footer": null},
@@ -44,8 +44,8 @@
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "email", "supporting_providers": 11},
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "website", "supporting_providers": 14},
 {"sweep_id": 44, "started_at": "2026-11-01 02:00:06", "completed_at": "2026-11-03 02:52:45", "service_id": "website-hosting", "supporting_providers": 11},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "email", "supporting_providers": 11},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "website", "supporting_providers": 14},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "website-hosting", "supporting_providers": 11}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "email", "supporting_providers": 11},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "website", "supporting_providers": 14},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "website-hosting", "supporting_providers": 11}
 ], "footer": null}
 }}

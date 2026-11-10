@@ -1,6 +1,6 @@
-{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
-{"service_provider_id": "getcolding.com", "name": "colding", "first_added_at": "2026-10-29 12:30:14", "last_updated_at": "2026-10-29 12:30:26"}
+{"service_provider_id": "getcolding.com", "name": "colding", "first_added_at": "2026-10-29 12:30:14", "last_updated_at": "2026-11-09 21:54:31"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
 {"templates": 5, "supported_templates": 5, "supporting_dns_providers": 12, "reach_domains": 23768022, "reach_pct": 12.468861122988933}
@@ -9,7 +9,7 @@
 {"name": "DMARC record for your sending domain", "service_id": "dmarc", "version": 1, "added_at": "2026-10-29 12:30:26", "updated_at": "2026-10-29 12:30:26", "supporting_providers": 12, "reach_domains": 23768022, "reach_pct": 12.468861122988933},
 {"name": "Sign your email with colding", "service_id": "mail-domain-dkim", "version": 1, "added_at": "2026-10-29 12:30:14", "updated_at": "2026-10-29 12:30:14", "supporting_providers": 12, "reach_domains": 23768022, "reach_pct": 12.468861122988933},
 {"name": "Receive email for your domain with colding", "service_id": "mail-domain-mx", "version": 1, "added_at": "2026-10-29 12:30:14", "updated_at": "2026-10-29 12:30:14", "supporting_providers": 12, "reach_domains": 23768022, "reach_pct": 12.468861122988933},
-{"name": "Allow your mail service to send for your domain", "service_id": "spf", "version": 1, "added_at": "2026-10-29 12:30:14", "updated_at": "2026-10-29 12:30:14", "supporting_providers": 12, "reach_domains": 23768022, "reach_pct": 12.468861122988933},
+{"name": "Allow your mail service to send for your domain", "service_id": "spf", "version": 2, "added_at": "2026-10-29 12:30:14", "updated_at": "2026-11-09 21:54:31", "supporting_providers": 12, "reach_domains": 23768022, "reach_pct": 12.468861122988933},
 {"name": "Open and click tracking domain", "service_id": "tracking-domain", "version": 1, "added_at": "2026-10-29 12:30:26", "updated_at": "2026-10-29 12:30:26", "supporting_providers": 12, "reach_domains": 23768022, "reach_pct": 12.468861122988933}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
@@ -238,15 +238,20 @@
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "mail-domain-mx", "supporting_providers": 12},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "spf", "supporting_providers": 12},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "service_id": "tracking-domain", "supporting_providers": 12},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "dmarc", "supporting_providers": 12},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "mail-domain-dkim", "supporting_providers": 12},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "mail-domain-mx", "supporting_providers": 12},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "spf", "supporting_providers": 12},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "service_id": "tracking-domain", "supporting_providers": 12},
-{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "service_id": "dmarc", "supporting_providers": 12},
-{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "service_id": "mail-domain-dkim", "supporting_providers": 12},
-{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "service_id": "mail-domain-mx", "supporting_providers": 12},
-{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "service_id": "spf", "supporting_providers": 12},
-{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "service_id": "tracking-domain", "supporting_providers": 12}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "dmarc", "supporting_providers": 12},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "mail-domain-dkim", "supporting_providers": 12},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "mail-domain-mx", "supporting_providers": 12},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "spf", "supporting_providers": 12},
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "tracking-domain", "supporting_providers": 12},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "service_id": "dmarc", "supporting_providers": 12},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "service_id": "mail-domain-dkim", "supporting_providers": 12},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "service_id": "mail-domain-mx", "supporting_providers": 12},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "service_id": "spf", "supporting_providers": 12},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "service_id": "tracking-domain", "supporting_providers": 12},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "service_id": "dmarc", "supporting_providers": 12},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "service_id": "mail-domain-dkim", "supporting_providers": 12},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "service_id": "mail-domain-mx", "supporting_providers": 12},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "service_id": "spf", "supporting_providers": 12},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "service_id": "tracking-domain", "supporting_providers": 12}
 ], "footer": null}
 }}

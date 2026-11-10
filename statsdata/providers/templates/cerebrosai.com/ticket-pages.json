@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-09T06:00:07Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "cerebrosai.com/ticket-pages/metadata": {"title": "cerebrosai.com/ticket-pages - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "CerebrOS", "service_provider_id": "cerebrosai.com", "service_id": "ticket-pages", "name": "CerebrOS ticket pages", "version": 1, "description": "Puts an event organizer's CerebrOS ticket pages on a subdomain of their domain, such as tickets.example.com, and proves they control it. Applied with the host parameter. The website and email on the domain are not changed.", "variable_description": "%verify%: the organizer's CerebrOS domain verification token (32 lowercase hexadecimal characters).", "logo_url": "https://cerebrosai.com/brand/cerebros-mark.svg", "template_sha": "4046bc3ad91944f80de884d17d91c799b2a167bc", "created_at": "2026-11-05 14:15:44", "updated_at": "2026-11-05 14:15:44"}
 ], "footer": null},
@@ -65,7 +65,8 @@
 {"sweep_id": 48, "started_at": "2026-11-05 02:00:15", "completed_at": "2026-11-06 02:00:50", "supporting_providers": 0, "change": 0},
 {"sweep_id": 49, "started_at": "2026-11-06 02:00:20", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 7, "change": 7},
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 7, "change": 0},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": null, "supporting_providers": 8, "change": 1},
-{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": null, "supporting_providers": 8, "change": 0}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 8, "change": 1},
+{"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 8, "change": 0},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "supporting_providers": 8, "change": 0}
 ], "footer": null}
 }}
