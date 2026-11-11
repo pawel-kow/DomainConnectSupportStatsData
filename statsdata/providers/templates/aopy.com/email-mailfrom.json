@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-11T06:00:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "aopy.com/email-mailfrom/metadata": {"title": "aopy.com/email-mailfrom - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Aopy", "service_provider_id": "aopy.com", "service_id": "email-mailfrom", "name": "Aopy bounce handling", "version": 1, "description": "Publishes the custom MAIL FROM records for Amazon SES (MX, and SPF merged through SPFM) at the applied host, which is always the MAIL FROM subdomain of the sending domain (for example host=send or host=send.mail). Never applied without a host: at the zone root it would replace the domain's own mail MX.", "variable_description": "No variables: the MAIL FROM subdomain comes in the standard host parameter, set by Aopy to a label it has read as free of CNAME, MX and SPF.", "logo_url": "https://aopy.com/brand/bimi-logo.svg", "template_sha": "434e6b25558a581aeb68532d3e1b5a0163931306", "created_at": "2026-11-09 15:35:28", "updated_at": "2026-11-09 15:35:28"}
 ], "footer": null},
@@ -66,6 +66,7 @@
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 0, "change": 0},
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 0, "change": 0},
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 0, "change": 0},
-{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "supporting_providers": 7, "change": 7}
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "supporting_providers": 7, "change": 7},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "supporting_providers": 7, "change": 0}
 ], "footer": null}
 }}

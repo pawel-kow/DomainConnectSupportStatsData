@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-11T06:00:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "tsoftcloud.com", "name": "TSoftCloud", "first_added_at": "2026-10-21 11:23:58", "last_updated_at": "2026-10-28 12:21:49"}
 ], "footer": null},
@@ -10,7 +10,7 @@
 {"name": "Your TSoftCloud app", "service_id": "app", "version": 1, "added_at": "2026-10-28 12:21:49", "updated_at": "2026-10-28 12:21:49", "supporting_providers": 11, "reach_domains": 310782, "reach_pct": 0.1630382872215764},
 {"name": "Your TSoftCloud app at the domain itself", "service_id": "app-apex", "version": 1, "added_at": "2026-10-28 12:21:49", "updated_at": "2026-10-28 12:21:49", "supporting_providers": 11, "reach_domains": 310782, "reach_pct": 0.1630382872215764},
 {"name": "Your TSoftCloud app at www", "service_id": "app-www", "version": 1, "added_at": "2026-10-28 12:21:49", "updated_at": "2026-10-28 12:21:49", "supporting_providers": 11, "reach_domains": 310782, "reach_pct": 0.1630382872215764},
-{"name": "Email for your domain", "service_id": "mail", "version": 1, "added_at": "2026-10-28 12:21:49", "updated_at": "2026-10-28 12:21:49", "supporting_providers": 11, "reach_domains": 310782, "reach_pct": 0.1630382872215764}
+{"name": "Email for your domain", "service_id": "mail", "version": 1, "added_at": "2026-10-28 12:21:49", "updated_at": "2026-10-28 12:21:49", "supporting_providers": 10, "reach_domains": 310724, "reach_pct": 0.16300786003898907}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "app", "supporting_providers": 0},
@@ -244,9 +244,13 @@
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "service_id": "app-apex", "supporting_providers": 11},
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "service_id": "app-www", "supporting_providers": 11},
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "service_id": "mail", "supporting_providers": 11},
-{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "service_id": "app", "supporting_providers": 11},
-{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "service_id": "app-apex", "supporting_providers": 11},
-{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "service_id": "app-www", "supporting_providers": 11},
-{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "service_id": "mail", "supporting_providers": 11}
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "app", "supporting_providers": 11},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "app-apex", "supporting_providers": 11},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "app-www", "supporting_providers": 11},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "mail", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "app", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "app-apex", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "app-www", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "mail", "supporting_providers": 10}
 ], "footer": null}
 }}

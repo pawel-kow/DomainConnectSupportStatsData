@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-11T06:00:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "shonoai.com/aiprofile/metadata": {"title": "shonoai.com/aiprofile - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Shono AI", "service_provider_id": "shonoai.com", "service_id": "aiprofile", "name": "AI Profile", "version": 1, "description": "Points review.<domain> at Shono so the business's AI Profile is served on its own domain. One CNAME record; no variables, so a link cannot ask for any other record.", "variable_description": null, "logo_url": "https://shonoai.com/icon-512.png", "template_sha": "bccf6a188ce8348bb9ad2077ddb1147d4ed0a644", "created_at": "2026-11-07 12:39:49", "updated_at": "2026-11-07 12:39:49"}
 ], "footer": null},
@@ -66,6 +66,7 @@
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 0, "change": 0},
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 0, "change": 0},
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 0, "change": 0},
-{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "supporting_providers": 8, "change": 8}
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "supporting_providers": 8, "change": 8},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "supporting_providers": 8, "change": 0}
 ], "footer": null}
 }}

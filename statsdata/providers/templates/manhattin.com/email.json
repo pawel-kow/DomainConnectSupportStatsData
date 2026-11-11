@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-11T06:00:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "manhattin.com/email/metadata": {"title": "manhattin.com/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Manhattin", "service_provider_id": "manhattin.com", "service_id": "email", "name": "Manhattin Email Sending", "version": 1, "description": "Lets Manhattin send email as your domain (DKIM signature and bounce-handling subdomain). Optional groups add a reply subdomain and a starter DMARC record. Your existing mailbox (root MX) is never changed.", "variable_description": "%dkimSelector%: DKIM selector given by Manhattin (e.g. resend); %dkimPublicKey%: DKIM public key, base64, without p=; %returnPathTarget%: host the send subdomain points to (bounce handling and SPF); %sesRegion%: AWS region of the legacy return path (e.g. us-east-1); %replyMxHost%: inbound mail host for the reply subdomain; %dmarcPolicy%: none, quarantine or reject", "logo_url": "https://manhattin.com/logo.svg", "template_sha": "8c27291752b557aeb23b2a3af9aadfcd60872c5b", "created_at": "2026-11-08 12:57:05", "updated_at": "2026-11-08 12:57:05"}
 ], "footer": null},
@@ -70,6 +70,7 @@
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 0, "change": 0},
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 0, "change": 0},
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 0, "change": 0},
-{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "supporting_providers": 7, "change": 7}
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "supporting_providers": 7, "change": 7},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "supporting_providers": 7, "change": 0}
 ], "footer": null}
 }}

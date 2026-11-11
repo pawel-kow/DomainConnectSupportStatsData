@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-11T06:00:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "k8hq.com/mail-setup/metadata": {"title": "k8hq.com/mail-setup - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "K8 HQ", "service_provider_id": "k8hq.com", "service_id": "mail-setup", "name": "K8 HQ: sending records (does not move your mail). Approve only if you are setting up K8 HQ yourself right now.", "version": 1, "description": "Adds the three DKIM CNAMEs and merges K8 HQ's sender into the domain's SPF record. Does not change MX or DMARC, so incoming mail keeps going where it goes today.", "variable_description": "%dkim1%, %dkim2%, %dkim3%: the three DKIM tokens issued for this domain (each is both the host label before ._domainkey and the first label of the CNAME target under dkim.amazonses.com)", "logo_url": "https://k8hq.com/favicon.png", "template_sha": "f4aab2a2f598206a20997eed3753d82a9963b86e", "created_at": "2026-10-30 12:22:57", "updated_at": "2026-10-30 12:22:57"}
 ], "footer": null},
@@ -72,6 +72,7 @@
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 11, "change": 0},
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 11, "change": 0},
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 11, "change": 0},
-{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "supporting_providers": 11, "change": 0},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

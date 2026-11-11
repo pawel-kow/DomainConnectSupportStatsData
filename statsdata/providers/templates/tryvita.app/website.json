@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-11T06:00:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "tryvita.app/website/metadata": {"title": "tryvita.app/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Vita", "service_provider_id": "tryvita.app", "service_id": "website", "name": "Vita website", "version": 1, "description": "Points a domain at the website Vita builds and hosts for a local business.", "variable_description": "vercelVerify is the part after \"vc-domain-verify=\" in the TXT value Vercel issues to prove ownership of the domain (group \"verify\", only applied when Vercel asks for it).", "logo_url": "https://www.tryvita.app/icon.svg", "template_sha": "29d6ac94c504cfc52c6aa4a126fc700f396f6299", "created_at": "2026-11-01 12:51:59", "updated_at": "2026-11-01 12:51:59"}
 ], "footer": null},
@@ -70,6 +70,7 @@
 {"sweep_id": 50, "started_at": "2026-11-07 02:00:19", "completed_at": "2026-11-07 08:46:47", "supporting_providers": 9, "change": 0},
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 10, "change": 1},
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 10, "change": 0},
-{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "supporting_providers": 10, "change": 0},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}

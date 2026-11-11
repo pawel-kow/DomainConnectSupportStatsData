@@ -1,13 +1,13 @@
-{"generated_at": "2026-11-10T06:00:09Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-11T06:00:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "lycatra.com", "name": "Lycatra", "first_added_at": "2026-11-09 15:33:50", "last_updated_at": "2026-11-09 15:33:50"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 2, "supported_templates": 0, "supporting_dns_providers": 0, "reach_domains": 0, "reach_pct": 0.0}
+{"templates": 2, "supported_templates": 2, "supporting_dns_providers": 7, "reach_domains": 19548, "reach_pct": 0.010255009745118364}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Lycatra Mail", "service_id": "mail", "version": 1, "added_at": "2026-11-09 15:33:50", "updated_at": "2026-11-09 15:33:50", "supporting_providers": 0, "reach_domains": 0, "reach_pct": 0.0},
-{"name": "Lycatra Sites", "service_id": "web", "version": 1, "added_at": "2026-11-09 15:33:50", "updated_at": "2026-11-09 15:33:50", "supporting_providers": 0, "reach_domains": 0, "reach_pct": 0.0}
+{"name": "Lycatra Mail", "service_id": "mail", "version": 1, "added_at": "2026-11-09 15:33:50", "updated_at": "2026-11-09 15:33:50", "supporting_providers": 7, "reach_domains": 19548, "reach_pct": 0.010255009745118364},
+{"name": "Lycatra Sites", "service_id": "web", "version": 1, "added_at": "2026-11-09 15:33:50", "updated_at": "2026-11-09 15:33:50", "supporting_providers": 7, "reach_domains": 19548, "reach_pct": 0.010255009745118364}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "mail", "supporting_providers": 0},
@@ -104,7 +104,9 @@
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "web", "supporting_providers": 0},
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "service_id": "mail", "supporting_providers": 0},
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "service_id": "web", "supporting_providers": 0},
-{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "service_id": "mail", "supporting_providers": 0},
-{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": null, "service_id": "web", "supporting_providers": 0}
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "mail", "supporting_providers": 0},
+{"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "web", "supporting_providers": 0},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "mail", "supporting_providers": 7},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "web", "supporting_providers": 7}
 ], "footer": null}
 }}
