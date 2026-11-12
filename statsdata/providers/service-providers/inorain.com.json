@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-11T06:00:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-12T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "inorain.com", "name": "inoRain", "first_added_at": "2026-11-09 15:33:26", "last_updated_at": "2026-11-09 15:33:26"}
 ], "footer": null},
@@ -57,6 +57,7 @@
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "ott-custom-domain", "supporting_providers": 0},
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "service_id": "ott-custom-domain", "supporting_providers": 0},
 {"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "ott-custom-domain", "supporting_providers": 0},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "ott-custom-domain", "supporting_providers": 7}
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "ott-custom-domain", "supporting_providers": 7},
+{"sweep_id": 55, "started_at": "2026-11-12 02:00:26", "completed_at": null, "service_id": "ott-custom-domain", "supporting_providers": 7}
 ], "footer": null}
 }}

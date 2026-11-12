@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-11T06:00:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-12T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "selfoperate.com/site-owner/metadata": {"title": "selfoperate.com/site-owner - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "SelfOperate", "service_provider_id": "selfoperate.com", "service_id": "site-owner", "name": "Website ownership check", "version": 1, "description": "Adds a TXT record that proves to SelfOperate you own this website's domain.", "variable_description": "token: the one-time code SelfOperate shows you", "logo_url": "https://selfoperate.com/selfoperate-logo.png", "template_sha": "95694053aa1c8b5ccddf3c80a4aaeca14c9ff88f", "created_at": "2026-10-29 12:30:34", "updated_at": "2026-10-29 12:30:34"}
 ], "footer": null},
@@ -70,6 +70,7 @@
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "supporting_providers": 11, "change": 0},
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "supporting_providers": 11, "change": 0},
 {"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "supporting_providers": 11, "change": 0},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "supporting_providers": 11, "change": 0}
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "supporting_providers": 11, "change": 0},
+{"sweep_id": 55, "started_at": "2026-11-12 02:00:26", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

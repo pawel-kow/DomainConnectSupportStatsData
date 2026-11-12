@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-11T06:00:11Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-12T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "outflare.ai", "name": "Outflare", "first_added_at": "2026-10-28 12:21:28", "last_updated_at": "2026-10-28 12:21:28"}
 ], "footer": null},
@@ -596,17 +596,17 @@
 {"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "siteverify", "supporting_providers": 12},
 {"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "spf", "supporting_providers": 12},
 {"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "trackingdomain", "supporting_providers": 12},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "dkim", "supporting_providers": 11},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "dkimcname", "supporting_providers": 11},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "dmarc", "supporting_providers": 11},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "googleworkspace", "supporting_providers": 11},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "microsoft365", "supporting_providers": 11},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "postmark", "supporting_providers": 11},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "resend", "supporting_providers": 11},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "servicecname", "supporting_providers": 11},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "ses", "supporting_providers": 11},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "siteverify", "supporting_providers": 12},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "spf", "supporting_providers": 12},
-{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": null, "service_id": "trackingdomain", "supporting_providers": 12}
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "dkim", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "dkimcname", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "dmarc", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "googleworkspace", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "microsoft365", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "postmark", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "resend", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "servicecname", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "ses", "supporting_providers": 11},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "siteverify", "supporting_providers": 12},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "spf", "supporting_providers": 12},
+{"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "trackingdomain", "supporting_providers": 12}
 ], "footer": null}
 }}
