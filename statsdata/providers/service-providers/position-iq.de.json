@@ -1,12 +1,12 @@
-{"generated_at": "2026-11-12T06:00:08Z", "notes": ["Domain share: import completed 2026-09-11 17:17 UTC (live), 190,619,029 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-14T06:00:04Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "position-iq.de", "name": "POSITION IQ", "first_added_at": "2026-11-02 15:03:26", "last_updated_at": "2026-11-02 15:03:26"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 1, "supported_templates": 1, "supporting_dns_providers": 9, "reach_domains": 310605, "reach_pct": 0.16294543185402546}
+{"templates": 1, "supported_templates": 1, "supporting_dns_providers": 9, "reach_domains": 316696, "reach_pct": 0.16395678197881913}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "E-Mail-Versand mit eigener Absenderadresse", "service_id": "email-resend", "version": 1, "added_at": "2026-11-02 15:03:26", "updated_at": "2026-11-02 15:03:26", "supporting_providers": 9, "reach_domains": 310605, "reach_pct": 0.16294543185402546}
+{"name": "E-Mail-Versand mit eigener Absenderadresse", "service_id": "email-resend", "version": 1, "added_at": "2026-11-02 15:03:26", "updated_at": "2026-11-02 15:03:26", "supporting_providers": 9, "reach_domains": 316696, "reach_pct": 0.16395678197881913}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "email-resend", "supporting_providers": 0},
@@ -58,6 +58,6 @@
 {"sweep_id": 52, "started_at": "2026-11-09 02:00:16", "completed_at": "2026-11-10 02:22:32", "service_id": "email-resend", "supporting_providers": 9},
 {"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "email-resend", "supporting_providers": 9},
 {"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "email-resend", "supporting_providers": 9},
-{"sweep_id": 55, "started_at": "2026-11-12 02:00:26", "completed_at": null, "service_id": "email-resend", "supporting_providers": 9}
+{"sweep_id": 55, "started_at": "2026-11-12 02:00:26", "completed_at": "2026-11-12 12:47:38", "service_id": "email-resend", "supporting_providers": 9}
 ], "footer": null}
 }}
