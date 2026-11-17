@@ -1,14 +1,14 @@
-{"generated_at": "2026-11-14T06:00:04Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-17T06:00:11Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "pblin.net", "name": "Public Internet", "first_added_at": "2021-07-31 12:28:52", "last_updated_at": "2021-08-03 09:35:02"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 4, "supported_templates": 4, "supporting_dns_providers": 278, "reach_domains": 338117, "reach_pct": 0.17504665436990802}
+{"templates": 4, "supported_templates": 4, "supporting_dns_providers": 313, "reach_domains": 338856, "reach_pct": 0.17542924228349815}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Public Internet Website Hosting", "service_id": "website-arecord", "version": 1, "added_at": "2021-07-31 15:29:48", "updated_at": "2021-08-03 09:35:02", "supporting_providers": 277, "reach_domains": 338058, "reach_pct": 0.17501610946205712},
-{"name": "Public Internet Email Hosting", "service_id": "email", "version": 1, "added_at": "2021-07-31 12:28:52", "updated_at": "2021-08-02 11:48:26", "supporting_providers": 276, "reach_domains": 337873, "reach_pct": 0.17492033305608393},
-{"name": "Public Internet Website Hosting", "service_id": "website-cname", "version": 1, "added_at": "2021-07-31 15:29:48", "updated_at": "2021-08-02 11:48:26", "supporting_providers": 277, "reach_domains": 328954, "reach_pct": 0.17030287486757165},
+{"name": "Public Internet Website Hosting", "service_id": "website-arecord", "version": 1, "added_at": "2021-07-31 15:29:48", "updated_at": "2021-08-03 09:35:02", "supporting_providers": 312, "reach_domains": 338797, "reach_pct": 0.17539869737564728},
+{"name": "Public Internet Email Hosting", "service_id": "email", "version": 1, "added_at": "2021-07-31 12:28:52", "updated_at": "2021-08-02 11:48:26", "supporting_providers": 311, "reach_domains": 338612, "reach_pct": 0.1753029209696741},
+{"name": "Public Internet Website Hosting", "service_id": "website-cname", "version": 1, "added_at": "2021-07-31 15:29:48", "updated_at": "2021-08-02 11:48:26", "supporting_providers": 312, "reach_domains": 329693, "reach_pct": 0.1706854627811618},
 {"name": "Public Internet Website Hosting", "service_id": "website-apexcname", "version": 1, "added_at": "2021-07-31 15:29:48", "updated_at": "2021-08-02 11:48:26", "supporting_providers": 10, "reach_domains": 316721, "reach_pct": 0.16396972473638308}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
@@ -59,6 +59,10 @@
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "email", "supporting_providers": 276},
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "website-apexcname", "supporting_providers": 10},
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "website-arecord", "supporting_providers": 277},
-{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "website-cname", "supporting_providers": 277}
+{"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "website-cname", "supporting_providers": 277},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "email", "supporting_providers": 311},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "website-apexcname", "supporting_providers": 10},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "website-arecord", "supporting_providers": 312},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "website-cname", "supporting_providers": 312}
 ], "footer": null}
 }}
