@@ -1,20 +1,20 @@
-{"generated_at": "2026-11-17T06:00:11Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-18T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "dodomain.io", "name": "DoDomain", "first_added_at": "2026-07-24 12:10:18", "last_updated_at": "2026-11-09 21:49:44"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 9, "supported_templates": 9, "supporting_dns_providers": 16, "reach_domains": 66558100, "reach_pct": 34.457814088666865}
+{"templates": 9, "supported_templates": 9, "supporting_dns_providers": 18, "reach_domains": 66625939, "reach_pct": 34.49293503788208}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Custom domain (CNAME)", "service_id": "custom-subdomain-cname", "version": 1, "added_at": "2026-07-24 12:10:18", "updated_at": "2026-07-24 12:10:18", "supporting_providers": 16, "reach_domains": 66558100, "reach_pct": 34.457814088666865},
-{"name": "Email authentication (SPF, DKIM, DMARC)", "service_id": "email-authentication", "version": 1, "added_at": "2026-09-10 19:06:19", "updated_at": "2026-09-10 19:06:19", "supporting_providers": 15, "reach_domains": 65967284, "reach_pct": 34.15194255855092},
-{"name": "Root domain (A/AAAA) with ownership verification, verification-variable variant", "service_id": "apex-a-with-verification-v2", "version": 1, "added_at": "2026-09-10 19:06:19", "updated_at": "2026-11-09 21:49:44", "supporting_providers": 9, "reach_domains": 40154485, "reach_pct": 20.78839057839936},
-{"name": "Custom domain (CNAME) with ownership verification, verification-variable variant", "service_id": "custom-subdomain-cname-with-verification-v2", "version": 1, "added_at": "2026-09-10 19:06:19", "updated_at": "2026-11-09 21:49:44", "supporting_providers": 9, "reach_domains": 40154485, "reach_pct": 20.78839057839936},
-{"name": "Domain ownership verification (TXT), verification-variable variant", "service_id": "domain-verification-v2", "version": 1, "added_at": "2026-07-24 12:10:18", "updated_at": "2026-11-09 21:49:44", "supporting_providers": 9, "reach_domains": 40154485, "reach_pct": 20.78839057839936},
-{"name": "Domain ownership verification (TXT)", "service_id": "domain-verification", "version": 1, "added_at": "2026-07-24 12:10:18", "updated_at": "2026-07-24 12:10:18", "supporting_providers": 14, "reach_domains": 26404416, "reach_pct": 13.669838196219855},
-{"name": "Root domain (A/AAAA) with ownership verification", "service_id": "apex-a-with-verification", "version": 1, "added_at": "2026-09-10 19:06:19", "updated_at": "2026-09-10 19:06:19", "supporting_providers": 13, "reach_domains": 25813600, "reach_pct": 13.363966666103916},
-{"name": "Custom domain (CNAME) with ownership verification", "service_id": "custom-subdomain-cname-with-verification", "version": 1, "added_at": "2026-09-10 19:06:19", "updated_at": "2026-09-10 19:06:19", "supporting_providers": 13, "reach_domains": 25813600, "reach_pct": 13.363966666103916},
-{"name": "Email sending (SPF, DKIM, DMARC, MAIL FROM)", "service_id": "email-sending", "version": 1, "added_at": "2026-10-29 11:41:49", "updated_at": "2026-10-29 11:41:49", "supporting_providers": 9, "reach_domains": 297943, "reach_pct": 0.15424816067495423}
+{"name": "Custom domain (CNAME)", "service_id": "custom-subdomain-cname", "version": 1, "added_at": "2026-07-24 12:10:18", "updated_at": "2026-07-24 12:10:18", "supporting_providers": 18, "reach_domains": 66625939, "reach_pct": 34.49293503788208},
+{"name": "Email authentication (SPF, DKIM, DMARC)", "service_id": "email-authentication", "version": 1, "added_at": "2026-09-10 19:06:19", "updated_at": "2026-09-10 19:06:19", "supporting_providers": 17, "reach_domains": 66035123, "reach_pct": 34.18706350776614},
+{"name": "Root domain (A/AAAA) with ownership verification, verification-variable variant", "service_id": "apex-a-with-verification-v2", "version": 1, "added_at": "2026-09-10 19:06:19", "updated_at": "2026-11-09 21:49:44", "supporting_providers": 14, "reach_domains": 40538400, "reach_pct": 20.987147329205804},
+{"name": "Custom domain (CNAME) with ownership verification, verification-variable variant", "service_id": "custom-subdomain-cname-with-verification-v2", "version": 1, "added_at": "2026-09-10 19:06:19", "updated_at": "2026-11-09 21:49:44", "supporting_providers": 14, "reach_domains": 40538400, "reach_pct": 20.987147329205804},
+{"name": "Domain ownership verification (TXT), verification-variable variant", "service_id": "domain-verification-v2", "version": 1, "added_at": "2026-07-24 12:10:18", "updated_at": "2026-11-09 21:49:44", "supporting_providers": 14, "reach_domains": 40538400, "reach_pct": 20.987147329205804},
+{"name": "Domain ownership verification (TXT)", "service_id": "domain-verification", "version": 1, "added_at": "2026-07-24 12:10:18", "updated_at": "2026-07-24 12:10:18", "supporting_providers": 16, "reach_domains": 26472255, "reach_pct": 13.704959145435069},
+{"name": "Root domain (A/AAAA) with ownership verification", "service_id": "apex-a-with-verification", "version": 1, "added_at": "2026-09-10 19:06:19", "updated_at": "2026-09-10 19:06:19", "supporting_providers": 15, "reach_domains": 25881439, "reach_pct": 13.399087615319127},
+{"name": "Custom domain (CNAME) with ownership verification", "service_id": "custom-subdomain-cname-with-verification", "version": 1, "added_at": "2026-09-10 19:06:19", "updated_at": "2026-09-10 19:06:19", "supporting_providers": 15, "reach_domains": 25881439, "reach_pct": 13.399087615319127},
+{"name": "Email sending (SPF, DKIM, DMARC, MAIL FROM)", "service_id": "email-sending", "version": 1, "added_at": "2026-10-29 11:41:49", "updated_at": "2026-10-29 11:41:49", "supporting_providers": 11, "reach_domains": 365782, "reach_pct": 0.1893691098901673}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "apex-a-with-verification", "supporting_providers": 11},
@@ -163,14 +163,14 @@
 {"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "email-sending", "supporting_providers": 9},
 {"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "email-sending", "supporting_providers": 9},
 {"sweep_id": 55, "started_at": "2026-11-12 02:00:26", "completed_at": "2026-11-12 12:47:38", "service_id": "email-sending", "supporting_providers": 9},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "apex-a-with-verification", "supporting_providers": 13},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "apex-a-with-verification-v2", "supporting_providers": 9},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "custom-subdomain-cname", "supporting_providers": 16},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "custom-subdomain-cname-with-verification", "supporting_providers": 13},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "custom-subdomain-cname-with-verification-v2", "supporting_providers": 9},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "domain-verification", "supporting_providers": 14},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "domain-verification-v2", "supporting_providers": 9},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "email-authentication", "supporting_providers": 15},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "email-sending", "supporting_providers": 9}
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "apex-a-with-verification", "supporting_providers": 15},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "apex-a-with-verification-v2", "supporting_providers": 14},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "custom-subdomain-cname", "supporting_providers": 18},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "custom-subdomain-cname-with-verification", "supporting_providers": 15},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "custom-subdomain-cname-with-verification-v2", "supporting_providers": 14},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "domain-verification", "supporting_providers": 16},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "domain-verification-v2", "supporting_providers": 14},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "email-authentication", "supporting_providers": 17},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "email-sending", "supporting_providers": 11}
 ], "footer": null}
 }}

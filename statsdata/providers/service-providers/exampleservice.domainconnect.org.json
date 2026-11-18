@@ -1,14 +1,14 @@
-{"generated_at": "2026-11-17T06:00:11Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-18T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "exampleservice.domainconnect.org", "name": "Example Domain Connect Service", "first_added_at": "2017-06-13 15:46:42", "last_updated_at": "2026-10-07 10:06:08"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 3, "supported_templates": 3, "supporting_dns_providers": 323, "reach_domains": 45063337, "reach_pct": 23.32975383253042}
+{"templates": 3, "supported_templates": 3, "supporting_dns_providers": 426, "reach_domains": 45133681, "reach_pct": 23.366171646053537}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Stateless Hosting Primary", "service_id": "template1", "version": 5, "added_at": "2017-06-13 15:46:42", "updated_at": "2026-10-07 10:06:08", "supporting_providers": 321, "reach_domains": 45054115, "reach_pct": 23.32497950812023},
-{"name": "Stateless Hosting Secondary", "service_id": "template2", "version": 4, "added_at": "2017-06-13 15:46:42", "updated_at": "2025-08-20 09:40:47", "supporting_providers": 322, "reach_domains": 45041048, "reach_pct": 23.31821458759671},
-{"name": "Test template", "service_id": "test-template", "version": 4, "added_at": "2024-05-10 14:42:05", "updated_at": "2026-10-07 10:06:08", "supporting_providers": 11, "reach_domains": 316906, "reach_pct": 0.16406550114235627}
+{"name": "Stateless Hosting Primary", "service_id": "template1", "version": 5, "added_at": "2017-06-13 15:46:42", "updated_at": "2026-10-07 10:06:08", "supporting_providers": 423, "reach_domains": 45123413, "reach_pct": 23.360855796666876},
+{"name": "Stateless Hosting Secondary", "service_id": "template2", "version": 4, "added_at": "2017-06-13 15:46:42", "updated_at": "2025-08-20 09:40:47", "supporting_providers": 425, "reach_domains": 45111392, "reach_pct": 23.35463240111983},
+{"name": "Test template", "service_id": "test-template", "version": 4, "added_at": "2024-05-10 14:42:05", "updated_at": "2026-10-07 10:06:08", "supporting_providers": 12, "reach_domains": 383699, "reach_pct": 0.19864492538109393}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "template1", "supporting_providers": 268},
@@ -47,8 +47,8 @@
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "template1", "supporting_providers": 285},
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "template2", "supporting_providers": 286},
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "test-template", "supporting_providers": 11},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "template1", "supporting_providers": 321},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "template2", "supporting_providers": 322},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "test-template", "supporting_providers": 11}
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "template1", "supporting_providers": 423},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "template2", "supporting_providers": 425},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "test-template", "supporting_providers": 12}
 ], "footer": null}
 }}
