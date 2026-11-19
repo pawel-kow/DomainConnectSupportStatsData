@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-18T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-19T06:00:03Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "readygosolutions.com", "name": "ReadyGo Solutions", "first_added_at": "2026-11-14 14:05:03", "last_updated_at": "2026-11-14 14:05:03"}
 ], "footer": null},
@@ -61,6 +61,7 @@
 {"sweep_id": 55, "started_at": "2026-11-12 02:00:26", "completed_at": "2026-11-12 12:47:38", "service_id": "website", "supporting_providers": 0},
 {"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "website", "supporting_providers": 6},
 {"sweep_id": 57, "started_at": "2026-11-17 02:00:51", "completed_at": null, "service_id": "website", "supporting_providers": 11},
-{"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": null, "service_id": "website", "supporting_providers": 12}
+{"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": null, "service_id": "website", "supporting_providers": 12},
+{"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": null, "service_id": "website", "supporting_providers": 12}
 ], "footer": null}
 }}

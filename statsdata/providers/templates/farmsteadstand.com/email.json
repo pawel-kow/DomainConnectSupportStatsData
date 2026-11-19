@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-18T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-19T06:00:03Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "farmsteadstand.com/email/metadata": {"title": "farmsteadstand.com/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Farmstead Stand", "service_provider_id": "farmsteadstand.com", "service_id": "email", "name": "Email sending", "version": 1, "description": "Lets your Farmstead Stand store send email from your own domain (for example orders@yourfarm.com).", "variable_description": "dkimkey: the DKIM public key (after p=) our email provider issued for your domain", "logo_url": "https://farmsteadstand.com/branding/farmsteadstand/android-chrome-512x512.png", "template_sha": "ee8dc96e65bd6942364f6404ac0352922d94c627", "created_at": "2026-11-17 15:41:46", "updated_at": "2026-11-17 15:41:46"}
 ], "footer": null},
@@ -76,6 +76,7 @@
 {"sweep_id": 55, "started_at": "2026-11-12 02:00:26", "completed_at": "2026-11-12 12:47:38", "supporting_providers": 0, "change": 0},
 {"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "supporting_providers": 0, "change": 0},
 {"sweep_id": 57, "started_at": "2026-11-17 02:00:51", "completed_at": null, "supporting_providers": 0, "change": 0},
-{"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": null, "supporting_providers": 11, "change": 11}
+{"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": null, "supporting_providers": 11, "change": 11},
+{"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

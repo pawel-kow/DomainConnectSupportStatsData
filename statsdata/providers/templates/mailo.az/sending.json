@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-18T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-19T06:00:03Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "mailo.az/sending/metadata": {"title": "mailo.az/sending - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Mailo", "service_provider_id": "mailo.az", "service_id": "sending", "name": "Mailo e-mail sending", "version": 1, "description": "Lets Mailo send e-mail campaigns from your domain: return-path (bounce) CNAME, DKIM key and, only if the domain has none, a monitoring-only DMARC policy.", "variable_description": "dkimpubkey: base64 RSA public key of the DKIM selector bep1", "logo_url": "https://app.mailo.az/logo.svg", "template_sha": "0dadf06cd68cec39703685ad10432d3d50981f07", "created_at": "2026-11-10 14:31:58", "updated_at": "2026-11-10 14:31:58"}
 ], "footer": null},
@@ -78,6 +78,7 @@
 {"sweep_id": 55, "started_at": "2026-11-12 02:00:26", "completed_at": "2026-11-12 12:47:38", "supporting_providers": 7, "change": 7},
 {"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "supporting_providers": 9, "change": 2},
 {"sweep_id": 57, "started_at": "2026-11-17 02:00:51", "completed_at": null, "supporting_providers": 12, "change": 3},
-{"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": null, "supporting_providers": 13, "change": 1}
+{"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": null, "supporting_providers": 13, "change": 1},
+{"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}
