@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-19T06:00:03Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-20T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "catercloud.io/website-email/metadata": {"title": "catercloud.io/website-email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "CaterCloud", "service_provider_id": "catercloud.io", "service_id": "website-email", "name": "CaterCloud website and email", "version": 2, "description": "Points your domain at the website CaterCloud built for your business, proves the domain is yours, and sets up sending email from your domain through CaterCloud. Your existing email settings are not changed.", "variable_description": "verify: your one-time CaterCloud verification value; dkimkey: the public key of your DKIM record (resend._domainkey); region: the AWS region of the bounce-handling MX record (send). The website address is www.<your domain>.", "logo_url": "https://crm.catercloud.io/icon.svg", "template_sha": "ff00a9f085f5cbd8ae5ce19a6b8a2ca6f16c7f25", "created_at": "2026-11-12 14:50:01", "updated_at": "2026-11-12 14:50:01"}
 ], "footer": null},
@@ -78,9 +78,10 @@
 {"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "supporting_providers": 0, "change": 0},
 {"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "supporting_providers": 0, "change": 0},
 {"sweep_id": 55, "started_at": "2026-11-12 02:00:26", "completed_at": "2026-11-12 12:47:38", "supporting_providers": 0, "change": 0},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "supporting_providers": 6, "change": 6},
-{"sweep_id": 57, "started_at": "2026-11-17 02:00:51", "completed_at": null, "supporting_providers": 11, "change": 5},
-{"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": null, "supporting_providers": 12, "change": 1},
-{"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": null, "supporting_providers": 13, "change": 1}
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "supporting_providers": 6, "change": 6},
+{"sweep_id": 57, "started_at": "2026-11-17 02:00:51", "completed_at": "2026-11-19 18:45:17", "supporting_providers": 11, "change": 5},
+{"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": "2026-11-19 18:46:25", "supporting_providers": 12, "change": 1},
+{"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "supporting_providers": 13, "change": 1},
+{"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

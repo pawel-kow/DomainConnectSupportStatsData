@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-19T06:00:03Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-20T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "partnersuite.net", "name": "Everstoic", "first_added_at": "2026-11-09 15:34:41", "last_updated_at": "2026-11-09 15:34:41"}
 ], "footer": null},
@@ -59,9 +59,10 @@
 {"sweep_id": 53, "started_at": "2026-11-10 02:00:21", "completed_at": "2026-11-10 14:10:36", "service_id": "partner-setup", "supporting_providers": 0},
 {"sweep_id": 54, "started_at": "2026-11-11 02:00:24", "completed_at": "2026-11-11 12:29:01", "service_id": "partner-setup", "supporting_providers": 7},
 {"sweep_id": 55, "started_at": "2026-11-12 02:00:26", "completed_at": "2026-11-12 12:47:38", "service_id": "partner-setup", "supporting_providers": 7},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "partner-setup", "supporting_providers": 7},
-{"sweep_id": 57, "started_at": "2026-11-17 02:00:51", "completed_at": null, "service_id": "partner-setup", "supporting_providers": 10},
-{"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": null, "service_id": "partner-setup", "supporting_providers": 11},
-{"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": null, "service_id": "partner-setup", "supporting_providers": 11}
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "partner-setup", "supporting_providers": 7},
+{"sweep_id": 57, "started_at": "2026-11-17 02:00:51", "completed_at": "2026-11-19 18:45:17", "service_id": "partner-setup", "supporting_providers": 10},
+{"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": "2026-11-19 18:46:25", "service_id": "partner-setup", "supporting_providers": 11},
+{"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "service_id": "partner-setup", "supporting_providers": 11},
+{"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": null, "service_id": "partner-setup", "supporting_providers": 11}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-19T06:00:03Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-20T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "ssl-professionals.com", "name": "SSL Professionals", "first_added_at": "2026-09-21 12:18:37", "last_updated_at": "2026-09-21 12:18:37"}
 ], "footer": null},
@@ -56,8 +56,8 @@
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "dmarc-monitoring", "supporting_providers": 13},
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "mta-sts-id", "supporting_providers": 13},
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "smtp-tls-reporting", "supporting_providers": 13},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "dmarc-monitoring", "supporting_providers": 15},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "mta-sts-id", "supporting_providers": 15},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": null, "service_id": "smtp-tls-reporting", "supporting_providers": 15}
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "dmarc-monitoring", "supporting_providers": 15},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "mta-sts-id", "supporting_providers": 15},
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "smtp-tls-reporting", "supporting_providers": 15}
 ], "footer": null}
 }}
