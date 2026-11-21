@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-20T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-21T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "aspirethemes.com/sites/metadata": {"title": "aspirethemes.com/sites - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Aspire Themes", "service_provider_id": "aspirethemes.com", "service_id": "sites", "name": "Aspire Sites", "version": 1, "description": "Points a domain or subdomain at a Ghost site hosted on Aspire Sites, and adds the record that proves the domain is yours.", "variable_description": "%verification%: the ownership value Aspire Sites shows for this domain", "logo_url": "https://aspirethemes.com/images/assets/aspirethemes-logo.jpg", "template_sha": "0de9c615f12c5fba972cf906e3ac35133aa4fabb", "created_at": "2026-11-17 15:40:43", "updated_at": "2026-11-17 15:40:43"}
 ], "footer": null},
@@ -79,6 +79,7 @@
 {"sweep_id": 57, "started_at": "2026-11-17 02:00:51", "completed_at": "2026-11-19 18:45:17", "supporting_providers": 0, "change": 0},
 {"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": "2026-11-19 18:46:25", "supporting_providers": 10, "change": 10},
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "supporting_providers": 11, "change": 1},
-{"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": null, "supporting_providers": 13, "change": 2}
+{"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "supporting_providers": 13, "change": 2},
+{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

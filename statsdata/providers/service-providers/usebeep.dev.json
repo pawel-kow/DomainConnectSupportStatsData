@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-20T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-21T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "usebeep.dev", "name": "Beep", "first_added_at": "2026-11-06 13:56:11", "last_updated_at": "2026-11-06 13:56:11"}
 ], "footer": null},
@@ -63,6 +63,6 @@
 {"sweep_id": 57, "started_at": "2026-11-17 02:00:51", "completed_at": "2026-11-19 18:45:17", "service_id": "custom-domain", "supporting_providers": 11},
 {"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": "2026-11-19 18:46:25", "service_id": "custom-domain", "supporting_providers": 12},
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "service_id": "custom-domain", "supporting_providers": 12},
-{"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": null, "service_id": "custom-domain", "supporting_providers": 14}
+{"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "service_id": "custom-domain", "supporting_providers": 14}
 ], "footer": null}
 }}

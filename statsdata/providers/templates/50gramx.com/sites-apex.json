@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-20T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-21T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "50gramx.com/sites-apex/metadata": {"title": "50gramx.com/sites-apex - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "50GRAMx", "service_provider_id": "50gramx.com", "service_id": "sites-apex", "name": "50GRAMx Sites (bare domain)", "version": 1, "description": "Serves a website from the 50GRAMx network on the bare domain (example.com), and proves which 50GRAMx account owns it.", "variable_description": "ip4/ip6: the 50GRAMx edge addresses; owner: the owner's DID", "logo_url": "https://50gramx.com/icon.svg", "template_sha": "f084519a697f94c1abf015a74d73afef573bd751", "created_at": "2026-11-15 13:39:46", "updated_at": "2026-11-15 13:39:46"}
 ], "footer": null},
@@ -80,6 +80,7 @@
 {"sweep_id": 57, "started_at": "2026-11-17 02:00:51", "completed_at": "2026-11-19 18:45:17", "supporting_providers": 11, "change": 5},
 {"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": "2026-11-19 18:46:25", "supporting_providers": 11, "change": 0},
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "supporting_providers": 11, "change": 0},
-{"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": null, "supporting_providers": 13, "change": 2}
+{"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "supporting_providers": 13, "change": 2},
+{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

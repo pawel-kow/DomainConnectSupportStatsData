@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-20T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-21T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "vaartix.com", "name": "Vaartix", "first_added_at": "2026-08-06 07:34:06", "last_updated_at": "2026-11-15 13:40:22"}
 ], "footer": null},
@@ -77,6 +77,7 @@
 {"sweep_id": 57, "started_at": "2026-11-17 02:00:51", "completed_at": "2026-11-19 18:45:17", "service_id": "email", "supporting_providers": 10},
 {"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": "2026-11-19 18:46:25", "service_id": "email", "supporting_providers": 11},
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "service_id": "email", "supporting_providers": 11},
-{"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": null, "service_id": "email", "supporting_providers": 13}
+{"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "service_id": "email", "supporting_providers": 13},
+{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": null, "service_id": "email", "supporting_providers": 13}
 ], "footer": null}
 }}
