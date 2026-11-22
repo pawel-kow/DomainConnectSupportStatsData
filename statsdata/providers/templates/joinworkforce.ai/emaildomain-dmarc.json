@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-21T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "joinworkforce.ai/emaildomain-dmarc/metadata": {"title": "joinworkforce.ai/emaildomain-dmarc - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Workforce AI", "service_provider_id": "joinworkforce.ai", "service_id": "emaildomain-dmarc", "name": "Email from your domain", "version": 3, "description": "As joinworkforce.ai.emaildomain, plus a DMARC policy for the subdomain (kept in our zone). Used only when the customer's domain publishes no DMARC.", "variable_description": "%mzone%: where the CNAMEs point in our mail zone, made for the customer's domain: <16 hex>.m.joinworkforce.ai (dev./staging. before m. for our test environments)", "logo_url": "https://dashboard.hireworkforce.ai/web-app-manifest-512x512.png", "template_sha": "de211997e7ee957c7ca11ac686d9761085538ee4", "created_at": "2026-11-11 13:46:43", "updated_at": "2026-11-16 15:10:41"}
 ], "footer": null},
@@ -85,6 +85,7 @@
 {"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": "2026-11-19 18:46:25", "supporting_providers": 13, "change": 2},
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "supporting_providers": 13, "change": 0},
 {"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "supporting_providers": 15, "change": 2},
-{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": null, "supporting_providers": 15, "change": 0}
+{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 15, "change": 0},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "supporting_providers": 15, "change": 0}
 ], "footer": null}
 }}

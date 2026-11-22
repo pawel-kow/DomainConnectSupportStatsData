@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-21T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "aeoaction.com/hosted-pages/metadata": {"title": "aeoaction.com/hosted-pages - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "AEO Action", "service_provider_id": "aeoaction.com", "service_id": "hosted-pages", "name": "Hosted pages on your subdomain", "version": 1, "description": "Points one subdomain of the customer's domain (for example ai.example.com, passed as the host parameter) at AEO Action's hosting on Vercel with a single CNAME record, so the pages the customer approves are served on their own domain. Nothing else in the zone is touched.", "variable_description": "%target%: the CNAME target Vercel recommends for this hostname (cname.vercel-dns.com or a per-project <id>.vercel-dns-NNN.com name). The service checks it against *.vercel-dns(-NNN).com before signing.", "logo_url": "https://www.aeoaction.com/domain-connect/logo.svg", "template_sha": "6c651d69a9afb1b53b921800ea6dca734e69b001", "created_at": "2026-11-09 15:34:28", "updated_at": "2026-11-09 15:34:28"}
 ], "footer": null},
@@ -81,6 +81,7 @@
 {"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": "2026-11-19 18:46:25", "supporting_providers": 13, "change": 0},
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "supporting_providers": 13, "change": 0},
 {"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "supporting_providers": 15, "change": 2},
-{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": null, "supporting_providers": 15, "change": 0}
+{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 15, "change": 0},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "supporting_providers": 15, "change": 0}
 ], "footer": null}
 }}

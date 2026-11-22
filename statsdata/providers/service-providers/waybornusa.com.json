@@ -1,12 +1,12 @@
-{"generated_at": "2026-11-21T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "waybornusa.com", "name": "Wayborn", "first_added_at": "2026-09-10 19:00:22", "last_updated_at": "2026-09-10 19:00:22"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 2, "supported_templates": 2, "supporting_dns_providers": 15, "reach_domains": 25881439, "reach_pct": 13.399087615319127}
+{"templates": 2, "supported_templates": 2, "supporting_dns_providers": 17, "reach_domains": 66035123, "reach_pct": 34.18706350776614}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Wayborn Email Authentication", "service_id": "email-records", "version": 1, "added_at": "2026-09-10 19:00:22", "updated_at": "2026-09-10 19:00:22", "supporting_providers": 15, "reach_domains": 25881439, "reach_pct": 13.399087615319127},
+{"name": "Wayborn Email Authentication", "service_id": "email-records", "version": 1, "added_at": "2026-09-10 19:00:22", "updated_at": "2026-09-10 19:00:22", "supporting_providers": 17, "reach_domains": 66035123, "reach_pct": 34.18706350776614},
 {"name": "Wayborn Managed Sending Subdomain", "service_id": "mail-delegation", "version": 1, "added_at": "2026-09-10 19:00:22", "updated_at": "2026-09-10 19:00:22", "supporting_providers": 14, "reach_domains": 25881254, "reach_pct": 13.398991838913155}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
@@ -35,6 +35,8 @@
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "email-records", "supporting_providers": 13},
 {"sweep_id": 51, "started_at": "2026-11-08 02:00:14", "completed_at": "2026-11-09 21:44:53", "service_id": "mail-delegation", "supporting_providers": 12},
 {"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "email-records", "supporting_providers": 15},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "mail-delegation", "supporting_providers": 14}
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "mail-delegation", "supporting_providers": 14},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "email-records", "supporting_providers": 17},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "mail-delegation", "supporting_providers": 14}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-21T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "quicklist.live", "name": "Quicklist", "first_added_at": "2026-11-08 12:56:46", "last_updated_at": "2026-11-08 12:56:46"}
 ], "footer": null},
@@ -120,7 +120,9 @@
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "service_id": "storefront-sub", "supporting_providers": 12},
 {"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "service_id": "storefront-root", "supporting_providers": 14},
 {"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "service_id": "storefront-sub", "supporting_providers": 14},
-{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": null, "service_id": "storefront-root", "supporting_providers": 14},
-{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": null, "service_id": "storefront-sub", "supporting_providers": 14}
+{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "service_id": "storefront-root", "supporting_providers": 14},
+{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "service_id": "storefront-sub", "supporting_providers": 14},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "storefront-root", "supporting_providers": 14},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "storefront-sub", "supporting_providers": 14}
 ], "footer": null}
 }}

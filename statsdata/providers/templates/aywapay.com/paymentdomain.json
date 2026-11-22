@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-21T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "aywapay.com/paymentdomain/metadata": {"title": "aywapay.com/paymentdomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "AywaPay", "service_provider_id": "aywapay.com", "service_id": "paymentdomain", "name": "Payment domain", "version": 1, "description": "Opens a store's crypto payment pages on its own subdomain (for example pay.yourshop.com)", "variable_description": "token: the store's id on AywaPay's payment domains", "logo_url": "https://aywapay.com/icon1.svg", "template_sha": "cfdb33784ba3d2ba897ab4cd0c88641c0d097671", "created_at": "2026-11-17 15:41:00", "updated_at": "2026-11-17 15:41:00"}
 ], "footer": null},
@@ -79,6 +79,7 @@
 {"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": "2026-11-19 18:46:25", "supporting_providers": 11, "change": 11},
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "supporting_providers": 11, "change": 0},
 {"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "supporting_providers": 13, "change": 2},
-{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": null, "supporting_providers": 13, "change": 0}
+{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 13, "change": 0},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

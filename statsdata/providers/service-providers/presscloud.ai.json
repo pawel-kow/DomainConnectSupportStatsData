@@ -1,14 +1,14 @@
-{"generated_at": "2026-11-21T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "presscloud.ai", "name": "Presscloud", "first_added_at": "2026-09-07 12:05:34", "last_updated_at": "2026-09-08 11:55:14"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 4, "supported_templates": 4, "supporting_dns_providers": 15, "reach_domains": 25881439, "reach_pct": 13.399087615319127}
+{"templates": 4, "supported_templates": 4, "supporting_dns_providers": 17, "reach_domains": 66035123, "reach_pct": 34.18706350776614}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Presscloud Sending Domain (EU)", "service_id": "email-eu", "version": 1, "added_at": "2026-09-08 11:55:14", "updated_at": "2026-09-08 11:55:14", "supporting_providers": 15, "reach_domains": 25881439, "reach_pct": 13.399087615319127},
-{"name": "Presscloud Sending Domain (US)", "service_id": "email-us", "version": 1, "added_at": "2026-09-08 11:55:14", "updated_at": "2026-09-08 11:55:14", "supporting_providers": 15, "reach_domains": 25881439, "reach_pct": 13.399087615319127},
-{"name": "Presscloud Newsroom", "service_id": "newsroom", "version": 1, "added_at": "2026-09-08 11:55:14", "updated_at": "2026-09-08 11:55:14", "supporting_providers": 15, "reach_domains": 25881439, "reach_pct": 13.399087615319127},
+{"name": "Presscloud Sending Domain (EU)", "service_id": "email-eu", "version": 1, "added_at": "2026-09-08 11:55:14", "updated_at": "2026-09-08 11:55:14", "supporting_providers": 17, "reach_domains": 66035123, "reach_pct": 34.18706350776614},
+{"name": "Presscloud Sending Domain (US)", "service_id": "email-us", "version": 1, "added_at": "2026-09-08 11:55:14", "updated_at": "2026-09-08 11:55:14", "supporting_providers": 17, "reach_domains": 66035123, "reach_pct": 34.18706350776614},
+{"name": "Presscloud Newsroom", "service_id": "newsroom", "version": 1, "added_at": "2026-09-08 11:55:14", "updated_at": "2026-09-08 11:55:14", "supporting_providers": 17, "reach_domains": 66035123, "reach_pct": 34.18706350776614},
 {"name": "Presscloud DNS", "service_id": "delegated-zone", "version": 1, "added_at": "2026-09-07 12:05:34", "updated_at": "2026-09-07 12:05:34", "supporting_providers": 14, "reach_domains": 25881254, "reach_pct": 13.398991838913155}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
@@ -63,6 +63,10 @@
 {"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "delegated-zone", "supporting_providers": 14},
 {"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "email-eu", "supporting_providers": 15},
 {"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "email-us", "supporting_providers": 15},
-{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "newsroom", "supporting_providers": 15}
+{"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "newsroom", "supporting_providers": 15},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "delegated-zone", "supporting_providers": 14},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "email-eu", "supporting_providers": 17},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "email-us", "supporting_providers": 17},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "newsroom", "supporting_providers": 17}
 ], "footer": null}
 }}

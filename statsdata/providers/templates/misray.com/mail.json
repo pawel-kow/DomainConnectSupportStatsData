@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-21T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "misray.com/mail/metadata": {"title": "misray.com/mail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Misray", "service_provider_id": "misray.com", "service_id": "mail", "name": "Misray Mail", "version": 1, "description": "Sets up a domain for Misray Mail: ownership check, mail delivery (MX), sender checks (SPF, DKIM, DMARC), mail client discovery, and MTA-STS / TLS reporting.", "variable_description": "%verifytoken%: one-off domain ownership token; %mxmain%, %mxbackup%: first label of our main and backup mail exchangers under misray.com (e.g. mail2, mail1); %mxmainpri%, %mxbackuppri%: their MX preferences; %dkimid%: the domain's 10-character id in our DKIM zone dkim.misray.com", "logo_url": "https://misray.com/misray-mark.svg", "template_sha": "0541a04d3570f8e8e44a78123dba4758efb2f900", "created_at": "2026-11-20 15:02:05", "updated_at": "2026-11-20 15:02:05"}
 ], "footer": null},
@@ -90,6 +90,7 @@
 {"sweep_id": 58, "started_at": "2026-11-18 02:00:16", "completed_at": "2026-11-19 18:46:25", "supporting_providers": 0, "change": 0},
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "supporting_providers": 0, "change": 0},
 {"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "supporting_providers": 0, "change": 0},
-{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": null, "supporting_providers": 9, "change": 9}
+{"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 9, "change": 9},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "supporting_providers": 9, "change": 0}
 ], "footer": null}
 }}
