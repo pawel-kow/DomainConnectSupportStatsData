@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-23T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "sendtier.com", "name": "Sendtier", "first_added_at": "2026-11-14 13:09:52", "last_updated_at": "2026-11-14 13:09:52"}
 ], "footer": null},
@@ -297,6 +297,11 @@
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "inbox-nodmarc", "supporting_providers": 15},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "mail", "supporting_providers": 15},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "mail-nodmarc", "supporting_providers": 15},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "receive", "supporting_providers": 15}
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "receive", "supporting_providers": 15},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "service_id": "inbox", "supporting_providers": 15},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "service_id": "inbox-nodmarc", "supporting_providers": 15},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "service_id": "mail", "supporting_providers": 15},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "service_id": "mail-nodmarc", "supporting_providers": 15},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "service_id": "receive", "supporting_providers": 15}
 ], "footer": null}
 }}

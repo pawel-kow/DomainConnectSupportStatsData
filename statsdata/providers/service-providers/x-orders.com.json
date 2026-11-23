@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-23T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "x-orders.com", "name": "X-Orders", "first_added_at": "2026-10-13 13:47:51", "last_updated_at": "2026-10-13 17:58:25"}
 ], "footer": null},
@@ -7,7 +7,7 @@
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
 {"name": "X-Orders store on a subdomain", "service_id": "storefront-sub", "version": 1, "added_at": "2026-10-13 13:47:51", "updated_at": "2026-10-13 13:47:51", "supporting_providers": 15, "reach_domains": 40538429, "reach_pct": 20.98716234280458},
-{"name": "X-Orders store on www", "service_id": "storefront-www", "version": 1, "added_at": "2026-10-13 17:58:25", "updated_at": "2026-10-13 17:58:25", "supporting_providers": 12, "reach_domains": 38760648, "reach_pct": 20.066786803413216},
+{"name": "X-Orders store on www", "service_id": "storefront-www", "version": 1, "added_at": "2026-10-13 17:58:25", "updated_at": "2026-10-13 17:58:25", "supporting_providers": 13, "reach_domains": 40471451, "reach_pct": 20.952487142159868},
 {"name": "X-Orders store on the root domain", "service_id": "storefront-apex", "version": 1, "added_at": "2026-10-13 17:58:25", "updated_at": "2026-10-13 17:58:25", "supporting_providers": 12, "reach_domains": 384560, "reach_pct": 0.19909067395159613}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
@@ -124,6 +124,6 @@
 {"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "storefront-www", "supporting_providers": 11},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "storefront-apex", "supporting_providers": 12},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "storefront-sub", "supporting_providers": 15},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "storefront-www", "supporting_providers": 12}
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "storefront-www", "supporting_providers": 13}
 ], "footer": null}
 }}

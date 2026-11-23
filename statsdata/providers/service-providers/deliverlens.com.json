@@ -1,14 +1,14 @@
-{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-23T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "deliverlens.com", "name": "Deliverlens", "first_added_at": "2026-11-18 15:19:53", "last_updated_at": "2026-11-18 15:19:53"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 3, "supported_templates": 3, "supporting_dns_providers": 13, "reach_domains": 40241161, "reach_pct": 20.83326363658385}
+{"templates": 3, "supported_templates": 3, "supporting_dns_providers": 14, "reach_domains": 40538400, "reach_pct": 20.987147329205804}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "DMARC report collection", "service_id": "dmarc-reporting", "version": 1, "added_at": "2026-11-18 15:19:53", "updated_at": "2026-11-18 15:19:53", "supporting_providers": 13, "reach_domains": 40241161, "reach_pct": 20.83326363658385},
-{"name": "Domain ownership verification", "service_id": "domain-verification", "version": 1, "added_at": "2026-11-18 15:19:53", "updated_at": "2026-11-18 15:19:53", "supporting_providers": 13, "reach_domains": 40241161, "reach_pct": 20.83326363658385},
-{"name": "TLS report collection", "service_id": "tls-reporting", "version": 1, "added_at": "2026-11-18 15:19:53", "updated_at": "2026-11-18 15:19:53", "supporting_providers": 13, "reach_domains": 40241161, "reach_pct": 20.83326363658385}
+{"name": "DMARC report collection", "service_id": "dmarc-reporting", "version": 1, "added_at": "2026-11-18 15:19:53", "updated_at": "2026-11-18 15:19:53", "supporting_providers": 14, "reach_domains": 40538400, "reach_pct": 20.987147329205804},
+{"name": "Domain ownership verification", "service_id": "domain-verification", "version": 1, "added_at": "2026-11-18 15:19:53", "updated_at": "2026-11-18 15:19:53", "supporting_providers": 14, "reach_domains": 40538400, "reach_pct": 20.987147329205804},
+{"name": "TLS report collection", "service_id": "tls-reporting", "version": 1, "added_at": "2026-11-18 15:19:53", "updated_at": "2026-11-18 15:19:53", "supporting_providers": 14, "reach_domains": 40538400, "reach_pct": 20.987147329205804}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "dmarc-reporting", "supporting_providers": 0},
@@ -179,8 +179,11 @@
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "service_id": "dmarc-reporting", "supporting_providers": 13},
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "service_id": "domain-verification", "supporting_providers": 13},
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "service_id": "tls-reporting", "supporting_providers": 13},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "dmarc-reporting", "supporting_providers": 13},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "domain-verification", "supporting_providers": 13},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "tls-reporting", "supporting_providers": 13}
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "dmarc-reporting", "supporting_providers": 14},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "domain-verification", "supporting_providers": 14},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "tls-reporting", "supporting_providers": 14},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "service_id": "dmarc-reporting", "supporting_providers": 14},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "service_id": "domain-verification", "supporting_providers": 14},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "service_id": "tls-reporting", "supporting_providers": 14}
 ], "footer": null}
 }}

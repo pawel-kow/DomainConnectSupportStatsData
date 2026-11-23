@@ -1,12 +1,12 @@
-{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-23T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "Shopify.com", "name": "Shopify", "first_added_at": "2017-03-11 23:23:18", "last_updated_at": "2026-03-10 15:26:59"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 5, "supported_templates": 5, "supporting_dns_providers": 426, "reach_domains": 70016069, "reach_pct": 36.24804026589208}
+{"templates": 5, "supported_templates": 5, "supporting_dns_providers": 424, "reach_domains": 70015930, "reach_pct": 36.247968304160025}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Shopify Site", "service_id": "website", "version": 4, "added_at": "2017-03-11 23:23:18", "updated_at": "2024-03-06 16:19:50", "supporting_providers": 426, "reach_domains": 70016069, "reach_pct": 36.24804026589208},
+{"name": "Shopify Site", "service_id": "website", "version": 4, "added_at": "2017-03-11 23:23:18", "updated_at": "2024-03-06 16:19:50", "supporting_providers": 424, "reach_domains": 70015930, "reach_pct": 36.247968304160025},
 {"name": "Shopify Site and Domain Verification", "service_id": "verification", "version": 1, "added_at": "2017-03-11 23:23:18", "updated_at": "2022-09-01 14:42:46", "supporting_providers": 18, "reach_domains": 69890157, "reach_pct": 36.182854326276434},
 {"name": "Email Domain Authentication for Shopify", "service_id": "email", "version": 1, "added_at": "2026-01-23 17:28:26", "updated_at": "2026-01-23 17:28:26", "supporting_providers": 17, "reach_domains": 69880994, "reach_pct": 36.17811054677409},
 {"name": "Shopify Subdomain", "service_id": "subdomains", "version": 1, "added_at": "2025-04-15 20:04:56", "updated_at": "2025-04-15 20:04:56", "supporting_providers": 17, "reach_domains": 69880994, "reach_pct": 36.17811054677409},
@@ -82,6 +82,6 @@
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "subdomains", "supporting_providers": 17},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "txtverification", "supporting_providers": 17},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "verification", "supporting_providers": 18},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "website", "supporting_providers": 426}
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "website", "supporting_providers": 424}
 ], "footer": null}
 }}

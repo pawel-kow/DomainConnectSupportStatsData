@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-23T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "offtheclocksoftware.com/website/metadata": {"title": "offtheclocksoftware.com/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Off the Clock Software", "service_provider_id": "offtheclocksoftware.com", "service_id": "website", "name": "Website", "version": 1, "description": "Points www at the website Off the Clock Software built for the business, through the site's own name under otcsites.com, and forwards the bare domain to www with a permanent (301) redirect. Email records (MX, SPF, DKIM, DMARC and every other TXT record) are never changed.", "variable_description": "%slug%: one DNS label that names the client's site under otcsites.com, for example joes-pizza.", "logo_url": "https://offtheclocksoftware.com/favicon.svg", "template_sha": "a9ffdffe16bcd04a811761069f51e18be42fa65a", "created_at": "2026-11-14 01:37:51", "updated_at": "2026-11-14 01:37:51"}
 ], "footer": null},
@@ -80,6 +80,7 @@
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "supporting_providers": 10, "change": 0},
 {"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "supporting_providers": 12, "change": 2},
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 12, "change": 0},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "supporting_providers": 12, "change": 0}
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "supporting_providers": 12, "change": 0},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "supporting_providers": 12, "change": 0}
 ], "footer": null}
 }}

@@ -1,18 +1,18 @@
-{"generated_at": "2026-11-22T06:00:08Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-23T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "hubspot.com", "name": "HubSpot", "first_added_at": "2017-08-01 00:03:40", "last_updated_at": "2023-05-11 18:29:39"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 8, "supported_templates": 8, "supporting_dns_providers": 421, "reach_domains": 29770659, "reach_pct": 15.41257687823266}
+{"templates": 8, "supported_templates": 8, "supporting_dns_providers": 420, "reach_domains": 29770617, "reach_pct": 15.41255513439995}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "HubSpot Site", "service_id": "hubspot-cname-txt", "version": 2, "added_at": "2021-01-26 16:34:59", "updated_at": "2023-02-21 16:36:06", "supporting_providers": 419, "reach_domains": 29770502, "reach_pct": 15.412495597715155},
-{"name": "HubSpot CMS Site", "service_id": "hubspot-template-3", "version": 2, "added_at": "2020-04-16 17:58:51", "updated_at": "2023-02-17 20:56:07", "supporting_providers": 419, "reach_domains": 29770502, "reach_pct": 15.412495597715155},
-{"name": "HubSpot Site", "service_id": "hubspot-txt", "version": 2, "added_at": "2021-01-26 16:34:59", "updated_at": "2023-03-17 20:57:45", "supporting_providers": 419, "reach_domains": 29770502, "reach_pct": 15.412495597715155},
-{"name": "HubSpot Site", "service_id": "hubspot-cname", "version": 2, "added_at": "2021-01-26 16:34:59", "updated_at": "2023-03-17 21:00:55", "supporting_providers": 418, "reach_domains": 29761339, "reach_pct": 15.40775181821282},
-{"name": "HubSpot Production Site", "service_id": "hubspot-prod-web-hosting", "version": 1, "added_at": "2018-06-12 17:40:45", "updated_at": "2019-07-23 13:14:28", "supporting_providers": 416, "reach_domains": 399107, "reach_pct": 0.20662180572290326},
-{"name": "HubSpot QA Site", "service_id": "hubspot-qa-web-hosting", "version": 1, "added_at": "2018-06-12 17:40:45", "updated_at": "2019-07-23 13:15:02", "supporting_providers": 416, "reach_domains": 399107, "reach_pct": 0.20662180572290326},
-{"name": "HubSpot Site", "service_id": "hubspot-template-2", "version": 1, "added_at": "2017-08-01 00:03:40", "updated_at": "2019-03-06 10:25:48", "supporting_providers": 416, "reach_domains": 399107, "reach_pct": 0.20662180572290326},
+{"name": "HubSpot Site", "service_id": "hubspot-cname-txt", "version": 2, "added_at": "2021-01-26 16:34:59", "updated_at": "2023-02-21 16:36:06", "supporting_providers": 418, "reach_domains": 29770460, "reach_pct": 15.41247385388245},
+{"name": "HubSpot CMS Site", "service_id": "hubspot-template-3", "version": 2, "added_at": "2020-04-16 17:58:51", "updated_at": "2023-02-17 20:56:07", "supporting_providers": 418, "reach_domains": 29770460, "reach_pct": 15.41247385388245},
+{"name": "HubSpot Site", "service_id": "hubspot-txt", "version": 2, "added_at": "2021-01-26 16:34:59", "updated_at": "2023-03-17 20:57:45", "supporting_providers": 418, "reach_domains": 29770460, "reach_pct": 15.41247385388245},
+{"name": "HubSpot Site", "service_id": "hubspot-cname", "version": 2, "added_at": "2021-01-26 16:34:59", "updated_at": "2023-03-17 21:00:55", "supporting_providers": 417, "reach_domains": 29761297, "reach_pct": 15.407730074380114},
+{"name": "HubSpot Production Site", "service_id": "hubspot-prod-web-hosting", "version": 1, "added_at": "2018-06-12 17:40:45", "updated_at": "2019-07-23 13:14:28", "supporting_providers": 415, "reach_domains": 399065, "reach_pct": 0.20660006189019584},
+{"name": "HubSpot QA Site", "service_id": "hubspot-qa-web-hosting", "version": 1, "added_at": "2018-06-12 17:40:45", "updated_at": "2019-07-23 13:15:02", "supporting_providers": 415, "reach_domains": 399065, "reach_pct": 0.20660006189019584},
+{"name": "HubSpot Site", "service_id": "hubspot-template-2", "version": 1, "added_at": "2017-08-01 00:03:40", "updated_at": "2019-03-06 10:25:48", "supporting_providers": 415, "reach_domains": 399065, "reach_pct": 0.20660006189019584},
 {"name": "HubSpot CMS Site", "service_id": "hubspot-email-domain", "version": 1, "added_at": "2023-05-09 18:21:29", "updated_at": "2023-05-11 18:29:39", "supporting_providers": 14, "reach_domains": 393908, "reach_pct": 0.20393022985990567}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
@@ -120,13 +120,13 @@
 {"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "hubspot-template-2", "supporting_providers": 416},
 {"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "hubspot-template-3", "supporting_providers": 419},
 {"sweep_id": 56, "started_at": "2026-11-16 13:48:52", "completed_at": "2026-11-19 18:47:13", "service_id": "hubspot-txt", "supporting_providers": 419},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-cname", "supporting_providers": 418},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-cname-txt", "supporting_providers": 419},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-cname", "supporting_providers": 417},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-cname-txt", "supporting_providers": 418},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-email-domain", "supporting_providers": 14},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-prod-web-hosting", "supporting_providers": 416},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-qa-web-hosting", "supporting_providers": 416},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-template-2", "supporting_providers": 416},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-template-3", "supporting_providers": 419},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-txt", "supporting_providers": 419}
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-prod-web-hosting", "supporting_providers": 415},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-qa-web-hosting", "supporting_providers": 415},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-template-2", "supporting_providers": 415},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-template-3", "supporting_providers": 418},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "hubspot-txt", "supporting_providers": 418}
 ], "footer": null}
 }}
