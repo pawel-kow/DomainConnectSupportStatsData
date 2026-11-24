@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-23T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-24T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "moveshop.store/customdomain/metadata": {"title": "moveshop.store/customdomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "MoveShop", "service_provider_id": "moveshop.store", "service_id": "customdomain", "name": "Custom storefront domain", "version": 3, "description": "Connects a domain to a MoveShop storefront with A records to MoveShop's two fixed IP addresses. MoveShop issues the SSL certificate on the first visit, so no other records are needed. Group 'site' points the domain itself (the root, or the host given); group 'www' also points the www of a root domain.", "variable_description": null, "logo_url": "https://moveshop.store/brand/moveshop-logo.svg", "template_sha": "8a824c9d1d9f3b991271c363b9fda95cac9b41fd", "created_at": "2026-11-09 15:34:15", "updated_at": "2026-11-15 13:38:49"}
 ], "footer": null},
@@ -84,7 +84,7 @@
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "supporting_providers": 12, "change": 0},
 {"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "supporting_providers": 14, "change": 2},
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 14, "change": 0},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "supporting_providers": 14, "change": 0},
-{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "supporting_providers": 14, "change": 0}
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 0},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 0}
 ], "footer": null}
 }}

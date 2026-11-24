@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-23T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-24T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "joinworkforce.ai/emaildomain/metadata": {"title": "joinworkforce.ai/emaildomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Workforce AI", "service_provider_id": "joinworkforce.ai", "service_id": "emaildomain", "name": "Email from your domain", "version": 3, "description": "Lets the AI employees send and receive email at a subdomain of the customer's domain (applied with host, e.g. bot). Adds CNAMEs into our own zone, where we keep the mail records (DKIM, SPF, bounce and inbound MX) up to date, and the email provider's return-path CNAME (rsend) straight to the provider, which verifies it by its first target.", "variable_description": "%mzone%: where the CNAMEs point in our mail zone, made for the customer's domain: <16 hex>.m.joinworkforce.ai (dev./staging. before m. for our test environments)", "logo_url": "https://dashboard.hireworkforce.ai/web-app-manifest-512x512.png", "template_sha": "dd7ef4bad049d7fb3812fabbf101a18b10952af4", "created_at": "2026-11-11 13:46:43", "updated_at": "2026-11-16 15:10:41"}
 ], "footer": null},
@@ -85,7 +85,8 @@
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "supporting_providers": 13, "change": 0},
 {"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "supporting_providers": 15, "change": 2},
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 15, "change": 0},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "supporting_providers": 15, "change": 0},
-{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "supporting_providers": 15, "change": 0}
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 15, "change": 0},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 15, "change": 0},
+{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": null, "supporting_providers": 15, "change": 0}
 ], "footer": null}
 }}

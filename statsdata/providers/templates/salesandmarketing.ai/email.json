@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-23T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-24T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "salesandmarketing.ai/email/metadata": {"title": "salesandmarketing.ai/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "SalesAndMarketing.ai", "service_provider_id": "salesandmarketing.ai", "service_id": "email", "name": "Email sending (DKIM and SPF)", "version": 1, "description": "Authorizes SalesAndMarketing.ai mail servers to send email campaigns for the domain: DKIM CNAME sammail._domainkey and the SalesAndMarketing.ai include merged into the domain's SPF record. Used when the domain already has a DMARC record.", "variable_description": null, "logo_url": null, "template_sha": "2e1577e615f5b3bfacb7dffa5c25abb3f6e7041c", "created_at": "2026-11-17 15:40:06", "updated_at": "2026-11-17 15:40:06"}
 ], "footer": null},
@@ -82,7 +82,8 @@
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "supporting_providers": 11, "change": 11},
 {"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "supporting_providers": 13, "change": 2},
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 13, "change": 0},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "supporting_providers": 14, "change": 1},
-{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "supporting_providers": 14, "change": 0}
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 1},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 0},
+{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 0}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-23T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-24T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "rivtar.com/tienda/metadata": {"title": "rivtar.com/tienda - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Rivtar", "service_provider_id": "rivtar.com", "service_id": "tienda", "name": "Tienda online", "version": 1, "description": "Connects a subdomain (usually www) to a Rivtar online store: a TXT record proves the domain belongs to the store and a CNAME points it at Rivtar, which issues the HTTPS certificate.", "variable_description": "%verification%: per-store, per-hostname verification token (hex) issued by Rivtar.", "logo_url": "https://rivtar.com/icon.png", "template_sha": "8acb410499f256cd6276ad8c0f8dd46f6f383ab3", "created_at": "2026-11-13 14:10:08", "updated_at": "2026-11-13 14:10:08"}
 ], "footer": null},
@@ -83,7 +83,8 @@
 {"sweep_id": 59, "started_at": "2026-11-19 02:00:14", "completed_at": "2026-11-19 19:37:04", "supporting_providers": 13, "change": 1},
 {"sweep_id": 60, "started_at": "2026-11-20 02:00:15", "completed_at": "2026-11-20 08:04:33", "supporting_providers": 15, "change": 2},
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 15, "change": 0},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "supporting_providers": 15, "change": 0},
-{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": null, "supporting_providers": 15, "change": 0}
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 15, "change": 0},
+{"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 15, "change": 0},
+{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": null, "supporting_providers": 15, "change": 0}
 ], "footer": null}
 }}

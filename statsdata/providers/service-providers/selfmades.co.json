@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-23T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-24T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "selfmades.co", "name": "Selfmades", "first_added_at": "2026-11-08 12:56:38", "last_updated_at": "2026-11-08 12:56:38"}
 ], "footer": null},
@@ -407,12 +407,12 @@
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "service_id": "spf-hostinger-email", "supporting_providers": 15},
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "service_id": "spf-microsoft-365", "supporting_providers": 15},
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "service_id": "spf-zoho-mail", "supporting_providers": 15},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "dkim-google-workspace", "supporting_providers": 15},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "dkim-microsoft-365", "supporting_providers": 15},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "dmarc-monitoring", "supporting_providers": 15},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "spf-google-workspace", "supporting_providers": 15},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "spf-hostinger-email", "supporting_providers": 15},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "spf-microsoft-365", "supporting_providers": 15},
-{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": null, "service_id": "spf-zoho-mail", "supporting_providers": 15}
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "service_id": "dkim-google-workspace", "supporting_providers": 15},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "service_id": "dkim-microsoft-365", "supporting_providers": 15},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "service_id": "dmarc-monitoring", "supporting_providers": 15},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "service_id": "spf-google-workspace", "supporting_providers": 15},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "service_id": "spf-hostinger-email", "supporting_providers": 15},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "service_id": "spf-microsoft-365", "supporting_providers": 15},
+{"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "service_id": "spf-zoho-mail", "supporting_providers": 15}
 ], "footer": null}
 }}
