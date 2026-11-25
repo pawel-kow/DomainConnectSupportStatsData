@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-24T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-25T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "letbuyy.com/storefront-v1/metadata": {"title": "letbuyy.com/storefront-v1 - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "LetBuyy", "service_provider_id": "letbuyy.com", "service_id": "storefront-v1", "name": "LetBuyy Subdomain Storefront", "version": 1, "description": "Configure only the approved storefront, ownership and selected checkout hostnames. Keep mail and unrelated records.", "variable_description": "verificationToken and wwwToken: exact persisted LetBuyy ownership challenges; target and ipv4: exact operator/provider routing values; providerHost1..6 and providerValue1..6: optional provider-issued TXT evidence names relative to the selected host and their exact values. No parameter changes unrelated hostnames.", "logo_url": "https://www.letbuyy.com/icons/letbuyy-store-logo-light-v3.svg", "template_sha": "be38dde22afec321829d455b9f413d2716297e27", "created_at": "2026-11-18 15:19:38", "updated_at": "2026-11-18 15:19:38"}
 ], "footer": null},
@@ -90,6 +90,7 @@
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 13, "change": 0},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 1},
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 0},
-{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 0}
+{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 14, "change": 0},
+{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 0}
 ], "footer": null}
 }}

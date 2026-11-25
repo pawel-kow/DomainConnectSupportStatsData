@@ -1,12 +1,12 @@
-{"generated_at": "2026-11-24T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-25T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "wabzen.com", "name": "Wabzen", "first_added_at": "2026-11-20 15:02:38", "last_updated_at": "2026-11-20 15:02:38"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 1, "supported_templates": 1, "supporting_dns_providers": 14, "reach_domains": 40538400, "reach_pct": 20.987147329205804}
+{"templates": 1, "supported_templates": 1, "supporting_dns_providers": 15, "reach_domains": 66035083, "reach_pct": 34.18704279935403}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
-{"name": "Agency dashboard", "service_id": "agency-dashboard", "version": 1, "added_at": "2026-11-20 15:02:38", "updated_at": "2026-11-20 15:02:38", "supporting_providers": 14, "reach_domains": 40538400, "reach_pct": 20.987147329205804}
+{"name": "Agency dashboard", "service_id": "agency-dashboard", "version": 1, "added_at": "2026-11-20 15:02:38", "updated_at": "2026-11-20 15:02:38", "supporting_providers": 15, "reach_domains": 66035083, "reach_pct": 34.18704279935403}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "agency-dashboard", "supporting_providers": 0},
@@ -67,6 +67,7 @@
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "service_id": "agency-dashboard", "supporting_providers": 13},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "service_id": "agency-dashboard", "supporting_providers": 14},
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "service_id": "agency-dashboard", "supporting_providers": 14},
-{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": null, "service_id": "agency-dashboard", "supporting_providers": 14}
+{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "service_id": "agency-dashboard", "supporting_providers": 14},
+{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": null, "service_id": "agency-dashboard", "supporting_providers": 15}
 ], "footer": null}
 }}

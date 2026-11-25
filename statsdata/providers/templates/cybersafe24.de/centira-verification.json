@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-24T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-25T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "cybersafe24.de/centira-verification/metadata": {"title": "cybersafe24.de/centira-verification - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "CyberSafe24", "service_provider_id": "cybersafe24.de", "service_id": "centira-verification", "name": "Centira domain ownership confirmation", "version": 1, "description": "Adds one TXT record that confirms to Centira that the Centira account which created this request may manage the domain. No other record is added, changed or removed.", "variable_description": "verification: the random part of the proof value Centira shows to the customer (base64url characters only)", "logo_url": "https://app.cybersafe24.de/icon.svg", "template_sha": "0fc562351f1c63653141606ef0f63c321cf03c11", "created_at": "2026-11-19 15:25:54", "updated_at": "2026-11-19 15:25:54"}
 ], "footer": null},
@@ -83,6 +83,7 @@
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 13, "change": 1},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 1},
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 0},
-{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 0}
+{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 14, "change": 0},
+{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 0}
 ], "footer": null}
 }}

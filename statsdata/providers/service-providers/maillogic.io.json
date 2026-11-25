@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-24T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-25T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "maillogic.io", "name": "MailLogic", "first_added_at": "2026-07-14 21:13:37", "last_updated_at": "2026-11-20 15:02:52"}
 ], "footer": null},
@@ -11,7 +11,7 @@
 {"name": "Email Sending", "service_id": "email-sending", "version": 1, "added_at": "2026-07-19 17:42:51", "updated_at": "2026-07-19 17:42:51", "supporting_providers": 18, "reach_domains": 66625939, "reach_pct": 34.49293503788208},
 {"name": "Box Mailboxes", "service_id": "box", "version": 1, "added_at": "2026-10-07 12:53:06", "updated_at": "2026-10-07 12:53:06", "supporting_providers": 17, "reach_domains": 66035123, "reach_pct": 34.18706350776614},
 {"name": "Email Forwarding and Sending", "service_id": "email", "version": 3, "added_at": "2026-07-19 17:42:51", "updated_at": "2026-09-14 07:52:04", "supporting_providers": 17, "reach_domains": 66035123, "reach_pct": 34.18706350776614},
-{"name": "Box Bulk Email", "service_id": "box-bulk", "version": 1, "added_at": "2026-11-20 15:02:52", "updated_at": "2026-11-20 15:02:52", "supporting_providers": 14, "reach_domains": 40538400, "reach_pct": 20.987147329205804}
+{"name": "Box Bulk Email", "service_id": "box-bulk", "version": 1, "added_at": "2026-11-20 15:02:52", "updated_at": "2026-11-20 15:02:52", "supporting_providers": 15, "reach_domains": 66035083, "reach_pct": 34.18704279935403}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "box", "supporting_providers": 0},
@@ -161,6 +161,7 @@
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "service_id": "email-forwarding", "supporting_providers": 19},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "service_id": "email-sending", "supporting_providers": 18},
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "service_id": "box-bulk", "supporting_providers": 14},
-{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": null, "service_id": "box-bulk", "supporting_providers": 14}
+{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "service_id": "box-bulk", "supporting_providers": 14},
+{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": null, "service_id": "box-bulk", "supporting_providers": 15}
 ], "footer": null}
 }}

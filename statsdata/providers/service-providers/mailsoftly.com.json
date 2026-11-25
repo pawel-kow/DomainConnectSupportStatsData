@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-24T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-25T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "mailsoftly.com", "name": "Mailsoftly", "first_added_at": "2026-07-07 15:54:40", "last_updated_at": "2026-11-10 14:31:22"}
 ], "footer": null},
@@ -82,6 +82,6 @@
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "service_id": "email-auth", "supporting_providers": 17},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "service_id": "link-hosts", "supporting_providers": 15},
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "service_id": "link-hosts", "supporting_providers": 15},
-{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": null, "service_id": "link-hosts", "supporting_providers": 15}
+{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "service_id": "link-hosts", "supporting_providers": 15}
 ], "footer": null}
 }}

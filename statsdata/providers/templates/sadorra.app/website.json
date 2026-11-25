@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-24T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-25T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "sadorra.app/website/metadata": {"title": "sadorra.app/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Sadorra", "service_provider_id": "sadorra.app", "service_id": "website", "name": "Sadorra web address", "version": 1, "description": "Points a hostname such as news.example.com at Sadorra, for a newsletter's web pages or listening links, and proves the customer owns it.", "variable_description": "target: which Sadorra environment the hostname points at, read (production) or cname (staging), under sadorra.app. token: the ownership code Sadorra shows for this hostname.", "logo_url": "https://sadorra.app/img/mark.png", "template_sha": "266122d32eeddddf963801f907b96ebd47f06e9a", "created_at": "2026-11-17 15:41:08", "updated_at": "2026-11-17 15:41:08"}
 ], "footer": null},
@@ -85,6 +85,7 @@
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 13, "change": 0},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 1},
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 0},
-{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": null, "supporting_providers": 15, "change": 1}
+{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 15, "change": 1},
+{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": null, "supporting_providers": 15, "change": 0}
 ], "footer": null}
 }}

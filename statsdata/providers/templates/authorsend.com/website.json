@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-24T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-25T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "authorsend.com/website/metadata": {"title": "authorsend.com/website - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "AuthorSend", "service_provider_id": "authorsend.com", "service_id": "website", "name": "AuthorSend author website", "version": 1, "description": "Points your domain's www at your AuthorSend author website, sends the bare domain to www, and proves you own both names so their security certificate can be issued.", "variable_description": "acmname, acmvalue: the certificate's DNS validation record for the domain, as Amazon Certificate Manager issued it (_<acmname>.<domain> CNAME _<acmvalue>.acm-validations.aws). acmwwwname, acmwwwvalue: the same for its www.", "logo_url": "https://authorsend.com/brand/logo-horizontal.png", "template_sha": "bccbe70ef35231e67892bf8f0d074605851b44b4", "created_at": "2026-11-14 01:39:11", "updated_at": "2026-11-14 01:39:11"}
 ], "footer": null},
@@ -85,6 +85,7 @@
 {"sweep_id": 61, "started_at": "2026-11-21 02:00:14", "completed_at": "2026-11-21 07:48:04", "supporting_providers": 12, "change": 0},
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 12, "change": 0},
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 12, "change": 0},
-{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": null, "supporting_providers": 13, "change": 1}
+{"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 13, "change": 1},
+{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}
