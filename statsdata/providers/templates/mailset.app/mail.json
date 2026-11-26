@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-25T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "mailset.app/mail/metadata": {"title": "mailset.app/mail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Mailset", "service_provider_id": "mailset.app", "service_id": "mail", "name": "Mail", "version": 1, "description": "Mail for a domain on Mailset: MX to Mailset, Mailset's SPF include, DKIM and bounce CNAMEs into Mailset's zone, a DMARC record when there is none, MTA-STS and TLS-RPT. Each group is one purpose, and Mailset applies only the groups whose records are missing or wrong. The bounce host is mail.<domain>, or bounces.<domain> when mail.<domain> holds something else: one of bouncemail or bouncebounces is applied, never both.", "variable_description": "%label%: the domain's own name inside Mailset's zone, 24 lowercase hex characters, under which its DKIM keys and bounce host live; %stsid%: the MTA-STS policy id, 16 lowercase hex characters, which changes when the policy does", "logo_url": "https://mailset.app/assets/brand/mailset-app-icon-square.svg", "template_sha": "e2e2f5dc2733768f29f075cb97b5ade358d17aa9", "created_at": "2026-11-22 14:17:47", "updated_at": "2026-11-22 14:17:47"}
 ], "footer": null},
@@ -92,6 +92,7 @@
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 0, "change": 0},
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 12, "change": 12},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 13, "change": 1},
-{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": null, "supporting_providers": 13, "change": 0}
+{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 13, "change": 0},
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

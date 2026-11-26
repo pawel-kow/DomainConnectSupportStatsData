@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-25T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "fflmonkey.com/hosting/metadata": {"title": "fflmonkey.com/hosting - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "FFL Monkey", "service_provider_id": "fflmonkey.com", "service_id": "hosting", "name": "Unmanaged Hosting", "version": 1, "description": "Points a domain, or one of its subdomains, at its website on FFL Monkey's Unmanaged Hosting.", "variable_description": "%ip%: the hosting server's IPv4 address. %ipv6%: the hosting server's IPv6 address.", "logo_url": "https://fflmonkey.com/assets/img/brand/mark.svg", "template_sha": "b0dfddd3b1df24e18f91c60c6e51652c13facd1e", "created_at": "2026-11-17 15:41:13", "updated_at": "2026-11-17 15:41:13"}
 ], "footer": null},
@@ -85,6 +85,7 @@
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 13, "change": 1},
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 13, "change": 0},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 13, "change": 0},
-{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 1}
+{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 14, "change": 1},
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 0}
 ], "footer": null}
 }}

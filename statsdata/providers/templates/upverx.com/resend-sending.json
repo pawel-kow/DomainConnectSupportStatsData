@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-25T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "upverx.com/resend-sending/metadata": {"title": "upverx.com/resend-sending - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "UpverX", "service_provider_id": "upverx.com", "service_id": "resend-sending", "name": "Email sending through Resend", "version": 1, "description": "Sets up a sending subdomain (the caller's host, e.g. mail) for the recovery and lifecycle email UpverX sends for a store through Resend: the DKIM key, the bounce MX, SPF, the return-path CNAME and the click-tracking CNAME. The apex DMARC is deliberately absent: a template cannot add one only where none exists.", "variable_description": "dkimkey: the base64 public key Resend issued for this domain DKIM record, without its leading p=. region: the domain Resend region, as in feedback-smtp.<region>.amazonses.com (us-east-1 today). rsend: the label before .rmta.net in the domain return-path CNAME (send.forge today). links: the label before .resend-dns.com in its click-tracking CNAME (links2 today).", "logo_url": "https://upverx.com/icon.svg", "template_sha": "98f0aa9946466df1c5d8011ff6ff2bd806f878fd", "created_at": "2026-11-14 13:10:20", "updated_at": "2026-11-14 13:10:20"}
 ], "footer": null},
@@ -88,6 +88,7 @@
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 0},
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 0},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 14, "change": 0},
-{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 0}
+{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 14, "change": 0},
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 0}
 ], "footer": null}
 }}

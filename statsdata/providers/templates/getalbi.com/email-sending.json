@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-25T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "getalbi.com/email-sending/metadata": {"title": "getalbi.com/email-sending - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Albi", "service_provider_id": "getalbi.com", "service_id": "email-sending", "name": "Albi email sending", "version": 1, "description": "Authenticates the subdomain a business sends its Albi emails from (for example news.theirbusiness.com): a return path, two DKIM keys and two link branding records at SendGrid. Applied with host set to that subdomain; nothing is added at the root of the domain.", "variable_description": "Apply with host = the sending subdomain label (for example news). returnid: the number in SendGrid's return-path host (em<returnid>). sguser: the business's SendGrid account number. sgwl: SendGrid's white-label number. linkid: the number in SendGrid's link branding host (url<linkid>).", "logo_url": "https://portal.getalbi.com/images/albi-neutral-logo-light-transparent.png", "template_sha": "63dc36b5e8bc6ef785413f2c30b16dd7d6c0679c", "created_at": "2026-11-24 17:09:45", "updated_at": "2026-11-24 17:09:45"}
 ], "footer": null},
@@ -87,6 +87,7 @@
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 0, "change": 0},
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 0, "change": 0},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 0, "change": 0},
-{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": null, "supporting_providers": 13, "change": 13}
+{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 13, "change": 13},
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

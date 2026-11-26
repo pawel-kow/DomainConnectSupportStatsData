@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-25T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "applicaa.ai/ava-email/metadata": {"title": "applicaa.ai/ava-email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Applicaa", "service_provider_id": "applicaa.ai", "service_id": "ava-email", "name": "AVA email sending", "version": 1, "description": "Authenticates a school's domain so AVA (ava.applicaa.ai) can send email from it through SendGrid: return-path and DKIM CNAMEs, link branding CNAMEs and an AVA ownership TXT. No MX, SPF or DMARC changes. Group 'auth' is always applied; group 'link' when link branding is enabled.", "variable_description": "returnId: digits of the SendGrid return-path label em<digits>; sgTarget: SendGrid account target without .sendgrid.net (e.g. u1234567.wl123); ownershipToken: 32 hex chars issued by AVA; linkId: digits of the SendGrid link branding label url<digits>; ownerId: numeric SendGrid link owner label.", "logo_url": "https://cdn.prod.website-files.com/67b6eb9544c5ccd53a71af16/67b750a32f8fd6aa09a05f30_Applicaa-Logo.svg", "template_sha": "9185167779df1103ae095b6918aae607e70b79a7", "created_at": "2026-11-17 15:40:56", "updated_at": "2026-11-17 15:40:56"}
 ], "footer": null},
@@ -89,6 +89,7 @@
 {"sweep_id": 62, "started_at": "2026-11-22 02:00:13", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 1},
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 0},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 14, "change": 0},
-{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 0}
+{"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 14, "change": 0},
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 0}
 ], "footer": null}
 }}
