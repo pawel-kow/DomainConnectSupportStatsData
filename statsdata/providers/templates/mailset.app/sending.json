@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "mailset.app/sending/metadata": {"title": "mailset.app/sending - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Mailset", "service_provider_id": "mailset.app", "service_id": "sending", "name": "Sending domain", "version": 1, "description": "A domain or subdomain that sends through Mailset while its mail is received elsewhere: DKIM and bounce CNAMEs into Mailset's zone, and an MX to Mailset once replies to it come to Mailset. Applied with host for a subdomain such as news.example.com. The bounce host is mail.<name>, or bounces.<name> when mail.<name> holds something else: one of bouncemail or bouncebounces is applied, never both.", "variable_description": "%label%: the domain's own name inside Mailset's zone, 24 lowercase hex characters, under which its DKIM keys and bounce host live", "logo_url": "https://mailset.app/assets/brand/mailset-app-icon-square.svg", "template_sha": "2c9679a4f34686419399380f7beac89a473a3a81", "created_at": "2026-11-22 14:17:47", "updated_at": "2026-11-22 14:17:47"}
 ], "footer": null},
@@ -88,6 +88,7 @@
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 12, "change": 12},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 13, "change": 1},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 13, "change": 0},
-{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "supporting_providers": 13, "change": 0}
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "supporting_providers": 13, "change": 0},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

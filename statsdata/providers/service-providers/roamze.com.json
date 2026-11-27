@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "roamze.com", "name": "Roamze", "first_added_at": "2026-11-16 15:11:27", "last_updated_at": "2026-11-16 15:11:27"}
 ], "footer": null},
@@ -69,6 +69,7 @@
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "service_id": "email-sending", "supporting_providers": 14},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "service_id": "email-sending", "supporting_providers": 15},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "service_id": "email-sending", "supporting_providers": 15},
-{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "service_id": "email-sending", "supporting_providers": 15}
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "service_id": "email-sending", "supporting_providers": 15},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "email-sending", "supporting_providers": 15}
 ], "footer": null}
 }}

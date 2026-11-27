@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "hyperzod.com/marketing-mail-branded/metadata": {"title": "hyperzod.com/marketing-mail-branded - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Hyperzod", "service_provider_id": "hyperzod.com", "service_id": "marketing-mail-branded", "name": "Hyperzod Mail Branded Sending", "version": 1, "description": "Adds a Hyperzod Mail BYODKIM public key and branded bounce alias to a domain.", "variable_description": "publickey is the base64 RSA public key without PEM framing; the matching private key is configured separately in Hyperzod Mail.", "logo_url": "https://www.hyperzod.com/images/hyperzod_logo.png", "template_sha": "8bb6691fdd32dbf2bf5bea6a854209d86f8220e4", "created_at": "2026-11-23 17:39:07", "updated_at": "2026-11-23 17:39:07"}
 ], "footer": null},
@@ -79,6 +79,7 @@
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 0, "change": 0},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 10, "change": 10},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 11, "change": 1},
-{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "supporting_providers": 7, "change": -4}
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "supporting_providers": 7, "change": -4},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "supporting_providers": 7, "change": 0}
 ], "footer": null}
 }}

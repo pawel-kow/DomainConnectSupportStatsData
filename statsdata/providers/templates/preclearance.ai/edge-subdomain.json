@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "preclearance.ai/edge-subdomain/metadata": {"title": "preclearance.ai/edge-subdomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Preclearance", "service_provider_id": "preclearance.ai", "service_id": "edge-subdomain", "name": "Preclearance Firewall (subdomain)", "version": 1, "description": "Puts a website on a subdomain behind Preclearance's web application firewall: the subdomain points at the site's own name on Preclearance's edge.", "variable_description": "code: the site's code on Preclearance's edge, shown on the site's page in the Preclearance dashboard (lowercase letters and digits)", "logo_url": "https://preclearance.ai/apple-icon.png", "template_sha": "a05cd0eb97381f294335883e958ad08bc9316d56", "created_at": "2026-11-24 17:09:58", "updated_at": "2026-11-24 17:09:58"}
 ], "footer": null},
@@ -84,6 +84,7 @@
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 0, "change": 0},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 0, "change": 0},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 13, "change": 13},
-{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "supporting_providers": 13, "change": 0}
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "supporting_providers": 13, "change": 0},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

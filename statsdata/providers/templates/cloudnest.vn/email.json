@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "cloudnest.vn/email/metadata": {"title": "cloudnest.vn/email - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "CloudNest", "service_provider_id": "cloudnest.vn", "service_id": "email", "name": "CloudNest Email", "version": 1, "description": "Business email hosted by CloudNest (Vietnam): MX, SPF (SPFM merge), DKIM, DMARC and mail client autodiscovery. Records are grouped so the caller only applies what is missing; apply to a subdomain with the host parameter.", "variable_description": "mxhost: label of the CloudNest mail server under cloudnest.vn (e.g. mx1 for mx1.cloudnest.vn); dkimselector: DKIM selector label (default dkim); dkimkey: base64 RSA public key of the domain's DKIM key (the p= value).", "logo_url": "https://sportal.cloudnest.vn/brand/cloudnest-logo.svg", "template_sha": "4c737aaa2a041e4169d2d90db1b704a3a1cdab76", "created_at": "2026-11-18 15:19:24", "updated_at": "2026-11-18 15:19:24"}
 ], "footer": null},
@@ -89,6 +89,7 @@
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 12, "change": 0},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 13, "change": 1},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 13, "change": 0},
-{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "supporting_providers": 13, "change": 0}
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "supporting_providers": 13, "change": 0},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

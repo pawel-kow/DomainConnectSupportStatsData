@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "makeblitz.com/website-sub/metadata": {"title": "makeblitz.com/website-sub - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "MakeBlitz", "service_provider_id": "makeblitz.com", "service_id": "website-sub", "name": "MakeBlitz website on a subdomain", "version": 1, "description": "Points one subdomain (for example order.yourdomain.com) to the website MakeBlitz built and hosts for you. Nothing else is changed.", "variable_description": null, "logo_url": "https://makeblitz.com/apple-icon.png", "template_sha": "56ec9514e075a1fb0be5bcd9980e6ae9dc0ef69f", "created_at": "2026-11-20 15:02:56", "updated_at": "2026-11-20 15:02:56"}
 ], "footer": null},
@@ -85,6 +85,7 @@
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 0},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 14, "change": 0},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 14, "change": 0},
-{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 0}
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "supporting_providers": 14, "change": 0},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "supporting_providers": 14, "change": 0}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "jarasna.com/junior-site-apex/metadata": {"title": "jarasna.com/junior-site-apex - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Jarasna Junior", "service_provider_id": "jarasna.com", "service_id": "junior-site-apex", "name": "Nursery website (root domain)", "version": 1, "description": "Points the root of a domain at a nursery's website on Jarasna Junior (an A record to the platform's load balancer) and adds the TXT record that proves the nursery owns it.", "variable_description": "verify: the one-time token that proves this domain belongs to the nursery's site on Jarasna Junior", "logo_url": "https://junior.jarasna.com/brand/app-icon-512.png", "template_sha": "fe103215eeedb6e99a20993879dd4cecccf0a322", "created_at": "2026-11-15 13:39:20", "updated_at": "2026-11-15 13:39:20"}
 ], "footer": null},
@@ -86,6 +86,7 @@
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 14, "change": 0},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 14, "change": 0},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 14, "change": 0},
-{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "supporting_providers": 14, "change": 0}
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "supporting_providers": 14, "change": 0},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "supporting_providers": 14, "change": 0}
 ], "footer": null}
 }}

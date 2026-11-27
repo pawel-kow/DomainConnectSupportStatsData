@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-26T06:00:05Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "serverhive.us/mail/metadata": {"title": "serverhive.us/mail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "ServerHive", "service_provider_id": "serverhive.us", "service_id": "mail", "name": "ServerHive Mail", "version": 1, "description": "Receiving, sending (SPF, DKIM, DMARC), mail app discovery and the names on the mail server's TLS certificate, for a domain whose mail is hosted on ServerHive Mail.", "variable_description": "dkimed: the Ed25519 DKIM selector; dkimedkey: its public key. dkimrsa: the RSA DKIM selector; dkimrsakey: its public key. stsid: the MTA-STS policy id.", "logo_url": null, "template_sha": "3914cb46bcf406bde2c2e705f5d06883c1f1eede", "created_at": "2026-11-24 17:11:09", "updated_at": "2026-11-24 17:11:09"}
 ], "footer": null},
@@ -98,6 +98,7 @@
 {"sweep_id": 63, "started_at": "2026-11-23 02:00:14", "completed_at": "2026-11-23 09:30:33", "supporting_providers": 0, "change": 0},
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 0, "change": 0},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 10, "change": 10},
-{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": null, "supporting_providers": 10, "change": 0}
+{"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "supporting_providers": 10, "change": 0},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "supporting_providers": 10, "change": 0}
 ], "footer": null}
 }}
