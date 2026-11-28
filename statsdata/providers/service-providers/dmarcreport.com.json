@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-28T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "dmarcreport.com", "name": "DMARC Report", "first_added_at": "2026-11-19 15:27:11", "last_updated_at": "2026-11-24 17:10:07"}
 ], "footer": null},
@@ -8,8 +8,8 @@
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
 {"name": "DMARC monitoring", "service_id": "dmarc-monitoring", "version": 1, "added_at": "2026-11-19 15:27:11", "updated_at": "2026-11-19 15:27:11", "supporting_providers": 15, "reach_domains": 66035083, "reach_pct": 34.18704279935403},
 {"name": "Hosted DMARC", "service_id": "hosted-dmarc", "version": 1, "added_at": "2026-11-19 15:27:11", "updated_at": "2026-11-19 15:27:11", "supporting_providers": 15, "reach_domains": 66035083, "reach_pct": 34.18704279935403},
-{"name": "Hosted MTA-STS", "service_id": "hosted-mta-sts", "version": 1, "added_at": "2026-11-24 17:10:07", "updated_at": "2026-11-24 17:10:07", "supporting_providers": 13, "reach_domains": 40241161, "reach_pct": 20.83326363658385},
-{"name": "TLS reporting (TLS-RPT)", "service_id": "tls-rpt", "version": 1, "added_at": "2026-11-24 17:10:07", "updated_at": "2026-11-24 17:10:07", "supporting_providers": 13, "reach_domains": 40241161, "reach_pct": 20.83326363658385}
+{"name": "Hosted MTA-STS", "service_id": "hosted-mta-sts", "version": 1, "added_at": "2026-11-24 17:10:07", "updated_at": "2026-11-24 17:10:07", "supporting_providers": 14, "reach_domains": 65737844, "reach_pct": 34.03315910673208},
+{"name": "TLS reporting (TLS-RPT)", "service_id": "tls-rpt", "version": 1, "added_at": "2026-11-24 17:10:07", "updated_at": "2026-11-24 17:10:07", "supporting_providers": 14, "reach_domains": 65737844, "reach_pct": 34.03315910673208}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "dmarc-monitoring", "supporting_providers": 0},
@@ -256,9 +256,13 @@
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "service_id": "hosted-dmarc", "supporting_providers": 15},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "service_id": "hosted-mta-sts", "supporting_providers": 13},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "service_id": "tls-rpt", "supporting_providers": 13},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "dmarc-monitoring", "supporting_providers": 15},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "hosted-dmarc", "supporting_providers": 15},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "hosted-mta-sts", "supporting_providers": 13},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "tls-rpt", "supporting_providers": 13}
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "service_id": "dmarc-monitoring", "supporting_providers": 15},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "service_id": "hosted-dmarc", "supporting_providers": 15},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "service_id": "hosted-mta-sts", "supporting_providers": 13},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "service_id": "tls-rpt", "supporting_providers": 13},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "service_id": "dmarc-monitoring", "supporting_providers": 15},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "service_id": "hosted-dmarc", "supporting_providers": 15},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "service_id": "hosted-mta-sts", "supporting_providers": 14},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "service_id": "tls-rpt", "supporting_providers": 14}
 ], "footer": null}
 }}

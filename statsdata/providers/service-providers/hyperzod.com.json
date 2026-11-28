@@ -1,13 +1,13 @@
-{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-28T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "hyperzod.com", "name": "Hyperzod", "first_added_at": "2026-11-23 17:39:07", "last_updated_at": "2026-11-25 16:58:10"}
 ], "footer": null},
 "support": {"title": "Template support (current state)", "columns": [{"key": "templates", "header": "Templates"}, {"key": "supported_templates", "header": "Supported templates"}, {"key": "supporting_dns_providers", "header": "Supporting DNS providers"}, {"key": "reach_domains", "header": "Reach (domains)"}, {"key": "reach_pct", "header": "Reach %"}], "rows": [
-{"templates": 3, "supported_templates": 3, "supporting_dns_providers": 13, "reach_domains": 40241161, "reach_pct": 20.83326363658385}
+{"templates": 3, "supported_templates": 3, "supporting_dns_providers": 14, "reach_domains": 65737844, "reach_pct": 34.03315910673208}
 ], "footer": null},
 "templates": {"title": "Templates (current state)", "columns": [{"key": "name", "header": "TEMPLATE"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "version", "header": "VERSION"}, {"key": "added_at", "header": "ADDED"}, {"key": "updated_at", "header": "UPDATED"}, {"key": "supporting_providers", "header": "SUPPORTING"}, {"key": "reach_domains", "header": "REACH"}, {"key": "reach_pct", "header": "REACH %"}], "rows": [
 {"name": "Hyperzod Mail", "service_id": "marketing-mail", "version": 2, "added_at": "2026-11-23 17:39:07", "updated_at": "2026-11-23 17:39:07", "supporting_providers": 9, "reach_domains": 40154490, "reach_pct": 20.788393166950872},
-{"name": "Hyperzod Email", "service_id": "email", "version": 1, "added_at": "2026-11-23 17:39:07", "updated_at": "2026-11-25 16:58:10", "supporting_providers": 11, "reach_domains": 87477, "reach_pct": 0.04528774413684152},
+{"name": "Hyperzod Email", "service_id": "email", "version": 1, "added_at": "2026-11-23 17:39:07", "updated_at": "2026-11-25 16:58:10", "supporting_providers": 12, "reach_domains": 25584160, "reach_pct": 13.245183214285072},
 {"name": "Hyperzod Mail Branded Sending", "service_id": "marketing-mail-branded", "version": 1, "added_at": "2026-11-23 17:39:07", "updated_at": "2026-11-23 17:39:07", "supporting_providers": 7, "reach_domains": 806, "reach_pct": 0.00041727450386152095}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
@@ -194,8 +194,11 @@
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "service_id": "email", "supporting_providers": 10},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "service_id": "marketing-mail", "supporting_providers": 9},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "service_id": "marketing-mail-branded", "supporting_providers": 7},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "email", "supporting_providers": 11},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "marketing-mail", "supporting_providers": 9},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "marketing-mail-branded", "supporting_providers": 7}
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "service_id": "email", "supporting_providers": 11},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "service_id": "marketing-mail", "supporting_providers": 9},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "service_id": "marketing-mail-branded", "supporting_providers": 7},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "service_id": "email", "supporting_providers": 12},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "service_id": "marketing-mail", "supporting_providers": 9},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "service_id": "marketing-mail-branded", "supporting_providers": 7}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-28T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "polpomail.com/mail/metadata": {"title": "polpomail.com/mail - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Polpo Mail", "service_provider_id": "polpomail.com", "service_id": "mail", "name": "Polpo Mail email hosting", "version": 1, "description": "Receive and send email for your domain with Polpo Mail: domain ownership verification, MX, SPF, DKIM and DMARC records, and the delivery network (SMTP2GO) CNAME records.", "variable_description": "verifytoken: domain ownership token; dkimselector and dkimkey: the domain's DKIM selector and RSA public key (base64); dmarcrua: mailbox that receives DMARC aggregate reports; relaydkimselector: SMTP2GO DKIM selector; relayrpid: number in the SMTP2GO return-path host.", "logo_url": "https://polpomail.com/static/favicon.svg", "template_sha": "fd16a03586339b9a117e73e68c54d6e96943d8bf", "created_at": "2026-11-15 13:39:29", "updated_at": "2026-11-15 13:39:29"}
 ], "footer": null},
@@ -91,6 +91,7 @@
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 13, "change": 1},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 13, "change": 0},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "supporting_providers": 13, "change": 0},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "supporting_providers": 13, "change": 0}
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "supporting_providers": 13, "change": 0},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

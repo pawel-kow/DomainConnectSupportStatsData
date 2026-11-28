@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-28T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "sellearn.io/storefront-root/metadata": {"title": "sellearn.io/storefront-root - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Sellearn", "service_provider_id": "sellearn.io", "service_id": "storefront-root", "name": "Online store", "version": 1, "description": "Points a root domain (for example example.com) at a Sellearn store. A TXT record proves you own the domain, an A record sends your visitors to your store. Email (MX) and every other record stay as they are.", "variable_description": "token: the verification code shown on the Custom Domain page of the Sellearn dashboard.", "logo_url": "https://sellearn.io/bimi/sellearn.svg", "template_sha": "b127de541bfc945f876533010927c74f175cbf96", "created_at": "2026-11-26 21:25:45", "updated_at": "2026-11-26 21:25:45"}
 ], "footer": null},
@@ -86,6 +86,7 @@
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 0, "change": 0},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 0, "change": 0},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "supporting_providers": 0, "change": 0},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "supporting_providers": 13, "change": 13}
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "supporting_providers": 13, "change": 13},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

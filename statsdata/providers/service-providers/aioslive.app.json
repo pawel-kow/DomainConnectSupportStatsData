@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-28T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "aioslive.app", "name": "AIOS", "first_added_at": "2026-09-20 10:53:28", "last_updated_at": "2026-11-26 22:16:59"}
 ], "footer": null},
@@ -228,8 +228,11 @@
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "service_id": "mail", "supporting_providers": 15},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "service_id": "maildmarc", "supporting_providers": 15},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "service_id": "mailreceive", "supporting_providers": 15},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "mail", "supporting_providers": 15},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "maildmarc", "supporting_providers": 15},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "mailreceive", "supporting_providers": 15}
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "service_id": "mail", "supporting_providers": 15},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "service_id": "maildmarc", "supporting_providers": 15},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "service_id": "mailreceive", "supporting_providers": 15},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "service_id": "mail", "supporting_providers": 15},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "service_id": "maildmarc", "supporting_providers": 15},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "service_id": "mailreceive", "supporting_providers": 15}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-28T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "smallpopmarketing.com/websiteredirect/metadata": {"title": "smallpopmarketing.com/websiteredirect - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "SmallPOP Marketing", "service_provider_id": "smallpopmarketing.com", "service_id": "websiteredirect", "name": "SmallPOP website, bare domain forwarded to www", "version": 1, "description": "Shows the website SmallPOP Marketing built for you at www.%domain%, forwards %domain% to it with a permanent redirect and proves the domain is yours. Email and every other record stay as they are.", "variable_description": "verify: the token after smallpop-verify= that proves this domain belongs to the SmallPOP account that asked", "logo_url": "https://smallpopmarketing.com/favicon.svg", "template_sha": "b30f0cb50dfb00809d16ead1a86f2abca1035961", "created_at": "2026-11-22 14:17:39", "updated_at": "2026-11-26 22:17:07"}
 ], "footer": null},
@@ -85,6 +85,7 @@
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 0, "change": 0},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 0, "change": 0},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "supporting_providers": 0, "change": 0},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "supporting_providers": 11, "change": 11}
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "supporting_providers": 11, "change": 11},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "supporting_providers": 11, "change": 0}
 ], "footer": null}
 }}

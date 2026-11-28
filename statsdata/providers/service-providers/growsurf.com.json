@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-28T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "service_provider": {"title": "Service provider", "columns": [{"key": "service_provider_id", "header": "Service provider ID"}, {"key": "name", "header": "Name"}, {"key": "first_added_at", "header": "First added"}, {"key": "last_updated_at", "header": "Last updated"}], "rows": [
 {"service_provider_id": "growsurf.com", "name": "GrowSurf", "first_added_at": "2026-02-23 07:16:20", "last_updated_at": "2026-11-25 16:57:08"}
 ], "footer": null},
@@ -10,7 +10,7 @@
 {"name": "Referral Portal", "service_id": "referral-portal", "version": 1, "added_at": "2026-02-23 07:16:20", "updated_at": "2026-02-23 07:16:20", "supporting_providers": 17, "reach_domains": 66035123, "reach_pct": 34.18706350776614},
 {"name": "Universal Code Reverse Proxy", "service_id": "universal-code-reverse-proxy", "version": 1, "added_at": "2026-02-23 07:16:20", "updated_at": "2026-02-23 07:16:20", "supporting_providers": 17, "reach_domains": 66035123, "reach_pct": 34.18706350776614},
 {"name": "Custom Email Domain", "service_id": "custom-email-domain", "version": 1, "added_at": "2026-11-22 14:16:37", "updated_at": "2026-11-22 14:16:37", "supporting_providers": 14, "reach_domains": 65737844, "reach_pct": 34.03315910673208},
-{"name": "Program Page", "service_id": "program-page-domain", "version": 1, "added_at": "2026-11-25 16:57:08", "updated_at": "2026-11-25 16:57:08", "supporting_providers": 13, "reach_domains": 40241161, "reach_pct": 20.83326363658385}
+{"name": "Program Page", "service_id": "program-page-domain", "version": 1, "added_at": "2026-11-25 16:57:08", "updated_at": "2026-11-25 16:57:08", "supporting_providers": 14, "reach_domains": 65737844, "reach_pct": 34.03315910673208}
 ], "footer": null},
 "support_history": {"title": "Supporting DNS providers per template and support sweep", "columns": [{"key": "sweep_id", "header": "SWEEP"}, {"key": "started_at", "header": "STARTED"}, {"key": "completed_at", "header": "COMPLETED"}, {"key": "service_id", "header": "SERVICE ID"}, {"key": "supporting_providers", "header": "SUPPORTING"}], "rows": [
 {"sweep_id": 2, "started_at": "2026-09-20 21:54:06", "completed_at": null, "service_id": "custom-email-domain", "supporting_providers": 0},
@@ -177,7 +177,9 @@
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "service_id": "program-page-domain", "supporting_providers": 0},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "service_id": "custom-email-domain", "supporting_providers": 14},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "service_id": "program-page-domain", "supporting_providers": 13},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "custom-email-domain", "supporting_providers": 14},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "service_id": "program-page-domain", "supporting_providers": 13}
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "service_id": "custom-email-domain", "supporting_providers": 14},
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "service_id": "program-page-domain", "supporting_providers": 13},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "service_id": "custom-email-domain", "supporting_providers": 14},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "service_id": "program-page-domain", "supporting_providers": 14}
 ], "footer": null}
 }}

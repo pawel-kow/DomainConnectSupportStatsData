@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-28T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "peptidescientifix.com/storefront/metadata": {"title": "peptidescientifix.com/storefront - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Peptide Scientifix", "service_provider_id": "peptidescientifix.com", "service_id": "storefront", "name": "Brand storefront", "version": 2, "description": "Points a brand's domain at its Peptide Scientifix storefront: an A record to the storefront server and a TXT record that proves ownership. Group main is always applied; group www (a CNAME from www to the domain) is applied only when the template is applied to an apex domain (groupId=main,www).", "variable_description": "%ip% is the storefront server's IPv4 address. %verifycode% is the per-domain verification code the portal shows; the platform reads it back at _psx-verify.<host>.", "logo_url": "https://peptidescientifix.com/wp-content/themes/peptide-scientifix-child/assets/chrome/icon/icon-512.png", "template_sha": "bc4ff91618fd751fec75315788266d960f695598", "created_at": "2026-11-22 14:17:13", "updated_at": "2026-11-24 17:10:38"}
 ], "footer": null},
@@ -87,6 +87,7 @@
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 13, "change": 0},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 13, "change": 0},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "supporting_providers": 13, "change": 0},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "supporting_providers": 13, "change": 0}
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "supporting_providers": 13, "change": 0},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "supporting_providers": 13, "change": 0}
 ], "footer": null}
 }}

@@ -1,4 +1,4 @@
-{"generated_at": "2026-11-27T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
+{"generated_at": "2026-11-28T06:00:06Z", "notes": ["Domain share: import completed 2026-11-14 05:18 UTC (live), 193,158,219 domains scanned. Support columns are current state."], "tables": {
 "moonetix.com/customdomain/metadata": {"title": "moonetix.com/customdomain - Template metadata", "columns": [{"key": "service_provider_name", "header": "Service provider"}, {"key": "service_provider_id", "header": "Service provider ID"}, {"key": "service_id", "header": "Service ID"}, {"key": "name", "header": "Template name"}, {"key": "version", "header": "Repository version"}, {"key": "description", "header": "Description"}, {"key": "variable_description", "header": "Variable description"}, {"key": "logo_url", "header": "Logo URL"}, {"key": "template_sha", "header": "Template SHA"}, {"key": "created_at", "header": "Added"}, {"key": "updated_at", "header": "Updated"}], "rows": [
 {"service_provider_name": "Moonetix", "service_provider_id": "moonetix.com", "service_id": "customdomain", "name": "Custom domain", "version": 1, "description": "Connects a publisher's domain or subdomain to Moonetix for branded links and the web offerwall, and adds a TXT record that proves the publisher owns the domain.", "variable_description": "token: the ownership token Moonetix shows for this domain", "logo_url": "https://moonetix.com/assets/img/moonetix-logo.svg", "template_sha": "dbe79986292a212721ea6ea9230a30711b1c46d6", "created_at": "2026-11-22 14:17:00", "updated_at": "2026-11-22 14:17:00"}
 ], "footer": null},
@@ -87,6 +87,7 @@
 {"sweep_id": 64, "started_at": "2026-11-24 02:00:16", "completed_at": "2026-11-24 13:36:57", "supporting_providers": 13, "change": 0},
 {"sweep_id": 65, "started_at": "2026-11-25 02:00:16", "completed_at": "2026-11-26 02:00:54", "supporting_providers": 14, "change": 1},
 {"sweep_id": 66, "started_at": "2026-11-26 02:00:16", "completed_at": "2026-11-27 05:29:06", "supporting_providers": 14, "change": 0},
-{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": null, "supporting_providers": 14, "change": 0}
+{"sweep_id": 67, "started_at": "2026-11-27 02:00:17", "completed_at": "2026-11-28 02:00:43", "supporting_providers": 14, "change": 0},
+{"sweep_id": 68, "started_at": "2026-11-28 02:00:10", "completed_at": null, "supporting_providers": 14, "change": 0}
 ], "footer": null}
 }}
